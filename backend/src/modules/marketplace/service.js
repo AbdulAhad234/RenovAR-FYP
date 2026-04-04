@@ -2,6 +2,18 @@ const marketplaceRepository = require('./repository');
 const { ApiError } = require('../../utils/apiError');
 const { paginationResponse } = require('../../utils/responseFormatter');
 const { getPagination } = require('../../utils/pagination');
+const { generateSignedUrl } = require('../../utils/s3Helper');
+
+const attachSignedAssetUrl = async (asset) => {
+  if (!asset.s3Key) {
+    return asset;
+  }
+
+  return {
+    ...asset,
+    accessUrl: await generateSignedUrl(asset.s3Key)
+  };
+};
 
 const searchProducts = async (queryParams) => {
   const pagination = getPagination(queryParams);
@@ -18,7 +30,14 @@ const searchProducts = async (queryParams) => {
     marketplaceRepository.countApprovedProducts(filters)
   ]);
 
-  return paginationResponse(pagination.page, pagination.limit, total, products);
+  const productsWithUrls = await Promise.all(
+    products.map(async (product) => ({
+      ...product,
+      thumbnailUrl: product.thumbnailKey ? await generateSignedUrl(product.thumbnailKey) : product.thumbnailUrl
+    }))
+  );
+
+  return paginationResponse(pagination.page, pagination.limit, total, productsWithUrls);
 };
 
 const getProductDetails = async (productId) => {
@@ -31,7 +50,7 @@ const getProductDetails = async (productId) => {
   const assets = await marketplaceRepository.getProductAssets(productId);
   return {
     ...product,
-    assets
+    assets: await Promise.all(assets.map(attachSignedAssetUrl))
   };
 };
 

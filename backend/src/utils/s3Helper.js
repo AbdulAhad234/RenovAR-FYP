@@ -1,5 +1,5 @@
 // AWS S3 helper functions
-const { S3Client, PutObjectCommand, GetObjectCommand, DeleteObjectCommand, ListObjectsV2Command } = require('@aws-sdk/client-s3');
+const { S3Client, PutObjectCommand, GetObjectCommand, HeadObjectCommand, DeleteObjectCommand, ListObjectsV2Command } = require('@aws-sdk/client-s3');
 const { v4: uuidv4 } = require('uuid');
 const { S3_BUCKETS, ASSET_TYPES } = require('../constants/s3Buckets');
 const { logError } = require('./errorLogger');
@@ -26,6 +26,10 @@ const generateS3Key = (productId, assetType, originalFileName) => {
   return `products/${productId}/${assetType}s/${uuid}.${extension}`;
 };
 
+const buildS3Url = (key, bucket = S3_BUCKETS.MAIN) => {
+  return `https://${bucket}.s3.${process.env.AWS_REGION}.amazonaws.com/${key}`;
+};
+
 /**
  * Upload file to S3
  * @param {Buffer} fileBuffer - File buffer
@@ -49,7 +53,7 @@ const uploadToS3 = async (fileBuffer, key, contentType, bucket = S3_BUCKETS.MAIN
       success: true,
       key,
       bucket,
-      location: `https://${bucket}.s3.${process.env.AWS_REGION}.amazonaws.com/${key}`
+      location: buildS3Url(key, bucket)
     };
   } catch (error) {
     logError(error, null, `S3 upload failed for key: ${key}`);
@@ -101,6 +105,39 @@ const generateSignedUrl = async (key, expiresIn = 3600, bucket = S3_BUCKETS.MAIN
   }
 };
 
+const generatePresignedUploadUrl = async (key, contentType, expiresIn = 900, bucket = S3_BUCKETS.MAIN) => {
+  try {
+    const { getSignedUrl } = require('@aws-sdk/s3-request-presigner');
+    const command = new PutObjectCommand({
+      Bucket: bucket,
+      Key: key,
+      ContentType: contentType
+    });
+
+    return getSignedUrl(s3Client, command, { expiresIn });
+  } catch (error) {
+    logError(error, null, `Failed to generate presigned upload URL for key: ${key}`);
+    throw new Error('Failed to generate upload URL');
+  }
+};
+
+const objectExists = async (key, bucket = S3_BUCKETS.MAIN) => {
+  try {
+    await s3Client.send(new HeadObjectCommand({
+      Bucket: bucket,
+      Key: key
+    }));
+    return true;
+  } catch (error) {
+    if (error.name === 'NotFound' || error.$metadata?.httpStatusCode === 404) {
+      return false;
+    }
+
+    logError(error, null, `Failed to validate S3 object existence for key: ${key}`);
+    throw new Error('Failed to validate uploaded file');
+  }
+};
+
 /**
  * Get public URL for S3 object (if using public-read ACL)
  * @param {string} key - S3 key
@@ -108,7 +145,7 @@ const generateSignedUrl = async (key, expiresIn = 3600, bucket = S3_BUCKETS.MAIN
  * @returns {string} Public URL
  */
 const getPublicUrl = (key, bucket = S3_BUCKETS.MAIN) => {
-  return `https://${bucket}.s3.${process.env.AWS_REGION}.amazonaws.com/${key}`;
+  return buildS3Url(key, bucket);
 };
 
 /**
@@ -138,6 +175,9 @@ module.exports = {
   uploadToS3,
   deleteFromS3,
   generateSignedUrl,
+  generatePresignedUploadUrl,
+  objectExists,
   getPublicUrl,
+  buildS3Url,
   isS3Configured
 };

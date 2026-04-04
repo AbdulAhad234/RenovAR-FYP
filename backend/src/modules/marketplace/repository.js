@@ -39,6 +39,10 @@ const searchApprovedProducts = async (filters) => {
         c.name AS "categoryName",
         u.display_name AS "vendorName",
         COALESCE(
+          MAX(CASE WHEN pa.asset_type = 'thumbnail' THEN pa.s3_key END),
+          MAX(CASE WHEN pa.asset_type = 'image' THEN pa.s3_key END)
+        ) AS "thumbnailKey",
+        COALESCE(
           MAX(CASE WHEN pa.asset_type = 'thumbnail' THEN pa.s3_url END),
           MAX(CASE WHEN pa.asset_type = 'image' THEN pa.s3_url END)
         ) AS "thumbnailUrl"
@@ -117,7 +121,9 @@ const getProductAssets = async (productId) => {
       SELECT
         id,
         asset_type AS "assetType",
+        s3_key AS "s3Key",
         s3_url AS "s3Url",
+        file_name AS "fileName",
         mime_type AS "mimeType",
         metadata_json AS metadata
       FROM product_assets

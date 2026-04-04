@@ -68,17 +68,28 @@ const apiExamples = {
   assets: {
     request: {
       method: 'POST',
-      path: '/api/assets/products/10',
+      path: '/api/assets/products/10/upload-session',
       body: {
         assetType: 'model',
         fileName: 'sofa.glb',
         mimeType: 'application/octet-stream',
-        fileContentBase64: '<base64-content>'
+        fileSize: 5242880,
+        metadata: {
+          format: 'glb'
+        }
       }
     },
     response: {
       success: true,
-      message: 'Asset uploaded successfully'
+      message: 'Upload session created successfully',
+      data: {
+        assetType: 'model',
+        s3Key: 'products/10/models/generated-id.glb',
+        uploadUrl: 'https://bucket.s3.amazonaws.com/...',
+        uploadMethod: 'PUT',
+        expiresAt: '2026-04-04T12:00:00.000Z',
+        uploadToken: 'signed-session-token'
+      }
     }
   },
   marketplace: {

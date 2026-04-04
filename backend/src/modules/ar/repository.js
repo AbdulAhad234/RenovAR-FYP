@@ -9,7 +9,12 @@ const getArReadyProduct = async (productId) => {
         p.price,
         p.dimensions_json AS dimensions,
         p.description,
+        MAX(CASE WHEN pa.asset_type = 'model' THEN pa.s3_key END) AS "modelKey",
         MAX(CASE WHEN pa.asset_type = 'model' THEN pa.s3_url END) AS "modelUrl",
+        COALESCE(
+          MAX(CASE WHEN pa.asset_type = 'thumbnail' THEN pa.s3_key END),
+          MAX(CASE WHEN pa.asset_type = 'image' THEN pa.s3_key END)
+        ) AS "thumbnailKey",
         COALESCE(
           MAX(CASE WHEN pa.asset_type = 'thumbnail' THEN pa.s3_url END),
           MAX(CASE WHEN pa.asset_type = 'image' THEN pa.s3_url END)

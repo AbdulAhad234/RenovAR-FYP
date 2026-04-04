@@ -41,6 +41,30 @@ const createAsset = async (payload) => {
   return result.rows[0];
 };
 
+const findByProductIdAndS3Key = async (productId, s3Key) => {
+  const result = await query(
+    `
+      SELECT
+        id,
+        product_id AS "productId",
+        asset_type AS "assetType",
+        s3_key AS "s3Key",
+        s3_url AS "s3Url",
+        file_name AS "fileName",
+        file_size AS "fileSize",
+        mime_type AS "mimeType",
+        metadata_json AS metadata,
+        uploaded_at AS "uploadedAt"
+      FROM product_assets
+      WHERE product_id = $1 AND s3_key = $2
+      LIMIT 1
+    `,
+    [productId, s3Key]
+  );
+
+  return result.rows[0] || null;
+};
+
 const findByProductId = async (productId) => {
   const result = await query(
     `
@@ -67,5 +91,6 @@ const findByProductId = async (productId) => {
 
 module.exports = {
   createAsset,
-  findByProductId
+  findByProductId,
+  findByProductIdAndS3Key
 };

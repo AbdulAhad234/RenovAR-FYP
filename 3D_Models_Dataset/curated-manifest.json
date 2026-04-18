@@ -1,0 +1,123 @@
+{
+  "defaultVendorEmail": "renovar.test1@gmail.com",
+  "categoryMapping": {
+    "Accessories": "decor",
+    "Beds": "bedroom",
+    "Chairs": "living-room",
+    "Sofas": "living-room",
+    "Tables": "dining-room",
+    "Coffee tables": "living-room"
+  },
+  "products": [
+    {
+      "importKey": "starter-sofa-001",
+      "name": "Modern Living Sofa",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/sofa+3d+model.fbx",
+      "primaryImagePath": "Images/Sofas/00000020.jpg",
+      "additionalImagePaths": [],
+      "price": 899.99,
+      "description": "Starter curated import for a modern sofa product.",
+      "dimensions": {
+        "width": 220,
+        "depth": 95,
+        "height": 80,
+        "unit": "cm"
+      },
+      "tags": [
+        "starter-curated",
+        "sofa",
+        "living-room"
+      ]
+    },
+    {
+      "importKey": "starter-leather-sofa-001",
+      "name": "Leather Lounge Sofa",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/leather+sofa+3d+model.fbx",
+      "primaryImagePath": "Images/Sofas/00000049.jpg",
+      "additionalImagePaths": [],
+      "price": 1099.99,
+      "description": "Starter curated import for a leather sofa product.",
+      "dimensions": {
+        "width": 230,
+        "depth": 98,
+        "height": 82,
+        "unit": "cm"
+      },
+      "tags": [
+        "starter-curated",
+        "sofa",
+        "leather"
+      ]
+    },
+    {
+      "importKey": "starter-bed-001",
+      "name": "Classic Bedroom Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/bed+3d+model.fbx",
+      "primaryImagePath": "Images/Beds/00000004.jpg",
+      "additionalImagePaths": [],
+      "price": 1199.99,
+      "description": "Starter curated import for a bedroom bed product.",
+      "dimensions": {
+        "width": 180,
+        "depth": 210,
+        "height": 120,
+        "unit": "cm"
+      },
+      "tags": [
+        "starter-curated",
+        "bed",
+        "bedroom"
+      ]
+    },
+    {
+      "importKey": "starter-chair-001",
+      "name": "Leather Accent Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/chairs/leather+chair+3d+model.fbx",
+      "primaryImagePath": "Images/Chairs/00000086.jpg",
+      "additionalImagePaths": [],
+      "price": 349.99,
+      "description": "Starter curated import for a leather accent chair.",
+      "dimensions": {
+        "width": 78,
+        "depth": 82,
+        "height": 95,
+        "unit": "cm"
+      },
+      "tags": [
+        "starter-curated",
+        "chair",
+        "accent"
+      ]
+    },
+    {
+      "importKey": "starter-table-001",
+      "name": "Wooden Dining Table",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/tables/wooden+dining+table+3d+model.fbx",
+      "primaryImagePath": "Images/Tables/00000111.jpg",
+      "additionalImagePaths": [],
+      "price": 749.99,
+      "description": "Starter curated import for a wooden dining table.",
+      "dimensions": {
+        "width": 180,
+        "depth": 90,
+        "height": 76,
+        "unit": "cm"
+      },
+      "tags": [
+        "starter-curated",
+        "table",
+        "dining-room"
+      ]
+    }
+  ]
+}

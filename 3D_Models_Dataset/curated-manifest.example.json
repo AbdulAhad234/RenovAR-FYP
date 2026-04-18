@@ -1,0 +1,57 @@
+{
+  "defaultVendorEmail": "vendor@example.com",
+  "categoryMapping": {
+    "Accessories": "decor",
+    "Beds": "bedroom",
+    "Chairs": "living-room",
+    "Sofas": "living-room",
+    "Tables": "dining-room",
+    "Coffee tables": "living-room"
+  },
+  "products": [
+    {
+      "importKey": "demo-sofa-001",
+      "name": "Modern Living Sofa",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/sofa+3d+model.fbx",
+      "primaryImagePath": "Images/Sofas/00000020.jpg",
+      "additionalImagePaths": [],
+      "price": 899.99,
+      "description": "Curated import example for a living room sofa product.",
+      "dimensions": {
+        "width": 220,
+        "depth": 95,
+        "height": 80,
+        "unit": "cm"
+      },
+      "tags": [
+        "sofa",
+        "living-room",
+        "curated-import"
+      ]
+    },
+    {
+      "importKey": "demo-bed-001",
+      "name": "Classic Bedroom Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/bed+3d+model.fbx",
+      "primaryImagePath": "Images/Beds/00000004.jpg",
+      "additionalImagePaths": [],
+      "price": 1199.99,
+      "description": "Curated import example for a bedroom bed product.",
+      "dimensions": {
+        "width": 180,
+        "depth": 210,
+        "height": 120,
+        "unit": "cm"
+      },
+      "tags": [
+        "bed",
+        "bedroom",
+        "curated-import"
+      ]
+    }
+  ]
+}

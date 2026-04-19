@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
+    "set:role-claim": "node scripts/set-user-role-claim.js",
     "import:dataset": "node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-manifest.json --skip-duplicates",
     "import:dataset:dry-run": "node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-manifest.json --dry-run --skip-duplicates",
     "test": "jest",

@@ -33,8 +33,11 @@ const createVendorProfile = async (firebaseUid, payload) => {
 
   if (user.role !== 'vendor') {
     await userRepository.updateUserRole(user.id, 'vendor');
-    await setCustomClaims(firebaseUid, { role: 'vendor' });
   }
+
+  // Keep Firebase custom claims aligned with the backend role so
+  // vendor-only routes accept a freshly onboarded vendor after token refresh.
+  await setCustomClaims(firebaseUid, { role: 'vendor' });
 
   return vendorRepository.createVendorProfile({
     userId: user.id,

@@ -292,7 +292,11 @@ const importEntry = async ({ entry, manifest, datasetRoot, vendor, options, summ
     importSource: 'curated-dataset-manifest',
     manifestKey: entry.importKey || slugify(entry.name),
     sourceCategory: entry.sourceCategory || entry.category || null,
-    tags: entry.tags || []
+    tags: entry.tags || [],
+    originalModelPath: entry.sourceModelPath || null,
+    originalPrimaryImagePath: entry.sourcePrimaryImagePath || null,
+    originalAdditionalImagePaths: entry.sourceAdditionalImagePaths || [],
+    curationConfidence: entry.confidence || null
   };
 
   const modelAsset = await uploadAssetFile({

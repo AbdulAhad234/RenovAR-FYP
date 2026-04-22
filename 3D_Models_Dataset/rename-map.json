@@ -1,0 +1,1921 @@
+{
+  "generatedAt": "2026-04-22T13:46:38.327Z",
+  "datasetRoot": "D:\\Programming Projects\\RenovAR\\3D_Models_Dataset",
+  "recommendation": {
+    "preferred": "SigLIP 2",
+    "fallback": [
+      "BLIP-2",
+      "CLIP"
+    ],
+    "appliedMethod": "manual-reviewed-visual-curation",
+    "note": "The local workspace does not include an installed vision-model runtime, so this curated set was reviewed visually and remains traceable through the generated artifacts."
+  },
+  "summary": {
+    "imagesInventoried": 176,
+    "modelsInventoried": 14,
+    "approvedProducts": 13,
+    "skippedProducts": 1
+  },
+  "items": [
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_14.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_2.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_22.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_23.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_24.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_29.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_30.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_31.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_32.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_33.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/Furniture_Accents_35.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/ladder-bookshelf-primary.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Accessories/wooden-pendant-light-primary.jpg",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000004.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000014.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000049.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000056.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000084.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000119.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000121.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000122.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000123.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000143.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000179.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000204.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000245.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000255.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000271.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000338.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000339.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000389.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000397.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000399.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000400.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000406.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000544.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000667.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000671.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000799.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/00000844.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/classic-wooden-bed-primary.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_28.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_31.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_33.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_34.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_Bed_10.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_Bed_17.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_Bed_3.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_Bed_5.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Engineered_Wood_Bed_8.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Kids/Kids_Bed_1.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Kids/Kids_Bed_2.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Kids/Kids_Bed_3.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Kids/Kids_Bed_4.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/Kids/Kids_Bed_5.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/King_With_Storage_14.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/King_With_Storage_17.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/King_With_Storage_21.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/King_With_Storage_5.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/King_With_Storage_6.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/King_With_Storage_7.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/King_With_Storage_9.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Beds/storage-platform-bed-primary.jpg",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Chairs/00000086.jpg",
+      "newPath": null,
+      "category": "Chairs",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Chairs/00000121.jpg",
+      "newPath": null,
+      "category": "Chairs",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Chairs/leather-dining-chair-primary.jpg",
+      "newPath": null,
+      "category": "Chairs",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Chairs/lounge-accent-chair-primary.jpg",
+      "newPath": null,
+      "category": "Chairs",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Coffee tables/Teapoy_10.jpg",
+      "newPath": null,
+      "category": "Coffee tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Coffee tables/Teapoy_2.jpg",
+      "newPath": null,
+      "category": "Coffee tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Coffee tables/Teapoy_3.jpg",
+      "newPath": null,
+      "category": "Coffee tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Coffee tables/Teapoy_4.jpg",
+      "newPath": null,
+      "category": "Coffee tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Coffee tables/Teapoy_6.jpg",
+      "newPath": null,
+      "category": "Coffee tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Coffee tables/Teapoy_7.jpg",
+      "newPath": null,
+      "category": "Coffee tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Coffee tables/Teapoy_8.jpg",
+      "newPath": null,
+      "category": "Coffee tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Coffee tables/Teapoy_9.jpg",
+      "newPath": null,
+      "category": "Coffee tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000004.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000012 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000032 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000049.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000050.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000092 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000108 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000122 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000132 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000137 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000165 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000166 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000182 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000195 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000196 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000197 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000305 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000333 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000334 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000335 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000336 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000341 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000354 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000359 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000360 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000365 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000366 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000373 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000409 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000421 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000424 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000426 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000427 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000428 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000429 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000431 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000435 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000436 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000442 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000443 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000454 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000455 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000463 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000466 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000468 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000479 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000485 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000488 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000489 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000490 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000496 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000497 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000498 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000500 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000501 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000507 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000508 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000509 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000510 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000519 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000529 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000542 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000545 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000548 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000549 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000550 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000559 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000560 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000570 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000571 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000580 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000583 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000587 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000588 - Copy - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000590 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000591 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000598 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000604 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000609 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000613 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000614 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000615 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000619 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000620 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000621 - Copy.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000622.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000627.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/00000628.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/Folding_Beds_1.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/Folding_Beds_2.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/Folding_Beds_3.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/Folding_Beds_4.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/Folding_Beds_5.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/Folding_Beds_6.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/leather-chesterfield-sofa-primary.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/modern-accent-armchair-primary.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Sofas/tufted-living-sofa-primary.jpg",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Tables/antique-wooden-table-primary.jpg",
+      "newPath": null,
+      "category": "Tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Tables/farmhouse-wooden-table-primary.jpg",
+      "newPath": null,
+      "category": "Tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "Images/Tables/wooden-dining-table-primary.jpg",
+      "newPath": null,
+      "category": "Tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "image",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Accessories/ladder-bookshelf.fbx",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Accessories/wooden-china-cabinet.fbx",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Accessories/wooden-pendant-light.fbx",
+      "newPath": null,
+      "category": "Accessories",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/classic-wooden-bed.fbx",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/storage-platform-bed.fbx",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/tree+canopy+bed+3d+model.fbx",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/chairs/leather-dining-chair.fbx",
+      "newPath": null,
+      "category": "chairs",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/chairs/lounge-accent-chair.fbx",
+      "newPath": null,
+      "category": "chairs",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Sofas/modern-accent-armchair.fbx",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Sofas/tufted-living-sofa.fbx",
+      "newPath": null,
+      "category": "Sofas",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/tables/antique-wooden-table.fbx",
+      "newPath": null,
+      "category": "tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/tables/farmhouse-wooden-table.fbx",
+      "newPath": null,
+      "category": "tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/tables/wooden-dining-table.fbx",
+      "newPath": null,
+      "category": "tables",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    }
+  ]
+}

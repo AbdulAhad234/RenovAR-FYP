@@ -69,3 +69,9 @@ test-results/
 # Optional local model working files
 models/tmp/
 models/cache/
+
+.fake
+
+# Local dataset assets
+3D_Models_Dataset/3D models/
+3D_Models_Dataset/Images/

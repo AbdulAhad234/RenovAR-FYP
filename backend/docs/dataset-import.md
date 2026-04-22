@@ -8,6 +8,9 @@ This backend imports curated 3D model products from the local dataset folder:
 
 - Curated manifest template: `../3D_Models_Dataset/curated-manifest.example.json`
 - Working manifest: `../3D_Models_Dataset/curated-manifest.json`
+- Rename traceability map: `../3D_Models_Dataset/rename-map.json`
+- Review summary: `../3D_Models_Dataset/curation-review.json`
+- Dataset preparation script: `scripts/prepare-curated-dataset.js`
 - Import script: `scripts/import-curated-dataset.js`
 
 ## Manifest rules
@@ -25,11 +28,31 @@ Optional fields:
 
 - `importKey`
 - `additionalImagePaths`
+- `sourceModelPath`
+- `sourcePrimaryImagePath`
+- `sourceAdditionalImagePaths`
+- `confidence`
 - `description`
 - `dimensions`
 - `tags`
 
 All file paths in the manifest are relative to `3D_Models_Dataset/`.
+
+## Preparation workflow
+
+Generate the rename map, curation review artifact, and refreshed manifest:
+
+```bash
+npm run prepare:dataset
+```
+
+Apply the approved renames for the curated subset and then rewrite the manifest:
+
+```bash
+npm run prepare:dataset:apply
+```
+
+The preparation step only renames files for the reviewed curated subset. Unmatched images and models remain untouched and are recorded in `rename-map.json` with `status: "unmatched"`.
 
 ## Category normalization
 
@@ -78,4 +101,5 @@ node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-m
 - primary image files are stored as `thumbnail` assets
 - additional images are stored as `image` assets
 - product and asset metadata are persisted in PostgreSQL
+- original dataset paths and curation confidence are preserved in asset metadata when provided in the manifest
 - re-runs can safely skip existing products when `--skip-duplicates` is used

@@ -8,105 +8,331 @@
     "Tables": "dining-room",
     "Coffee tables": "living-room"
   },
+  "metadata": {
+    "generatedAt": "2026-04-22T13:46:38.327Z",
+    "matchingRecommendation": {
+      "preferred": "SigLIP 2",
+      "fallback": [
+        "BLIP-2",
+        "CLIP"
+      ],
+      "appliedMethod": "manual-reviewed-visual-curation",
+      "note": "The local workspace does not include an installed vision-model runtime, so this curated set was reviewed visually and remains traceable through the generated artifacts."
+    },
+    "reviewedSubset": 13
+  },
   "products": [
     {
-      "importKey": "starter-sofa-001",
-      "name": "Modern Living Sofa",
-      "sourceCategory": "Sofas",
-      "normalizedCategorySlug": "living-room",
-      "modelPath": "3D models/Sofas/sofa+3d+model.fbx",
-      "primaryImagePath": "Images/Sofas/00000020.jpg",
+      "importKey": "curated-ladder-bookshelf-001",
+      "name": "Ladder Bookshelf",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/ladder-bookshelf.fbx",
+      "primaryImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
       "additionalImagePaths": [],
-      "price": 899.99,
-      "description": "Starter curated import for a modern sofa product.",
+      "sourceModelPath": "3D models/Accessories/ladder+bookshelf+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Accessories/Engineered_Wood_21.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 249.99,
+      "description": "Curated ladder-style bookshelf selected for the decor launch set.",
       "dimensions": {
-        "width": 220,
-        "depth": 95,
-        "height": 80,
+        "width": 52,
+        "depth": 36,
+        "height": 170,
         "unit": "cm"
       },
       "tags": [
-        "starter-curated",
-        "sofa",
-        "living-room"
+        "curated-launch",
+        "decor",
+        "bookshelf",
+        "wood"
       ]
     },
     {
-      "importKey": "starter-leather-sofa-001",
-      "name": "Leather Lounge Sofa",
-      "sourceCategory": "Sofas",
-      "normalizedCategorySlug": "living-room",
-      "modelPath": "3D models/Sofas/leather+sofa+3d+model.fbx",
-      "primaryImagePath": "Images/Sofas/00000049.jpg",
+      "importKey": "curated-wooden-china-cabinet-001",
+      "name": "Wooden China Cabinet",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/wooden-china-cabinet.fbx",
+      "primaryImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
       "additionalImagePaths": [],
-      "price": 1099.99,
-      "description": "Starter curated import for a leather sofa product.",
+      "sourceModelPath": "3D models/Accessories/wooden+china+cabinet+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Accessories/Engineered_Wood_2.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 699.99,
+      "description": "Curated wooden china cabinet chosen for the decor and storage catalog.",
       "dimensions": {
-        "width": 230,
-        "depth": 98,
-        "height": 82,
+        "width": 122,
+        "depth": 42,
+        "height": 188,
         "unit": "cm"
       },
       "tags": [
-        "starter-curated",
-        "sofa",
-        "leather"
+        "curated-launch",
+        "decor",
+        "cabinet",
+        "storage"
       ]
     },
     {
-      "importKey": "starter-bed-001",
-      "name": "Classic Bedroom Bed",
+      "importKey": "curated-wooden-pendant-light-001",
+      "name": "Wooden Pendant Light",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/wooden-pendant-light.fbx",
+      "primaryImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/wooden+pendant+light+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Accessories/Engineered_Wood_20.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 129.99,
+      "description": "Curated pendant light fixture selected for the decor launch set.",
+      "dimensions": {
+        "width": 28,
+        "depth": 28,
+        "height": 70,
+        "unit": "cm"
+      },
+      "tags": [
+        "curated-launch",
+        "decor",
+        "lighting",
+        "wood"
+      ]
+    },
+    {
+      "importKey": "curated-classic-wooden-bed-001",
+      "name": "Classic Wooden Bed",
       "sourceCategory": "Beds",
       "normalizedCategorySlug": "bedroom",
-      "modelPath": "3D models/Beds/bed+3d+model.fbx",
-      "primaryImagePath": "Images/Beds/00000004.jpg",
+      "modelPath": "3D models/Beds/classic-wooden-bed.fbx",
+      "primaryImagePath": "Images/Beds/classic-wooden-bed-primary.jpg",
       "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/bed+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Beds/Engineered_Wood_Bed_1.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
       "price": 1199.99,
-      "description": "Starter curated import for a bedroom bed product.",
+      "description": "Curated wooden platform bed for the bedroom launch set.",
       "dimensions": {
         "width": 180,
         "depth": 210,
-        "height": 120,
+        "height": 100,
         "unit": "cm"
       },
       "tags": [
-        "starter-curated",
+        "curated-launch",
         "bed",
-        "bedroom"
+        "bedroom",
+        "wood"
       ]
     },
     {
-      "importKey": "starter-chair-001",
-      "name": "Leather Accent Chair",
-      "sourceCategory": "Chairs",
-      "normalizedCategorySlug": "living-room",
-      "modelPath": "3D models/chairs/leather+chair+3d+model.fbx",
-      "primaryImagePath": "Images/Chairs/00000086.jpg",
+      "importKey": "curated-storage-platform-bed-001",
+      "name": "Storage Platform Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/storage-platform-bed.fbx",
+      "primaryImagePath": "Images/Beds/storage-platform-bed-primary.jpg",
       "additionalImagePaths": [],
-      "price": 349.99,
-      "description": "Starter curated import for a leather accent chair.",
+      "sourceModelPath": "3D models/Beds/bed+3d+model (1).fbx",
+      "sourcePrimaryImagePath": "Images/Beds/King_With_Storage_11.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 1399.99,
+      "description": "Curated platform bed with storage styling for the bedroom catalog.",
       "dimensions": {
-        "width": 78,
-        "depth": 82,
-        "height": 95,
+        "width": 190,
+        "depth": 220,
+        "height": 118,
         "unit": "cm"
       },
       "tags": [
-        "starter-curated",
+        "curated-launch",
+        "bed",
+        "bedroom",
+        "storage"
+      ]
+    },
+    {
+      "importKey": "curated-leather-dining-chair-001",
+      "name": "Leather Dining Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/chairs/leather-dining-chair.fbx",
+      "primaryImagePath": "Images/Chairs/leather-dining-chair-primary.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/chairs/leather+chair+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Chairs/00000200.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "medium",
+      "price": 249.99,
+      "description": "Curated dining-style leather chair for the seating launch set.",
+      "dimensions": {
+        "width": 48,
+        "depth": 56,
+        "height": 96,
+        "unit": "cm"
+      },
+      "tags": [
+        "curated-launch",
         "chair",
+        "leather",
+        "dining"
+      ]
+    },
+    {
+      "importKey": "curated-lounge-accent-chair-001",
+      "name": "Lounge Accent Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/chairs/lounge-accent-chair.fbx",
+      "primaryImagePath": "Images/Chairs/lounge-accent-chair-primary.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/chairs/outdoor+lounge+chair+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Chairs/00000173.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "medium",
+      "price": 329.99,
+      "description": "Curated lounge chair used as the closest reviewed match for the outdoor lounge model.",
+      "dimensions": {
+        "width": 70,
+        "depth": 78,
+        "height": 98,
+        "unit": "cm"
+      },
+      "tags": [
+        "curated-launch",
+        "chair",
+        "lounge",
         "accent"
       ]
     },
     {
-      "importKey": "starter-table-001",
+      "importKey": "curated-modern-accent-armchair-001",
+      "name": "Modern Accent Armchair",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/modern-accent-armchair.fbx",
+      "primaryImagePath": "Images/Sofas/modern-accent-armchair-primary.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Sofas/armchair+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Sofas/00000020.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 449.99,
+      "description": "Curated armchair selected as the living room accent seating model.",
+      "dimensions": {
+        "width": 84,
+        "depth": 86,
+        "height": 92,
+        "unit": "cm"
+      },
+      "tags": [
+        "curated-launch",
+        "armchair",
+        "accent",
+        "living-room"
+      ]
+    },
+    {
+      "importKey": "curated-leather-chesterfield-sofa-001",
+      "name": "Leather Chesterfield Sofa",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
+      "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa-primary.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Sofas/leather+sofa+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Sofas/00000014.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 1299.99,
+      "description": "Curated leather sofa selected for the living room launch set.",
+      "dimensions": {
+        "width": 220,
+        "depth": 92,
+        "height": 78,
+        "unit": "cm"
+      },
+      "tags": [
+        "curated-launch",
+        "sofa",
+        "leather",
+        "living-room"
+      ]
+    },
+    {
+      "importKey": "curated-tufted-living-sofa-001",
+      "name": "Tufted Living Sofa",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/tufted-living-sofa.fbx",
+      "primaryImagePath": "Images/Sofas/tufted-living-sofa-primary.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Sofas/sofa+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Sofas/00000069.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 999.99,
+      "description": "Curated tufted sofa for the core living room catalog.",
+      "dimensions": {
+        "width": 210,
+        "depth": 90,
+        "height": 82,
+        "unit": "cm"
+      },
+      "tags": [
+        "curated-launch",
+        "sofa",
+        "tufted",
+        "living-room"
+      ]
+    },
+    {
+      "importKey": "curated-antique-wooden-table-001",
+      "name": "Antique Wooden Table",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/tables/antique-wooden-table.fbx",
+      "primaryImagePath": "Images/Tables/antique-wooden-table-primary.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/tables/antique+wooden+table+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Tables/00000382.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 849.99,
+      "description": "Curated antique wooden table selected for the dining catalog.",
+      "dimensions": {
+        "width": 190,
+        "depth": 92,
+        "height": 76,
+        "unit": "cm"
+      },
+      "tags": [
+        "curated-launch",
+        "table",
+        "antique",
+        "wood"
+      ]
+    },
+    {
+      "importKey": "curated-wooden-dining-table-001",
       "name": "Wooden Dining Table",
       "sourceCategory": "Tables",
       "normalizedCategorySlug": "dining-room",
-      "modelPath": "3D models/tables/wooden+dining+table+3d+model.fbx",
-      "primaryImagePath": "Images/Tables/00000111.jpg",
+      "modelPath": "3D models/tables/wooden-dining-table.fbx",
+      "primaryImagePath": "Images/Tables/wooden-dining-table-primary.jpg",
       "additionalImagePaths": [],
+      "sourceModelPath": "3D models/tables/wooden+dining+table+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Tables/00000111.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
       "price": 749.99,
-      "description": "Starter curated import for a wooden dining table.",
+      "description": "Curated wooden dining table for the dining room launch set.",
       "dimensions": {
         "width": 180,
         "depth": 90,
@@ -114,9 +340,37 @@
         "unit": "cm"
       },
       "tags": [
-        "starter-curated",
+        "curated-launch",
         "table",
-        "dining-room"
+        "dining-room",
+        "wood"
+      ]
+    },
+    {
+      "importKey": "curated-farmhouse-wooden-table-001",
+      "name": "Farmhouse Wooden Table",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/tables/farmhouse-wooden-table.fbx",
+      "primaryImagePath": "Images/Tables/farmhouse-wooden-table-primary.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/tables/wooden+table+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Tables/00000069.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "medium",
+      "price": 699.99,
+      "description": "Curated wooden table selected as the closest reviewed farmhouse-style match.",
+      "dimensions": {
+        "width": 175,
+        "depth": 88,
+        "height": 76,
+        "unit": "cm"
+      },
+      "tags": [
+        "curated-launch",
+        "table",
+        "farmhouse",
+        "wood"
       ]
     }
   ]

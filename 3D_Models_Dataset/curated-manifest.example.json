@@ -8,49 +8,45 @@
     "Tables": "dining-room",
     "Coffee tables": "living-room"
   },
+  "metadata": {
+    "generatedAt": "2026-04-22T00:00:00.000Z",
+    "matchingRecommendation": {
+      "preferred": "SigLIP 2",
+      "fallback": [
+        "BLIP-2",
+        "CLIP"
+      ],
+      "appliedMethod": "manual-reviewed-visual-curation",
+      "note": "Example only. The working manifest is generated from the reviewed curated dataset script."
+    },
+    "reviewedSubset": 1
+  },
   "products": [
     {
-      "importKey": "demo-sofa-001",
-      "name": "Modern Living Sofa",
-      "sourceCategory": "Sofas",
-      "normalizedCategorySlug": "living-room",
-      "modelPath": "3D models/Sofas/sofa+3d+model.fbx",
-      "primaryImagePath": "Images/Sofas/00000020.jpg",
+      "importKey": "example-ladder-bookshelf-001",
+      "name": "Ladder Bookshelf",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/ladder-bookshelf.fbx",
+      "primaryImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
       "additionalImagePaths": [],
-      "price": 899.99,
-      "description": "Curated import example for a living room sofa product.",
+      "sourceModelPath": "3D models/Accessories/ladder+bookshelf+3d+model.fbx",
+      "sourcePrimaryImagePath": "Images/Accessories/Engineered_Wood_21.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 249.99,
+      "description": "Example reviewed product entry for the curated dataset importer.",
       "dimensions": {
-        "width": 220,
-        "depth": 95,
-        "height": 80,
+        "width": 52,
+        "depth": 36,
+        "height": 170,
         "unit": "cm"
       },
       "tags": [
-        "sofa",
-        "living-room",
-        "curated-import"
-      ]
-    },
-    {
-      "importKey": "demo-bed-001",
-      "name": "Classic Bedroom Bed",
-      "sourceCategory": "Beds",
-      "normalizedCategorySlug": "bedroom",
-      "modelPath": "3D models/Beds/bed+3d+model.fbx",
-      "primaryImagePath": "Images/Beds/00000004.jpg",
-      "additionalImagePaths": [],
-      "price": 1199.99,
-      "description": "Curated import example for a bedroom bed product.",
-      "dimensions": {
-        "width": 180,
-        "depth": 210,
-        "height": 120,
-        "unit": "cm"
-      },
-      "tags": [
-        "bed",
-        "bedroom",
-        "curated-import"
+        "curated-launch",
+        "decor",
+        "bookshelf",
+        "wood"
       ]
     }
   ]

@@ -1,0 +1,142 @@
+{
+  "generatedAt": "2026-04-22T13:46:38.327Z",
+  "recommendation": {
+    "preferred": "SigLIP 2",
+    "fallback": [
+      "BLIP-2",
+      "CLIP"
+    ],
+    "appliedMethod": "manual-reviewed-visual-curation",
+    "note": "The local workspace does not include an installed vision-model runtime, so this curated set was reviewed visually and remains traceable through the generated artifacts."
+  },
+  "approvedProducts": [
+    {
+      "productSlug": "ladder-bookshelf",
+      "name": "Ladder Bookshelf",
+      "sourceCategory": "Accessories",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/Accessories/ladder+bookshelf+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Accessories/Engineered_Wood_21.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "wooden-china-cabinet",
+      "name": "Wooden China Cabinet",
+      "sourceCategory": "Accessories",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/Accessories/wooden+china+cabinet+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Accessories/Engineered_Wood_2.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "wooden-pendant-light",
+      "name": "Wooden Pendant Light",
+      "sourceCategory": "Accessories",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/Accessories/wooden+pendant+light+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Accessories/Engineered_Wood_20.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "classic-wooden-bed",
+      "name": "Classic Wooden Bed",
+      "sourceCategory": "Beds",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/Beds/bed+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Beds/Engineered_Wood_Bed_1.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "storage-platform-bed",
+      "name": "Storage Platform Bed",
+      "sourceCategory": "Beds",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/Beds/bed+3d+model (1).fbx",
+      "primaryImageOriginalPath": "Images/Beds/King_With_Storage_11.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "leather-dining-chair",
+      "name": "Leather Dining Chair",
+      "sourceCategory": "Chairs",
+      "confidence": "medium",
+      "modelOriginalPath": "3D models/chairs/leather+chair+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Chairs/00000200.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "lounge-accent-chair",
+      "name": "Lounge Accent Chair",
+      "sourceCategory": "Chairs",
+      "confidence": "medium",
+      "modelOriginalPath": "3D models/chairs/outdoor+lounge+chair+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Chairs/00000173.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "modern-accent-armchair",
+      "name": "Modern Accent Armchair",
+      "sourceCategory": "Sofas",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/Sofas/armchair+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Sofas/00000020.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "leather-chesterfield-sofa",
+      "name": "Leather Chesterfield Sofa",
+      "sourceCategory": "Sofas",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/Sofas/leather+sofa+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Sofas/00000014.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "tufted-living-sofa",
+      "name": "Tufted Living Sofa",
+      "sourceCategory": "Sofas",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/Sofas/sofa+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Sofas/00000069.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "antique-wooden-table",
+      "name": "Antique Wooden Table",
+      "sourceCategory": "Tables",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/tables/antique+wooden+table+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Tables/00000382.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "wooden-dining-table",
+      "name": "Wooden Dining Table",
+      "sourceCategory": "Tables",
+      "confidence": "high",
+      "modelOriginalPath": "3D models/tables/wooden+dining+table+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Tables/00000111.jpg",
+      "additionalImageOriginalPaths": []
+    },
+    {
+      "productSlug": "farmhouse-wooden-table",
+      "name": "Farmhouse Wooden Table",
+      "sourceCategory": "Tables",
+      "confidence": "medium",
+      "modelOriginalPath": "3D models/tables/wooden+table+3d+model.fbx",
+      "primaryImageOriginalPath": "Images/Tables/00000069.jpg",
+      "additionalImageOriginalPaths": []
+    }
+  ],
+  "skippedProducts": [
+    {
+      "productSlug": "tree-canopy-bed",
+      "name": "Tree Canopy Bed",
+      "sourceCategory": "Beds",
+      "confidence": "low",
+      "modelOriginalPath": "3D models/Beds/tree+canopy+bed+3d+model.fbx",
+      "candidateImagePath": "Images/Beds/Kids/Kids_Bed_3.jpg",
+      "reason": "No high-confidence canopy-style image was present in the local image set."
+    }
+  ]
+}

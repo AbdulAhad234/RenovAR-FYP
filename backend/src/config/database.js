@@ -2,10 +2,30 @@
 const { Pool } = require('pg');
 const { logError } = require('../utils/errorLogger');
 
+const shouldUseSsl = () => {
+  const databaseUrl = process.env.DATABASE_URL || '';
+  const explicitSsl = String(process.env.DB_SSL || '').toLowerCase();
+  const sslMode = String(process.env.PGSSLMODE || '').toLowerCase();
+
+  if (explicitSsl === 'true' || explicitSsl === '1') {
+    return true;
+  }
+
+  if (explicitSsl === 'false' || explicitSsl === '0') {
+    return false;
+  }
+
+  if (sslMode === 'require' || sslMode === 'prefer') {
+    return true;
+  }
+
+  return process.env.NODE_ENV === 'production' || databaseUrl.includes('render.com');
+};
+
 // Create connection pool
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
-  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
+  ssl: shouldUseSsl() ? { rejectUnauthorized: false } : false,
   max: 20, // Maximum number of clients in the pool
   idleTimeoutMillis: 30000, // Close idle clients after 30 seconds
   connectionTimeoutMillis: 2000, // Return an error after 2 seconds if connection could not be established

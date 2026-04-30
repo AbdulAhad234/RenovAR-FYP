@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T20:14:57.320Z",
+  "generatedAt": "2026-04-30T21:36:38.075Z",
   "datasetRoot": "D:\\Programming Projects\\RenovAR\\3D_Models_Dataset",
   "recommendation": {
     "preferred": "SigLIP 2",
@@ -1778,7 +1778,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Accessories/ladder-bookshelf.fbx",
+      "originalPath": "3D models/Accessories/ladder-bookshelf.glb",
       "newPath": null,
       "category": "Accessories",
       "productSlug": null,
@@ -1788,7 +1788,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Accessories/wooden-china-cabinet.fbx",
+      "originalPath": "3D models/Accessories/wooden-china-cabinet.glb",
       "newPath": null,
       "category": "Accessories",
       "productSlug": null,
@@ -1798,7 +1798,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Accessories/wooden-pendant-light.fbx",
+      "originalPath": "3D models/Accessories/wooden-pendant-light.glb",
       "newPath": null,
       "category": "Accessories",
       "productSlug": null,
@@ -1808,7 +1808,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Beds/classic-wooden-bed.fbx",
+      "originalPath": "3D models/Beds/classic-wooden-bed.glb",
       "newPath": null,
       "category": "Beds",
       "productSlug": null,
@@ -1818,7 +1818,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Beds/storage-platform-bed.fbx",
+      "originalPath": "3D models/Beds/storage-platform-bed.glb",
       "newPath": null,
       "category": "Beds",
       "productSlug": null,
@@ -1828,7 +1828,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Beds/tree-canopy-bed.fbx",
+      "originalPath": "3D models/Beds/tree-canopy-bed.glb",
       "newPath": null,
       "category": "Beds",
       "productSlug": null,
@@ -1838,7 +1838,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Chairs/leather-dining-chair.fbx",
+      "originalPath": "3D models/Chairs/leather-dining-chair.glb",
       "newPath": null,
       "category": "Chairs",
       "productSlug": null,
@@ -1848,7 +1848,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Chairs/lounge-accent-chair.fbx",
+      "originalPath": "3D models/Chairs/lounge-accent-chair.glb",
       "newPath": null,
       "category": "Chairs",
       "productSlug": null,
@@ -1858,7 +1858,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
+      "originalPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
       "newPath": null,
       "category": "Sofas",
       "productSlug": null,
@@ -1868,7 +1868,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Sofas/modern-accent-armchair.fbx",
+      "originalPath": "3D models/Sofas/modern-accent-armchair.glb",
       "newPath": null,
       "category": "Sofas",
       "productSlug": null,
@@ -1878,7 +1878,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Sofas/tufted-living-sofa.fbx",
+      "originalPath": "3D models/Sofas/tufted-living-sofa.glb",
       "newPath": null,
       "category": "Sofas",
       "productSlug": null,
@@ -1888,7 +1888,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Tables/antique-wooden-table.fbx",
+      "originalPath": "3D models/Tables/antique-wooden-table.glb",
       "newPath": null,
       "category": "Tables",
       "productSlug": null,
@@ -1898,7 +1898,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Tables/farmhouse-wooden-table.fbx",
+      "originalPath": "3D models/Tables/farmhouse-wooden-table.glb",
       "newPath": null,
       "category": "Tables",
       "productSlug": null,
@@ -1908,7 +1908,7 @@
       "confidence": null
     },
     {
-      "originalPath": "3D models/Tables/wooden-dining-table.fbx",
+      "originalPath": "3D models/Tables/wooden-dining-table.glb",
       "newPath": null,
       "category": "Tables",
       "productSlug": null,

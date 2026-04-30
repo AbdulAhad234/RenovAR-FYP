@@ -285,16 +285,24 @@ const targetAwareSourceExists = (sourcePath, targetPath) => {
 
 const buildSkippedModelTargetPath = (entry) => {
   const modelCategoryFolder = path.posix.basename(path.posix.dirname(normalizePath(entry.modelOriginalPath)));
-  const modelExtension = path.extname(entry.modelOriginalPath).toLowerCase() || '.fbx';
-  return normalizePath(`3D models/${modelCategoryFolder}/${entry.productSlug}${modelExtension}`);
+  const sourceModelExtension = path.extname(entry.modelOriginalPath).toLowerCase() || '.fbx';
+  const glbModelTargetPath = normalizePath(`3D models/${modelCategoryFolder}/${entry.productSlug}.glb`);
+  const sourceModelTargetPath = normalizePath(`3D models/${modelCategoryFolder}/${entry.productSlug}${sourceModelExtension}`);
+  return fs.existsSync(path.join(DATASET_ROOT, glbModelTargetPath))
+    ? glbModelTargetPath
+    : sourceModelTargetPath;
 };
 
 const buildApprovedRenameTargets = (entry) => {
   const modelCategoryFolder = path.posix.basename(path.posix.dirname(normalizePath(entry.modelOriginalPath)));
   const imageCategoryFolder = path.posix.basename(path.posix.dirname(normalizePath(entry.primaryImageOriginalPath)));
-  const modelExtension = path.extname(entry.modelOriginalPath).toLowerCase() || '.fbx';
+  const sourceModelExtension = path.extname(entry.modelOriginalPath).toLowerCase() || '.fbx';
   const primaryExtension = path.extname(entry.primaryImageOriginalPath).toLowerCase() || '.jpg';
-  const modelTargetPath = normalizePath(`3D models/${modelCategoryFolder}/${entry.productSlug}${modelExtension}`);
+  const glbModelTargetPath = normalizePath(`3D models/${modelCategoryFolder}/${entry.productSlug}.glb`);
+  const sourceModelTargetPath = normalizePath(`3D models/${modelCategoryFolder}/${entry.productSlug}${sourceModelExtension}`);
+  const modelTargetPath = fs.existsSync(path.join(DATASET_ROOT, glbModelTargetPath))
+    ? glbModelTargetPath
+    : sourceModelTargetPath;
   const preferredPrimaryImageTargetPath = normalizePath(`Images/${imageCategoryFolder}/${entry.productSlug}${primaryExtension}`);
   const legacyPrimaryImageTargetPath = normalizePath(`Images/${imageCategoryFolder}/${entry.productSlug}-primary${primaryExtension}`);
   const primaryImageTargetPath = fs.existsSync(path.join(DATASET_ROOT, legacyPrimaryImageTargetPath))

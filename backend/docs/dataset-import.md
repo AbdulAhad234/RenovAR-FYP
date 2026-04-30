@@ -12,6 +12,7 @@ This backend imports curated 3D model products from the local dataset folder:
 - Review summary: `../3D_Models_Dataset/curation-review.json`
 - Dataset preparation script: `scripts/prepare-curated-dataset.js`
 - Import script: `scripts/import-curated-dataset.js`
+- Asset repair script: `scripts/fix-assets-from-manifest.js`
 
 ## Manifest rules
 
@@ -103,3 +104,25 @@ node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-m
 - product and asset metadata are persisted in PostgreSQL
 - original dataset paths and curation confidence are preserved in asset metadata when provided in the manifest
 - re-runs can safely skip existing products when `--skip-duplicates` is used
+
+## Repair existing S3/DB asset pairs
+
+If products already exist but their S3 model/thumbnail pair is wrong, first confirm the local pairing file:
+
+```bash
+npm run fix:dataset-assets:plan
+```
+
+Preview the DB/S3 repair:
+
+```bash
+npm run fix:dataset-assets:dry-run
+```
+
+Replace the current curated model and thumbnail assets with the files from `curated-manifest.json`:
+
+```bash
+npm run fix:dataset-assets
+```
+
+By default, the repair deletes matching old `model` and `thumbnail` S3 objects and their `product_assets` rows before uploading the corrected pair. Use `--thumbnails-only` or `--models-only` for a narrower repair, and use `--keep-old` only when you intentionally want duplicate assets.

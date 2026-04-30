@@ -283,13 +283,24 @@ const targetAwareSourceExists = (sourcePath, targetPath) => {
   return fs.existsSync(sourceAbsolutePath) || (targetAbsolutePath && fs.existsSync(targetAbsolutePath));
 };
 
+const buildSkippedModelTargetPath = (entry) => {
+  const modelCategoryFolder = path.posix.basename(path.posix.dirname(normalizePath(entry.modelOriginalPath)));
+  const modelExtension = path.extname(entry.modelOriginalPath).toLowerCase() || '.fbx';
+  return normalizePath(`3D models/${modelCategoryFolder}/${entry.productSlug}${modelExtension}`);
+};
+
 const buildApprovedRenameTargets = (entry) => {
   const modelCategoryFolder = path.posix.basename(path.posix.dirname(normalizePath(entry.modelOriginalPath)));
   const imageCategoryFolder = path.posix.basename(path.posix.dirname(normalizePath(entry.primaryImageOriginalPath)));
   const modelExtension = path.extname(entry.modelOriginalPath).toLowerCase() || '.fbx';
   const primaryExtension = path.extname(entry.primaryImageOriginalPath).toLowerCase() || '.jpg';
   const modelTargetPath = normalizePath(`3D models/${modelCategoryFolder}/${entry.productSlug}${modelExtension}`);
-  const primaryImageTargetPath = normalizePath(`Images/${imageCategoryFolder}/${entry.productSlug}-primary${primaryExtension}`);
+  const preferredPrimaryImageTargetPath = normalizePath(`Images/${imageCategoryFolder}/${entry.productSlug}${primaryExtension}`);
+  const legacyPrimaryImageTargetPath = normalizePath(`Images/${imageCategoryFolder}/${entry.productSlug}-primary${primaryExtension}`);
+  const primaryImageTargetPath = fs.existsSync(path.join(DATASET_ROOT, legacyPrimaryImageTargetPath))
+    && !fs.existsSync(path.join(DATASET_ROOT, preferredPrimaryImageTargetPath))
+    ? legacyPrimaryImageTargetPath
+    : preferredPrimaryImageTargetPath;
   const additionalImageTargetPaths = (entry.additionalImageOriginalPaths || []).map((imagePath, index) => {
     const extension = path.extname(imagePath).toLowerCase() || '.jpg';
     const extraImageFolder = path.posix.basename(path.posix.dirname(normalizePath(imagePath)));
@@ -326,7 +337,9 @@ const validateReviewedPairs = () => {
         }
       });
     } else {
-      ensureExists(entry.modelOriginalPath);
+      if (!targetAwareSourceExists(entry.modelOriginalPath, buildSkippedModelTargetPath(entry))) {
+        throw new Error(`Expected dataset file was not found: ${entry.modelOriginalPath}`);
+      }
       ensureExists(entry.primaryImageOriginalPath);
       for (const extraImage of entry.additionalImageOriginalPaths || []) {
         ensureExists(extraImage);

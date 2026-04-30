@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-04-30T20:15:04.907Z",
+  "items": [
+    {
+      "importKey": "curated-ladder-bookshelf-001",
+      "name": "Ladder Bookshelf",
+      "modelPath": "3D models/Accessories/ladder-bookshelf.fbx",
+      "chosenModelPath": "3D models/Accessories/ladder-bookshelf.fbx",
+      "primaryImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
+      "chosenImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/ladder-bookshelf.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/ladder-bookshelf-primary.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-wooden-china-cabinet-001",
+      "name": "Wooden China Cabinet",
+      "modelPath": "3D models/Accessories/wooden-china-cabinet.fbx",
+      "chosenModelPath": "3D models/Accessories/wooden-china-cabinet.fbx",
+      "primaryImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
+      "chosenImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/wooden-china-cabinet.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-wooden-pendant-light-001",
+      "name": "Wooden Pendant Light",
+      "modelPath": "3D models/Accessories/wooden-pendant-light.fbx",
+      "chosenModelPath": "3D models/Accessories/wooden-pendant-light.fbx",
+      "primaryImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
+      "chosenImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/wooden-pendant-light.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/wooden-pendant-light-primary.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-classic-wooden-bed-001",
+      "name": "Classic Wooden Bed",
+      "modelPath": "3D models/Beds/classic-wooden-bed.fbx",
+      "chosenModelPath": "3D models/Beds/classic-wooden-bed.fbx",
+      "primaryImagePath": "Images/Beds/classic-wooden-bed.jpg",
+      "chosenImagePath": "Images/Beds/classic-wooden-bed.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/classic-wooden-bed.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/classic-wooden-bed.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-storage-platform-bed-001",
+      "name": "Storage Platform Bed",
+      "modelPath": "3D models/Beds/storage-platform-bed.fbx",
+      "chosenModelPath": "3D models/Beds/storage-platform-bed.fbx",
+      "primaryImagePath": "Images/Beds/storage-platform-bed.jpg",
+      "chosenImagePath": "Images/Beds/storage-platform-bed.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/storage-platform-bed.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/storage-platform-bed.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-leather-dining-chair-001",
+      "name": "Leather Dining Chair",
+      "modelPath": "3D models/chairs/leather-dining-chair.fbx",
+      "chosenModelPath": "3D models/chairs/leather-dining-chair.fbx",
+      "primaryImagePath": "Images/Chairs/leather-dining-chair.jpg",
+      "chosenImagePath": "Images/Chairs/leather-dining-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/chairs/leather-dining-chair.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/leather-dining-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-lounge-accent-chair-001",
+      "name": "Lounge Accent Chair",
+      "modelPath": "3D models/chairs/lounge-accent-chair.fbx",
+      "chosenModelPath": "3D models/chairs/lounge-accent-chair.fbx",
+      "primaryImagePath": "Images/Chairs/lounge-accent-chair.jpg",
+      "chosenImagePath": "Images/Chairs/lounge-accent-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/chairs/lounge-accent-chair.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/lounge-accent-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-modern-accent-armchair-001",
+      "name": "Modern Accent Armchair",
+      "modelPath": "3D models/Sofas/modern-accent-armchair.fbx",
+      "chosenModelPath": "3D models/Sofas/modern-accent-armchair.fbx",
+      "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "chosenImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Sofas/modern-accent-armchair.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Sofas/modern-accent-armchair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-leather-chesterfield-sofa-001",
+      "name": "Leather Chesterfield Sofa",
+      "modelPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
+      "chosenModelPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
+      "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
+      "chosenImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Sofas/leather-chesterfield-sofa.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-tufted-living-sofa-001",
+      "name": "Tufted Living Sofa",
+      "modelPath": "3D models/Sofas/tufted-living-sofa.fbx",
+      "chosenModelPath": "3D models/Sofas/tufted-living-sofa.fbx",
+      "primaryImagePath": "Images/Sofas/tufted-living-sofa.jpg",
+      "chosenImagePath": "Images/Sofas/tufted-living-sofa.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Sofas/tufted-living-sofa.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Sofas/tufted-living-sofa.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-antique-wooden-table-001",
+      "name": "Antique Wooden Table",
+      "modelPath": "3D models/tables/antique-wooden-table.fbx",
+      "chosenModelPath": "3D models/tables/antique-wooden-table.fbx",
+      "primaryImagePath": "Images/Tables/antique-wooden-table.jpg",
+      "chosenImagePath": "Images/Tables/antique-wooden-table.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/tables/antique-wooden-table.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/antique-wooden-table.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-wooden-dining-table-001",
+      "name": "Wooden Dining Table",
+      "modelPath": "3D models/tables/wooden-dining-table.fbx",
+      "chosenModelPath": "3D models/tables/wooden-dining-table.fbx",
+      "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "chosenImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/tables/wooden-dining-table.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/wooden-dining-table.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "curated-farmhouse-wooden-table-001",
+      "name": "Farmhouse Wooden Table",
+      "modelPath": "3D models/tables/farmhouse-wooden-table.fbx",
+      "chosenModelPath": "3D models/tables/farmhouse-wooden-table.fbx",
+      "primaryImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
+      "chosenImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/tables/farmhouse-wooden-table.fbx",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/farmhouse-wooden-table.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}

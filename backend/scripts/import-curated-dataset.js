@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
-require('dotenv').config();
-
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 const { query, pool } = require('../src/config/database');
 const { generateS3Key, uploadToS3, buildS3Url } = require('../src/utils/s3Helper');
 

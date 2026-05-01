@@ -9,6 +9,7 @@ const getArReadyProduct = async (productId) => {
         p.price,
         p.dimensions_json AS dimensions,
         p.description,
+        c.slug AS "categorySlug",
         MAX(CASE WHEN pa.asset_type = 'model' THEN pa.s3_key END) AS "modelKey",
         MAX(CASE WHEN pa.asset_type = 'model' THEN pa.s3_url END) AS "modelUrl",
         COALESCE(
@@ -20,9 +21,10 @@ const getArReadyProduct = async (productId) => {
           MAX(CASE WHEN pa.asset_type = 'image' THEN pa.s3_url END)
         ) AS "thumbnailUrl"
       FROM products p
+      LEFT JOIN categories c ON c.id = p.category_id
       LEFT JOIN product_assets pa ON pa.product_id = p.id
       WHERE p.id = $1 AND p.status = 'approved'
-      GROUP BY p.id
+      GROUP BY p.id, c.slug
     `,
     [productId]
   );

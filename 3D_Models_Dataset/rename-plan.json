@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-30T20:15:04.907Z",
+  "generatedAt": "2026-05-01T11:50:37.779Z",
   "items": [
     {
       "importKey": "curated-ladder-bookshelf-001",
       "name": "Ladder Bookshelf",
-      "modelPath": "3D models/Accessories/ladder-bookshelf.fbx",
-      "chosenModelPath": "3D models/Accessories/ladder-bookshelf.fbx",
+      "modelPath": "3D models/Accessories/ladder-bookshelf.glb",
+      "chosenModelPath": "3D models/Accessories/ladder-bookshelf.glb",
       "primaryImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
       "chosenImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Accessories/ladder-bookshelf.fbx",
+          "chosenPath": "3D models/Accessories/ladder-bookshelf.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -24,14 +24,14 @@
     {
       "importKey": "curated-wooden-china-cabinet-001",
       "name": "Wooden China Cabinet",
-      "modelPath": "3D models/Accessories/wooden-china-cabinet.fbx",
-      "chosenModelPath": "3D models/Accessories/wooden-china-cabinet.fbx",
+      "modelPath": "3D models/Accessories/wooden-china-cabinet.glb",
+      "chosenModelPath": "3D models/Accessories/wooden-china-cabinet.glb",
       "primaryImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
       "chosenImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Accessories/wooden-china-cabinet.fbx",
+          "chosenPath": "3D models/Accessories/wooden-china-cabinet.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -44,14 +44,14 @@
     {
       "importKey": "curated-wooden-pendant-light-001",
       "name": "Wooden Pendant Light",
-      "modelPath": "3D models/Accessories/wooden-pendant-light.fbx",
-      "chosenModelPath": "3D models/Accessories/wooden-pendant-light.fbx",
+      "modelPath": "3D models/Accessories/wooden-pendant-light.glb",
+      "chosenModelPath": "3D models/Accessories/wooden-pendant-light.glb",
       "primaryImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
       "chosenImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Accessories/wooden-pendant-light.fbx",
+          "chosenPath": "3D models/Accessories/wooden-pendant-light.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -64,14 +64,14 @@
     {
       "importKey": "curated-classic-wooden-bed-001",
       "name": "Classic Wooden Bed",
-      "modelPath": "3D models/Beds/classic-wooden-bed.fbx",
-      "chosenModelPath": "3D models/Beds/classic-wooden-bed.fbx",
+      "modelPath": "3D models/Beds/classic-wooden-bed.glb",
+      "chosenModelPath": "3D models/Beds/classic-wooden-bed.glb",
       "primaryImagePath": "Images/Beds/classic-wooden-bed.jpg",
       "chosenImagePath": "Images/Beds/classic-wooden-bed.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Beds/classic-wooden-bed.fbx",
+          "chosenPath": "3D models/Beds/classic-wooden-bed.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -84,14 +84,14 @@
     {
       "importKey": "curated-storage-platform-bed-001",
       "name": "Storage Platform Bed",
-      "modelPath": "3D models/Beds/storage-platform-bed.fbx",
-      "chosenModelPath": "3D models/Beds/storage-platform-bed.fbx",
+      "modelPath": "3D models/Beds/storage-platform-bed.glb",
+      "chosenModelPath": "3D models/Beds/storage-platform-bed.glb",
       "primaryImagePath": "Images/Beds/storage-platform-bed.jpg",
       "chosenImagePath": "Images/Beds/storage-platform-bed.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Beds/storage-platform-bed.fbx",
+          "chosenPath": "3D models/Beds/storage-platform-bed.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -104,14 +104,14 @@
     {
       "importKey": "curated-leather-dining-chair-001",
       "name": "Leather Dining Chair",
-      "modelPath": "3D models/chairs/leather-dining-chair.fbx",
-      "chosenModelPath": "3D models/chairs/leather-dining-chair.fbx",
+      "modelPath": "3D models/chairs/leather-dining-chair.glb",
+      "chosenModelPath": "3D models/chairs/leather-dining-chair.glb",
       "primaryImagePath": "Images/Chairs/leather-dining-chair.jpg",
       "chosenImagePath": "Images/Chairs/leather-dining-chair.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/chairs/leather-dining-chair.fbx",
+          "chosenPath": "3D models/chairs/leather-dining-chair.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -124,14 +124,14 @@
     {
       "importKey": "curated-lounge-accent-chair-001",
       "name": "Lounge Accent Chair",
-      "modelPath": "3D models/chairs/lounge-accent-chair.fbx",
-      "chosenModelPath": "3D models/chairs/lounge-accent-chair.fbx",
+      "modelPath": "3D models/chairs/lounge-accent-chair.glb",
+      "chosenModelPath": "3D models/chairs/lounge-accent-chair.glb",
       "primaryImagePath": "Images/Chairs/lounge-accent-chair.jpg",
       "chosenImagePath": "Images/Chairs/lounge-accent-chair.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/chairs/lounge-accent-chair.fbx",
+          "chosenPath": "3D models/chairs/lounge-accent-chair.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -144,14 +144,14 @@
     {
       "importKey": "curated-modern-accent-armchair-001",
       "name": "Modern Accent Armchair",
-      "modelPath": "3D models/Sofas/modern-accent-armchair.fbx",
-      "chosenModelPath": "3D models/Sofas/modern-accent-armchair.fbx",
+      "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
+      "chosenModelPath": "3D models/Sofas/modern-accent-armchair.glb",
       "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
       "chosenImagePath": "Images/Sofas/modern-accent-armchair.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Sofas/modern-accent-armchair.fbx",
+          "chosenPath": "3D models/Sofas/modern-accent-armchair.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -164,14 +164,14 @@
     {
       "importKey": "curated-leather-chesterfield-sofa-001",
       "name": "Leather Chesterfield Sofa",
-      "modelPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
-      "chosenModelPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
+      "modelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
+      "chosenModelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
       "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
       "chosenImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Sofas/leather-chesterfield-sofa.fbx",
+          "chosenPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -184,14 +184,14 @@
     {
       "importKey": "curated-tufted-living-sofa-001",
       "name": "Tufted Living Sofa",
-      "modelPath": "3D models/Sofas/tufted-living-sofa.fbx",
-      "chosenModelPath": "3D models/Sofas/tufted-living-sofa.fbx",
+      "modelPath": "3D models/Sofas/tufted-living-sofa.glb",
+      "chosenModelPath": "3D models/Sofas/tufted-living-sofa.glb",
       "primaryImagePath": "Images/Sofas/tufted-living-sofa.jpg",
       "chosenImagePath": "Images/Sofas/tufted-living-sofa.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Sofas/tufted-living-sofa.fbx",
+          "chosenPath": "3D models/Sofas/tufted-living-sofa.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -204,14 +204,14 @@
     {
       "importKey": "curated-antique-wooden-table-001",
       "name": "Antique Wooden Table",
-      "modelPath": "3D models/tables/antique-wooden-table.fbx",
-      "chosenModelPath": "3D models/tables/antique-wooden-table.fbx",
+      "modelPath": "3D models/tables/antique-wooden-table.glb",
+      "chosenModelPath": "3D models/tables/antique-wooden-table.glb",
       "primaryImagePath": "Images/Tables/antique-wooden-table.jpg",
       "chosenImagePath": "Images/Tables/antique-wooden-table.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/tables/antique-wooden-table.fbx",
+          "chosenPath": "3D models/tables/antique-wooden-table.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -224,14 +224,14 @@
     {
       "importKey": "curated-wooden-dining-table-001",
       "name": "Wooden Dining Table",
-      "modelPath": "3D models/tables/wooden-dining-table.fbx",
-      "chosenModelPath": "3D models/tables/wooden-dining-table.fbx",
+      "modelPath": "3D models/tables/wooden-dining-table.glb",
+      "chosenModelPath": "3D models/tables/wooden-dining-table.glb",
       "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
       "chosenImagePath": "Images/Tables/wooden-dining-table.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/tables/wooden-dining-table.fbx",
+          "chosenPath": "3D models/tables/wooden-dining-table.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -244,14 +244,14 @@
     {
       "importKey": "curated-farmhouse-wooden-table-001",
       "name": "Farmhouse Wooden Table",
-      "modelPath": "3D models/tables/farmhouse-wooden-table.fbx",
-      "chosenModelPath": "3D models/tables/farmhouse-wooden-table.fbx",
+      "modelPath": "3D models/tables/farmhouse-wooden-table.glb",
+      "chosenModelPath": "3D models/tables/farmhouse-wooden-table.glb",
       "primaryImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
       "chosenImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/tables/farmhouse-wooden-table.fbx",
+          "chosenPath": "3D models/tables/farmhouse-wooden-table.glb",
           "mimeType": "application/octet-stream"
         },
         {

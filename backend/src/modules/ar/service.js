@@ -1,6 +1,7 @@
 const arRepository = require('./repository');
 const { ApiError } = require('../../utils/apiError');
 const { generateSignedUrl } = require('../../utils/s3Helper');
+const { getPlacementClassification } = require('./placementClassification');
 
 const getArProduct = async (productId) => {
   const product = await arRepository.getArReadyProduct(productId);
@@ -11,6 +12,7 @@ const getArProduct = async (productId) => {
 
   const modelUrl = product.modelKey ? await generateSignedUrl(product.modelKey) : product.modelUrl;
   const thumbnailUrl = product.thumbnailKey ? await generateSignedUrl(product.thumbnailKey) : product.thumbnailUrl;
+  const placement = getPlacementClassification(product);
 
   return {
     id: product.id,
@@ -19,8 +21,10 @@ const getArProduct = async (productId) => {
     modelUrl,
     thumbnailUrl,
     dimensions: product.dimensions,
+    arPlacement: placement,
     metadata: {
-      description: product.description
+      description: product.description,
+      arPlacement: placement
     }
   };
 };

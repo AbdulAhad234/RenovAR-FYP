@@ -109,7 +109,18 @@ const apiExamples = {
     },
     response: {
       success: true,
-      message: 'AR-ready product fetched successfully'
+      message: 'AR-ready product fetched successfully',
+      data: {
+        id: 10,
+        name: 'Leather Chesterfield Sofa',
+        modelUrl: 'https://signed-s3-url.example/model.glb',
+        thumbnailUrl: 'https://signed-s3-url.example/thumb.jpg',
+        arPlacement: {
+          anchorType: 'horizontal',
+          allowedPlaneClassifications: ['Floor'],
+          fallbackPlaneClassification: 'Floor'
+        }
+      }
     }
   },
   templates: {

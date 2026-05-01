@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T21:36:38.075Z",
+  "generatedAt": "2026-05-01T11:50:10.044Z",
   "datasetRoot": "D:\\Programming Projects\\RenovAR\\3D_Models_Dataset",
   "recommendation": {
     "preferred": "SigLIP 2",
@@ -12,7 +12,7 @@
   },
   "summary": {
     "imagesInventoried": 176,
-    "modelsInventoried": 14,
+    "modelsInventoried": 29,
     "approvedProducts": 13,
     "skippedProducts": 1
   },
@@ -1808,7 +1808,147 @@
       "confidence": null
     },
     {
+      "originalPath": "3D models/Beds/bed (1).glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/bed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/bed_01.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/bed_1.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/bed_with_a_bed_cover.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/bunk_bed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
       "originalPath": "3D models/Beds/classic-wooden-bed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/double_bed_modern_contemporary.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/eco_brand_bed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/faydra_full_bed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/malm.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/medieval_bed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/MinimalBed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/ModernBed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/modern_bed.glb",
       "newPath": null,
       "category": "Beds",
       "productSlug": null,
@@ -1829,6 +1969,16 @@
     },
     {
       "originalPath": "3D models/Beds/tree-canopy-bed.glb",
+      "newPath": null,
+      "category": "Beds",
+      "productSlug": null,
+      "sequence": null,
+      "assetKind": "model",
+      "status": "unmatched",
+      "confidence": null
+    },
+    {
+      "originalPath": "3D models/Beds/upholstered_bed_free_model.glb",
       "newPath": null,
       "category": "Beds",
       "productSlug": null,

@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS products (
 CREATE TABLE IF NOT EXISTS product_assets (
     id SERIAL PRIMARY KEY,
     product_id INTEGER NOT NULL REFERENCES products(id) ON DELETE CASCADE,
-    asset_type VARCHAR(20) NOT NULL CHECK (asset_type IN ('image', 'model', 'thumbnail')),
+    asset_type VARCHAR(20) NOT NULL CHECK (asset_type IN ('image', 'model', 'thumbnail', 'texture')),
     s3_key VARCHAR(500) NOT NULL,
     s3_url VARCHAR(500) NOT NULL,
     file_name VARCHAR(255),

@@ -18,7 +18,8 @@
     "fix:dataset-assets:plan": "node scripts/fix-assets-from-manifest.js --manifest ../3D_Models_Dataset/curated-manifest.json --plan-only",
     "approve:vendor-products": "node scripts/auto-approve-products.js",
     "test": "jest",
-    "lint": "eslint src/**/*.js"
+    "lint": "eslint src/**/*.js",
+    "db:migrate": "node scripts/run-migration.js"
   },
   "keywords": [
     "nodejs",

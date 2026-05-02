@@ -1,4 +1,4 @@
-const { query } = require('../../config/database');
+const { query } = require("../../config/database");
 
 const productSelect = `
   SELECT
@@ -41,7 +41,14 @@ const createProduct = async (payload) => {
         created_at AS "createdAt",
         updated_at AS "updatedAt"
     `,
-    [payload.vendorId, payload.categoryId || null, payload.name, payload.description || null, payload.price, payload.dimensions || null]
+    [
+      payload.vendorId,
+      payload.categoryId || null,
+      payload.name,
+      payload.description || null,
+      payload.price,
+      payload.dimensions || null,
+    ],
   );
 
   return result.rows[0];
@@ -83,8 +90,8 @@ const updateProduct = async (productId, payload) => {
       payload.price,
       payload.dimensions,
       payload.status,
-      payload.rejectionReason || null
-    ]
+      payload.rejectionReason || null,
+    ],
   );
 
   return result.rows[0] || null;
@@ -96,12 +103,18 @@ const findById = async (productId) => {
 };
 
 const deleteProduct = async (productId) => {
-  const result = await query('DELETE FROM products WHERE id = $1 RETURNING id', [productId]);
+  const result = await query(
+    "DELETE FROM products WHERE id = $1 RETURNING id",
+    [productId],
+  );
   return result.rows[0] || null;
 };
 
 const findByVendorId = async (vendorId) => {
-  const result = await query(`${productSelect} WHERE p.vendor_id = $1 ORDER BY p.created_at DESC`, [vendorId]);
+  const result = await query(
+    `${productSelect} WHERE p.vendor_id = $1 ORDER BY p.created_at DESC`,
+    [vendorId],
+  );
   return result.rows;
 };
 
@@ -111,11 +124,12 @@ const countAssetsByProductId = async (productId) => {
       SELECT
         COUNT(*) FILTER (WHERE asset_type = 'image')::INTEGER AS images,
         COUNT(*) FILTER (WHERE asset_type = 'thumbnail')::INTEGER AS thumbnails,
-        COUNT(*) FILTER (WHERE asset_type = 'model')::INTEGER AS models
+          COUNT(*) FILTER (WHERE asset_type = 'model')::INTEGER AS models,
+          COUNT(*) FILTER (WHERE asset_type = 'texture')::INTEGER AS textures
       FROM product_assets
       WHERE product_id = $1
     `,
-    [productId]
+    [productId],
   );
 
   return result.rows[0];
@@ -146,14 +160,21 @@ const updateReviewState = async (productId, payload) => {
         created_at AS "createdAt",
         updated_at AS "updatedAt"
     `,
-    [productId, payload.status, payload.rejectionReason || null, payload.reviewedBy]
+    [
+      productId,
+      payload.status,
+      payload.rejectionReason || null,
+      payload.reviewedBy,
+    ],
   );
 
   return result.rows[0] || null;
 };
 
 const findPendingProducts = async () => {
-  const result = await query(`${productSelect} WHERE p.status = 'pending' ORDER BY p.created_at ASC`);
+  const result = await query(
+    `${productSelect} WHERE p.status = 'pending' ORDER BY p.created_at ASC`,
+  );
   return result.rows;
 };
 
@@ -165,5 +186,5 @@ module.exports = {
   findByVendorId,
   countAssetsByProductId,
   updateReviewState,
-  findPendingProducts
+  findPendingProducts,
 };

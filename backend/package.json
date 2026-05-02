@@ -9,6 +9,8 @@
     "set:role-claim": "node scripts/set-user-role-claim.js",
     "prepare:dataset": "node scripts/prepare-curated-dataset.js",
     "prepare:dataset:apply": "node scripts/prepare-curated-dataset.js --apply",
+    "import:wall-textures": "node scripts/import-wall-textures.js",
+    "import:wall-textures:dry-run": "node scripts/import-wall-textures.js --dry-run",
     "import:dataset": "node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-manifest.json --skip-duplicates",
     "import:dataset:dry-run": "node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-manifest.json --dry-run --skip-duplicates",
     "fix:dataset-assets": "node scripts/fix-assets-from-manifest.js --manifest ../3D_Models_Dataset/curated-manifest.json",

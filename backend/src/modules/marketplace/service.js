@@ -3,6 +3,7 @@ const { ApiError } = require('../../utils/apiError');
 const { paginationResponse } = require('../../utils/responseFormatter');
 const { getPagination } = require('../../utils/pagination');
 const { generateSignedUrl } = require('../../utils/s3Helper');
+const { DEFAULT_CURRENCY, DEFAULT_CURRENCY_SYMBOL } = require('../../constants/currency');
 
 const attachSignedAssetUrl = async (asset) => {
   if (!asset.s3Key) {
@@ -33,6 +34,8 @@ const searchProducts = async (queryParams) => {
   const productsWithUrls = await Promise.all(
     products.map(async (product) => ({
       ...product,
+      currency: DEFAULT_CURRENCY,
+      currencySymbol: DEFAULT_CURRENCY_SYMBOL,
       thumbnailUrl: product.thumbnailKey ? await generateSignedUrl(product.thumbnailKey) : product.thumbnailUrl
     }))
   );
@@ -50,6 +53,8 @@ const getProductDetails = async (productId) => {
   const assets = await marketplaceRepository.getProductAssets(productId);
   return {
     ...product,
+    currency: DEFAULT_CURRENCY,
+    currencySymbol: DEFAULT_CURRENCY_SYMBOL,
     assets: await Promise.all(assets.map(attachSignedAssetUrl))
   };
 };

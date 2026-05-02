@@ -1,0 +1,7 @@
+const DEFAULT_CURRENCY = 'PKR';
+const DEFAULT_CURRENCY_SYMBOL = 'Rs';
+
+module.exports = {
+  DEFAULT_CURRENCY,
+  DEFAULT_CURRENCY_SYMBOL
+};

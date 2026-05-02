@@ -1,4 +1,4 @@
-const { query } = require('../../config/database');
+const { query } = require("../../config/database");
 
 const searchApprovedProducts = async (filters) => {
   const values = [];
@@ -6,7 +6,9 @@ const searchApprovedProducts = async (filters) => {
 
   if (filters.search) {
     values.push(`%${filters.search}%`);
-    clauses.push(`(p.name ILIKE $${values.length} OR p.description ILIKE $${values.length})`);
+    clauses.push(
+      `(p.name ILIKE $${values.length} OR p.description ILIKE $${values.length})`,
+    );
   }
 
   if (filters.categoryId) {
@@ -46,16 +48,19 @@ const searchApprovedProducts = async (filters) => {
           MAX(CASE WHEN pa.asset_type = 'thumbnail' THEN pa.s3_url END),
           MAX(CASE WHEN pa.asset_type = 'image' THEN pa.s3_url END)
         ) AS "thumbnailUrl"
+        ,
+        COUNT(*) FILTER (WHERE pa.asset_type = 'model')::INTEGER AS "modelsCount",
+        COUNT(*) FILTER (WHERE pa.asset_type = 'texture')::INTEGER AS "texturesCount"
       FROM products p
       LEFT JOIN categories c ON c.id = p.category_id
       INNER JOIN users u ON u.id = p.vendor_id
       LEFT JOIN product_assets pa ON pa.product_id = p.id
-      WHERE ${clauses.join(' AND ')}
+      WHERE ${clauses.join(" AND ")}
       GROUP BY p.id, c.id, u.display_name
       ORDER BY p.created_at DESC
       LIMIT $${values.length - 1} OFFSET $${values.length}
     `,
-    values
+    values,
   );
 
   return result.rows;
@@ -67,7 +72,9 @@ const countApprovedProducts = async (filters) => {
 
   if (filters.search) {
     values.push(`%${filters.search}%`);
-    clauses.push(`(name ILIKE $${values.length} OR description ILIKE $${values.length})`);
+    clauses.push(
+      `(name ILIKE $${values.length} OR description ILIKE $${values.length})`,
+    );
   }
 
   if (filters.categoryId) {
@@ -85,7 +92,10 @@ const countApprovedProducts = async (filters) => {
     clauses.push(`price <= $${values.length}`);
   }
 
-  const result = await query(`SELECT COUNT(*)::INTEGER AS total FROM products WHERE ${clauses.join(' AND ')}`, values);
+  const result = await query(
+    `SELECT COUNT(*)::INTEGER AS total FROM products WHERE ${clauses.join(" AND ")}`,
+    values,
+  );
   return result.rows[0].total;
 };
 
@@ -109,7 +119,7 @@ const getApprovedProductDetails = async (productId) => {
       INNER JOIN users u ON u.id = p.vendor_id
       WHERE p.id = $1 AND p.status = 'approved'
     `,
-    [productId]
+    [productId],
   );
 
   return result.rows[0] || null;
@@ -130,7 +140,7 @@ const getProductAssets = async (productId) => {
       WHERE product_id = $1
       ORDER BY uploaded_at DESC
     `,
-    [productId]
+    [productId],
   );
 
   return result.rows;
@@ -140,5 +150,5 @@ module.exports = {
   searchApprovedProducts,
   countApprovedProducts,
   getApprovedProductDetails,
-  getProductAssets
+  getProductAssets,
 };

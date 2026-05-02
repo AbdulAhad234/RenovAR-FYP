@@ -257,10 +257,10 @@ const main = async () => {
         tags: entry.tags || ["wall-texture"],
       };
 
-      // upload texture map as 'image'
+      // upload texture map as 'texture'
       const textureAsset = await uploadAssetFile({
         productId: product.id,
-        assetType: "image",
+        assetType: "texture",
         absolutePath: textureAbs,
         metadata: baseMetadata,
       });

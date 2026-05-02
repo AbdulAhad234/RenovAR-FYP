@@ -5,6 +5,7 @@ const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 const { query, pool } = require('../src/config/database');
 const { generateS3Key, uploadToS3, buildS3Url } = require('../src/utils/s3Helper');
+const { DEFAULT_CURRENCY } = require('../src/constants/currency');
 
 const DEFAULT_MANIFEST_PATH = path.resolve(__dirname, '../../3D_Models_Dataset/curated-manifest.json');
 const DEFAULT_CATEGORY_MAPPING = {
@@ -264,6 +265,8 @@ const importEntry = async ({ entry, manifest, datasetRoot, vendor, options, summ
     name: entry.name,
     vendorEmail: vendor.email,
     categorySlug,
+    price: Number(entry.price),
+    currency: entry.currency || manifest.currency || DEFAULT_CURRENCY,
     modelPath: entry.modelPath,
     primaryImagePath: entry.primaryImagePath
   };
@@ -292,6 +295,7 @@ const importEntry = async ({ entry, manifest, datasetRoot, vendor, options, summ
     manifestKey: entry.importKey || slugify(entry.name),
     sourceCategory: entry.sourceCategory || entry.category || null,
     tags: entry.tags || [],
+    currency: entry.currency || manifest.currency || DEFAULT_CURRENCY,
     originalModelPath: entry.sourceModelPath || null,
     originalPrimaryImagePath: entry.sourcePrimaryImagePath || null,
     originalAdditionalImagePaths: entry.sourceAdditionalImagePaths || [],

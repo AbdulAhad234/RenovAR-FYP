@@ -1,5 +1,14 @@
 {
   "defaultVendorEmail": "renovar.test1@gmail.com",
+  "currency": "PKR",
+  "currencySymbol": "Rs",
+  "priceMetadata": {
+    "sourceCurrency": "USD",
+    "targetCurrency": "PKR",
+    "usdToPkrRate": 279.8,
+    "rateDate": "2026-05-02",
+    "note": "Known curated USD prices were converted to PKR; newly paired products use category-level PKR defaults."
+  },
   "categoryMapping": {
     "Accessories": "decor",
     "Beds": "bedroom",
@@ -9,368 +18,1646 @@
     "Coffee tables": "living-room"
   },
   "metadata": {
-    "generatedAt": "2026-05-01T11:50:10.046Z",
-    "matchingRecommendation": {
-      "preferred": "SigLIP 2",
-      "fallback": [
-        "BLIP-2",
-        "CLIP"
-      ],
-      "appliedMethod": "manual-reviewed-visual-curation",
-      "note": "The local workspace does not include an installed vision-model runtime, so this curated set was reviewed visually and remains traceable through the generated artifacts."
-    },
-    "reviewedSubset": 13
+    "generatedAt": "2026-05-02T20:45:30.935Z",
+    "appliedMethod": "same-basename-category-pairing",
+    "productsPaired": 64,
+    "wallTexturesPaired": 7
   },
   "products": [
     {
-      "importKey": "curated-ladder-bookshelf-001",
+      "importKey": "dataset-basic-wooden-shelf-001",
+      "name": "Basic Wooden Shelf",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/basic-wooden-shelf.glb",
+      "primaryImagePath": "Images/Accessories/basic-wooden-shelf.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/basic-wooden-shelf.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/basic-wooden-shelf.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Basic Wooden Shelf prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "basic-wooden-shelf"
+      ]
+    },
+    {
+      "importKey": "dataset-ceiling-lights-001",
+      "name": "Ceiling Lights",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/ceiling-lights.glb",
+      "primaryImagePath": "Images/Accessories/ceiling-lights.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/ceiling-lights.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/ceiling-lights.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Ceiling Lights prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "ceiling-lights"
+      ]
+    },
+    {
+      "importKey": "dataset-foot-stool-001",
+      "name": "Foot Stool",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/foot-stool.glb",
+      "primaryImagePath": "Images/Accessories/foot-stool.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/foot-stool.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/foot-stool.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Foot Stool prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "foot-stool"
+      ]
+    },
+    {
+      "importKey": "dataset-ladder-bookshelf-001",
       "name": "Ladder Bookshelf",
       "sourceCategory": "Accessories",
       "normalizedCategorySlug": "decor",
       "modelPath": "3D models/Accessories/ladder-bookshelf.glb",
       "primaryImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/Accessories/ladder+bookshelf+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Accessories/Engineered_Wood_21.jpg",
+      "sourceModelPath": "3D models/Accessories/ladder-bookshelf.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 249.99,
-      "description": "Curated ladder-style bookshelf selected for the decor launch set.",
+      "price": 69947,
+      "currency": "PKR",
+      "description": "Ladder Bookshelf prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 52,
-        "depth": 36,
-        "height": 170,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "decor",
-        "bookshelf",
-        "wood"
+        "dataset-import",
+        "accessories",
+        "ladder-bookshelf"
       ]
     },
     {
-      "importKey": "curated-wooden-china-cabinet-001",
+      "importKey": "dataset-long-drawer-with-cabinet-and-shelf-001",
+      "name": "Long Drawer With Cabinet And Shelf",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/long-drawer-with-cabinet-and-shelf.glb",
+      "primaryImagePath": "Images/Accessories/long-drawer-with-cabinet-and-shelf.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/long-drawer-with-cabinet-and-shelf.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/long-drawer-with-cabinet-and-shelf.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Long Drawer With Cabinet And Shelf prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "long-drawer-with-cabinet-and-shelf"
+      ]
+    },
+    {
+      "importKey": "dataset-metal-shoe-rack-001",
+      "name": "Metal Shoe Rack",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/metal-shoe-rack.glb",
+      "primaryImagePath": "Images/Accessories/metal-shoe-rack.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/metal-shoe-rack.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/metal-shoe-rack.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Metal Shoe Rack prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "metal-shoe-rack"
+      ]
+    },
+    {
+      "importKey": "dataset-pothos-potted-money-plant-001",
+      "name": "Pothos Potted Money Plant",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/pothos-potted-money-plant.glb",
+      "primaryImagePath": "Images/Accessories/pothos-potted-money-plant.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/pothos-potted-money-plant.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/pothos-potted-money-plant.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Pothos Potted Money Plant prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "pothos-potted-money-plant"
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-bar-cabinet-001",
+      "name": "Wooden Bar Cabinet",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/wooden-bar-cabinet.glb",
+      "primaryImagePath": "Images/Accessories/wooden-bar-cabinet.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/wooden-bar-cabinet.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/wooden-bar-cabinet.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Wooden Bar Cabinet prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "wooden-bar-cabinet"
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-bookshelf-001",
+      "name": "Wooden Bookshelf",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/wooden-bookshelf.glb",
+      "primaryImagePath": "Images/Accessories/wooden-bookshelf.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/wooden-bookshelf.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/wooden-bookshelf.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Wooden Bookshelf prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "wooden-bookshelf"
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-china-cabinet-001",
       "name": "Wooden China Cabinet",
       "sourceCategory": "Accessories",
       "normalizedCategorySlug": "decor",
       "modelPath": "3D models/Accessories/wooden-china-cabinet.glb",
       "primaryImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/Accessories/wooden+china+cabinet+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Accessories/Engineered_Wood_2.jpg",
+      "sourceModelPath": "3D models/Accessories/wooden-china-cabinet.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 699.99,
-      "description": "Curated wooden china cabinet chosen for the decor and storage catalog.",
+      "price": 195857,
+      "currency": "PKR",
+      "description": "Wooden China Cabinet prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 122,
-        "depth": 42,
-        "height": 188,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "decor",
-        "cabinet",
-        "storage"
+        "dataset-import",
+        "accessories",
+        "wooden-china-cabinet"
       ]
     },
     {
-      "importKey": "curated-wooden-pendant-light-001",
+      "importKey": "dataset-wooden-pendant-light-001",
       "name": "Wooden Pendant Light",
       "sourceCategory": "Accessories",
       "normalizedCategorySlug": "decor",
       "modelPath": "3D models/Accessories/wooden-pendant-light.glb",
       "primaryImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/Accessories/wooden+pendant+light+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Accessories/Engineered_Wood_20.jpg",
+      "sourceModelPath": "3D models/Accessories/wooden-pendant-light.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 129.99,
-      "description": "Curated pendant light fixture selected for the decor launch set.",
+      "price": 36371,
+      "currency": "PKR",
+      "description": "Wooden Pendant Light prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 28,
-        "depth": 28,
-        "height": 70,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "decor",
-        "lighting",
-        "wood"
+        "dataset-import",
+        "accessories",
+        "wooden-pendant-light"
       ]
     },
     {
-      "importKey": "curated-classic-wooden-bed-001",
+      "importKey": "dataset-wooden-shelf-001",
+      "name": "Wooden Shelf",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/wooden-shelf.glb",
+      "primaryImagePath": "Images/Accessories/wooden-shelf.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/wooden-shelf.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/wooden-shelf.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Wooden Shelf prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "wooden-shelf"
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-storage-cabinet-001",
+      "name": "Wooden Storage Cabinet",
+      "sourceCategory": "Accessories",
+      "normalizedCategorySlug": "decor",
+      "modelPath": "3D models/Accessories/wooden-storage-cabinet.glb",
+      "primaryImagePath": "Images/Accessories/wooden-storage-cabinet.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Accessories/wooden-storage-cabinet.glb",
+      "sourcePrimaryImagePath": "Images/Accessories/wooden-storage-cabinet.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 35000,
+      "currency": "PKR",
+      "description": "Wooden Storage Cabinet prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "accessories",
+        "wooden-storage-cabinet"
+      ]
+    },
+    {
+      "importKey": "dataset-bed-01-001",
+      "name": "Bed 01",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/bed-01.glb",
+      "primaryImagePath": "Images/Beds/bed-01.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/bed-01.glb",
+      "sourcePrimaryImagePath": "Images/Beds/bed-01.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Bed 01 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "bed-01"
+      ]
+    },
+    {
+      "importKey": "dataset-bed-02-001",
+      "name": "Bed 02",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/bed-02.glb",
+      "primaryImagePath": "Images/Beds/bed-02.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/bed-02.glb",
+      "sourcePrimaryImagePath": "Images/Beds/bed-02.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Bed 02 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "bed-02"
+      ]
+    },
+    {
+      "importKey": "dataset-bed-03-001",
+      "name": "Bed 03",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/bed-03.glb",
+      "primaryImagePath": "Images/Beds/bed-03.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/bed-03.glb",
+      "sourcePrimaryImagePath": "Images/Beds/bed-03.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Bed 03 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "bed-03"
+      ]
+    },
+    {
+      "importKey": "dataset-bed-04-001",
+      "name": "Bed 04",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/bed-04.glb",
+      "primaryImagePath": "Images/Beds/bed-04.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/bed-04.glb",
+      "sourcePrimaryImagePath": "Images/Beds/bed-04.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Bed 04 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "bed-04"
+      ]
+    },
+    {
+      "importKey": "dataset-bed-05-001",
+      "name": "Bed 05",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/bed-05.glb",
+      "primaryImagePath": "Images/Beds/bed-05.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/bed-05.glb",
+      "sourcePrimaryImagePath": "Images/Beds/bed-05.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Bed 05 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "bed-05"
+      ]
+    },
+    {
+      "importKey": "dataset-bunk-bed-001",
+      "name": "Bunk Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/bunk-bed.glb",
+      "primaryImagePath": "Images/Beds/bunk-bed.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/bunk-bed.glb",
+      "sourcePrimaryImagePath": "Images/Beds/bunk-bed.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Bunk Bed prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "bunk-bed"
+      ]
+    },
+    {
+      "importKey": "dataset-classic-wooden-bed-001",
       "name": "Classic Wooden Bed",
       "sourceCategory": "Beds",
       "normalizedCategorySlug": "bedroom",
       "modelPath": "3D models/Beds/classic-wooden-bed.glb",
       "primaryImagePath": "Images/Beds/classic-wooden-bed.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/Beds/bed+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Beds/Engineered_Wood_Bed_1.jpg",
+      "sourceModelPath": "3D models/Beds/classic-wooden-bed.glb",
+      "sourcePrimaryImagePath": "Images/Beds/classic-wooden-bed.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 1199.99,
-      "description": "Curated wooden platform bed for the bedroom launch set.",
+      "price": 335757,
+      "currency": "PKR",
+      "description": "Classic Wooden Bed prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 180,
-        "depth": 210,
-        "height": 100,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "bed",
-        "bedroom",
-        "wood"
+        "dataset-import",
+        "beds",
+        "classic-wooden-bed"
       ]
     },
     {
-      "importKey": "curated-storage-platform-bed-001",
+      "importKey": "dataset-eco-brand-bed-001",
+      "name": "Eco Brand Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/eco-brand-bed.glb",
+      "primaryImagePath": "Images/Beds/eco-brand-bed.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/eco-brand-bed.glb",
+      "sourcePrimaryImagePath": "Images/Beds/eco-brand-bed.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Eco Brand Bed prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "eco-brand-bed"
+      ]
+    },
+    {
+      "importKey": "dataset-faydra-full-bed-001",
+      "name": "Faydra Full Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/faydra-full-bed.glb",
+      "primaryImagePath": "Images/Beds/faydra-full-bed.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/faydra-full-bed.glb",
+      "sourcePrimaryImagePath": "Images/Beds/faydra-full-bed.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Faydra Full Bed prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "faydra-full-bed"
+      ]
+    },
+    {
+      "importKey": "dataset-medieval-bed-001",
+      "name": "Medieval Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/medieval-bed.glb",
+      "primaryImagePath": "Images/Beds/medieval-bed.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/medieval-bed.glb",
+      "sourcePrimaryImagePath": "Images/Beds/medieval-bed.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Medieval Bed prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "medieval-bed"
+      ]
+    },
+    {
+      "importKey": "dataset-modern-bed-01-001",
+      "name": "Modern Bed 01",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/modern-bed-01.glb",
+      "primaryImagePath": "Images/Beds/modern-bed-01.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/modern-bed-01.glb",
+      "sourcePrimaryImagePath": "Images/Beds/modern-bed-01.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Modern Bed 01 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "modern-bed-01"
+      ]
+    },
+    {
+      "importKey": "dataset-modern-bed-02-001",
+      "name": "Modern Bed 02",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/modern-bed-02.glb",
+      "primaryImagePath": "Images/Beds/modern-bed-02.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/modern-bed-02.glb",
+      "sourcePrimaryImagePath": "Images/Beds/modern-bed-02.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Modern Bed 02 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "modern-bed-02"
+      ]
+    },
+    {
+      "importKey": "dataset-storage-platform-bed-001",
       "name": "Storage Platform Bed",
       "sourceCategory": "Beds",
       "normalizedCategorySlug": "bedroom",
       "modelPath": "3D models/Beds/storage-platform-bed.glb",
       "primaryImagePath": "Images/Beds/storage-platform-bed.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/Beds/bed+3d+model (1).fbx",
-      "sourcePrimaryImagePath": "Images/Beds/King_With_Storage_11.jpg",
+      "sourceModelPath": "3D models/Beds/storage-platform-bed.glb",
+      "sourcePrimaryImagePath": "Images/Beds/storage-platform-bed.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 1399.99,
-      "description": "Curated platform bed with storage styling for the bedroom catalog.",
+      "price": 391717,
+      "currency": "PKR",
+      "description": "Storage Platform Bed prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 190,
-        "depth": 220,
-        "height": 118,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "bed",
-        "bedroom",
-        "storage"
+        "dataset-import",
+        "beds",
+        "storage-platform-bed"
       ]
     },
     {
-      "importKey": "curated-leather-dining-chair-001",
+      "importKey": "dataset-tree-canopy-bed-001",
+      "name": "Tree Canopy Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/tree-canopy-bed.glb",
+      "primaryImagePath": "Images/Beds/tree-canopy-bed.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/tree-canopy-bed.glb",
+      "sourcePrimaryImagePath": "Images/Beds/tree-canopy-bed.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Tree Canopy Bed prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "tree-canopy-bed"
+      ]
+    },
+    {
+      "importKey": "dataset-upholstered-bed-001",
+      "name": "Upholstered Bed",
+      "sourceCategory": "Beds",
+      "normalizedCategorySlug": "bedroom",
+      "modelPath": "3D models/Beds/upholstered-bed.glb",
+      "primaryImagePath": "Images/Beds/upholstered-bed.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Beds/upholstered-bed.glb",
+      "sourcePrimaryImagePath": "Images/Beds/upholstered-bed.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 335000,
+      "currency": "PKR",
+      "description": "Upholstered Bed prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "beds",
+        "upholstered-bed"
+      ]
+    },
+    {
+      "importKey": "dataset-blue-lounge-chair-001",
+      "name": "Blue Lounge Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/blue-lounge-chair.glb",
+      "primaryImagePath": "Images/Chairs/blue-lounge-chair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/blue-lounge-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/blue-lounge-chair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Blue Lounge Chair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "blue-lounge-chair"
+      ]
+    },
+    {
+      "importKey": "dataset-chair-01-001",
+      "name": "Chair 01",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/chair-01.glb",
+      "primaryImagePath": "Images/Chairs/chair-01.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/chair-01.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/chair-01.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Chair 01 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "chair-01"
+      ]
+    },
+    {
+      "importKey": "dataset-chair-02-001",
+      "name": "Chair 02",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/chair-02.glb",
+      "primaryImagePath": "Images/Chairs/chair-02.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/chair-02.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/chair-02.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Chair 02 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "chair-02"
+      ]
+    },
+    {
+      "importKey": "dataset-classic-tufted-armchair-001",
+      "name": "Classic Tufted Armchair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/classic-tufted-armchair.glb",
+      "primaryImagePath": "Images/Chairs/classic-tufted-armchair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/classic-tufted-armchair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/classic-tufted-armchair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Classic Tufted Armchair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "classic-tufted-armchair"
+      ]
+    },
+    {
+      "importKey": "dataset-indochine-upholstered-arm-chair-001",
+      "name": "Indochine Upholstered Arm Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Indochine Upholstered Arm Chair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "indochine-upholstered-arm-chair"
+      ]
+    },
+    {
+      "importKey": "dataset-leather-dining-chair-001",
       "name": "Leather Dining Chair",
       "sourceCategory": "Chairs",
       "normalizedCategorySlug": "living-room",
-      "modelPath": "3D models/chairs/leather-dining-chair.glb",
+      "modelPath": "3D models/Chairs/leather-dining-chair.glb",
       "primaryImagePath": "Images/Chairs/leather-dining-chair.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/chairs/leather+chair+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Chairs/00000200.jpg",
+      "sourceModelPath": "3D models/Chairs/leather-dining-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/leather-dining-chair.jpg",
       "sourceAdditionalImagePaths": [],
-      "confidence": "medium",
-      "price": 249.99,
-      "description": "Curated dining-style leather chair for the seating launch set.",
+      "confidence": "high",
+      "price": 69947,
+      "currency": "PKR",
+      "description": "Leather Dining Chair prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 48,
-        "depth": 56,
-        "height": 96,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "chair",
-        "leather",
-        "dining"
+        "dataset-import",
+        "chairs",
+        "leather-dining-chair"
       ]
     },
     {
-      "importKey": "curated-lounge-accent-chair-001",
+      "importKey": "dataset-lounge-accent-chair-001",
       "name": "Lounge Accent Chair",
       "sourceCategory": "Chairs",
       "normalizedCategorySlug": "living-room",
-      "modelPath": "3D models/chairs/lounge-accent-chair.glb",
+      "modelPath": "3D models/Chairs/lounge-accent-chair.glb",
       "primaryImagePath": "Images/Chairs/lounge-accent-chair.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/chairs/outdoor+lounge+chair+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Chairs/00000173.jpg",
-      "sourceAdditionalImagePaths": [],
-      "confidence": "medium",
-      "price": 329.99,
-      "description": "Curated lounge chair used as the closest reviewed match for the outdoor lounge model.",
-      "dimensions": {
-        "width": 70,
-        "depth": 78,
-        "height": 98,
-        "unit": "cm"
-      },
-      "tags": [
-        "curated-launch",
-        "chair",
-        "lounge",
-        "accent"
-      ]
-    },
-    {
-      "importKey": "curated-modern-accent-armchair-001",
-      "name": "Modern Accent Armchair",
-      "sourceCategory": "Sofas",
-      "normalizedCategorySlug": "living-room",
-      "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
-      "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
-      "additionalImagePaths": [],
-      "sourceModelPath": "3D models/Sofas/armchair+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Sofas/00000020.jpg",
+      "sourceModelPath": "3D models/Chairs/lounge-accent-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/lounge-accent-chair.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 449.99,
-      "description": "Curated armchair selected as the living room accent seating model.",
+      "price": 92331,
+      "currency": "PKR",
+      "description": "Lounge Accent Chair prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 84,
-        "depth": 86,
-        "height": 92,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "armchair",
-        "accent",
-        "living-room"
+        "dataset-import",
+        "chairs",
+        "lounge-accent-chair"
       ]
     },
     {
-      "importKey": "curated-leather-chesterfield-sofa-001",
+      "importKey": "dataset-modern-upholstered-armchair-01-001",
+      "name": "Modern Upholstered Armchair 01",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Modern Upholstered Armchair 01 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "modern-upholstered-armchair-01"
+      ]
+    },
+    {
+      "importKey": "dataset-modern-upholstered-armchair-02-001",
+      "name": "Modern Upholstered Armchair 02",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Modern Upholstered Armchair 02 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "modern-upholstered-armchair-02"
+      ]
+    },
+    {
+      "importKey": "dataset-modern-upholstered-lounge-chair-001",
+      "name": "Modern Upholstered Lounge Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Modern Upholstered Lounge Chair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "modern-upholstered-lounge-chair"
+      ]
+    },
+    {
+      "importKey": "dataset-office-chair-001",
+      "name": "Office Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/office-chair.glb",
+      "primaryImagePath": "Images/Chairs/office-chair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/office-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/office-chair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Office Chair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "office-chair"
+      ]
+    },
+    {
+      "importKey": "dataset-rocking-chair-001",
+      "name": "Rocking Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/rocking-chair.glb",
+      "primaryImagePath": "Images/Chairs/rocking-chair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/rocking-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/rocking-chair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Rocking Chair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "rocking-chair"
+      ]
+    },
+    {
+      "importKey": "dataset-vintage-arm-chair-001",
+      "name": "Vintage Arm Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/vintage-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/vintage-arm-chair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/vintage-arm-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/vintage-arm-chair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Vintage Arm Chair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "vintage-arm-chair"
+      ]
+    },
+    {
+      "importKey": "dataset-vintage-bar-stool-001",
+      "name": "Vintage Bar Stool",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/vintage-bar-stool.glb",
+      "primaryImagePath": "Images/Chairs/vintage-bar-stool.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/vintage-bar-stool.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/vintage-bar-stool.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Vintage Bar Stool prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "vintage-bar-stool"
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-arm-chair-001",
+      "name": "Wooden Arm Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/wooden-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/wooden-arm-chair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/wooden-arm-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/wooden-arm-chair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Wooden Arm Chair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "wooden-arm-chair"
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-chair-02-001",
+      "name": "Wooden Chair 02",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/wooden-chair-02.glb",
+      "primaryImagePath": "Images/Chairs/wooden-chair-02.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/wooden-chair-02.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/wooden-chair-02.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Wooden Chair 02 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "wooden-chair-02"
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-chair-001",
+      "name": "Wooden Chair",
+      "sourceCategory": "Chairs",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Chairs/wooden-chair.glb",
+      "primaryImagePath": "Images/Chairs/wooden-chair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Chairs/wooden-chair.glb",
+      "sourcePrimaryImagePath": "Images/Chairs/wooden-chair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 70000,
+      "currency": "PKR",
+      "description": "Wooden Chair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "chairs",
+        "wooden-chair"
+      ]
+    },
+    {
+      "importKey": "dataset-l-shaped-sofa-001",
+      "name": "L Shaped Sofa",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/L-shaped-sofa.glb",
+      "primaryImagePath": "Images/Sofas/L-shaped-sofa.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Sofas/L-shaped-sofa.glb",
+      "sourcePrimaryImagePath": "Images/Sofas/L-shaped-sofa.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 280000,
+      "currency": "PKR",
+      "description": "L Shaped Sofa prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "sofas",
+        "l-shaped-sofa"
+      ]
+    },
+    {
+      "importKey": "dataset-leather-armchair-001",
+      "name": "Leather Armchair",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/leather-armchair.glb",
+      "primaryImagePath": "Images/Sofas/leather-armchair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Sofas/leather-armchair.glb",
+      "sourcePrimaryImagePath": "Images/Sofas/leather-armchair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 280000,
+      "currency": "PKR",
+      "description": "Leather Armchair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "sofas",
+        "leather-armchair"
+      ]
+    },
+    {
+      "importKey": "dataset-leather-chesterfield-sofa-001",
       "name": "Leather Chesterfield Sofa",
       "sourceCategory": "Sofas",
       "normalizedCategorySlug": "living-room",
       "modelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
       "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/Sofas/leather+sofa+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Sofas/00000014.jpg",
+      "sourceModelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
+      "sourcePrimaryImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 1299.99,
-      "description": "Curated leather sofa selected for the living room launch set.",
+      "price": 363737,
+      "currency": "PKR",
+      "description": "Leather Chesterfield Sofa prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 220,
-        "depth": 92,
-        "height": 78,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "sofa",
-        "leather",
-        "living-room"
+        "dataset-import",
+        "sofas",
+        "leather-chesterfield-sofa"
       ]
     },
     {
-      "importKey": "curated-tufted-living-sofa-001",
+      "importKey": "dataset-modern-accent-armchair-001",
+      "name": "Modern Accent Armchair",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
+      "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Sofas/modern-accent-armchair.glb",
+      "sourcePrimaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 125907,
+      "currency": "PKR",
+      "description": "Modern Accent Armchair prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "sofas",
+        "modern-accent-armchair"
+      ]
+    },
+    {
+      "importKey": "dataset-sofa-with-pillows-001",
+      "name": "Sofa With Pillows",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/sofa-with-pillows.glb",
+      "primaryImagePath": "Images/Sofas/sofa-with-pillows.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Sofas/sofa-with-pillows.glb",
+      "sourcePrimaryImagePath": "Images/Sofas/sofa-with-pillows.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 280000,
+      "currency": "PKR",
+      "description": "Sofa With Pillows prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "sofas",
+        "sofa-with-pillows"
+      ]
+    },
+    {
+      "importKey": "dataset-three-sitter-sofa-001",
+      "name": "Three Sitter Sofa",
+      "sourceCategory": "Sofas",
+      "normalizedCategorySlug": "living-room",
+      "modelPath": "3D models/Sofas/three-sitter-sofa.glb",
+      "primaryImagePath": "Images/Sofas/three-sitter-sofa.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Sofas/three-sitter-sofa.glb",
+      "sourcePrimaryImagePath": "Images/Sofas/three-sitter-sofa.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 280000,
+      "currency": "PKR",
+      "description": "Three Sitter Sofa prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "sofas",
+        "three-sitter-sofa"
+      ]
+    },
+    {
+      "importKey": "dataset-tufted-living-sofa-001",
       "name": "Tufted Living Sofa",
       "sourceCategory": "Sofas",
       "normalizedCategorySlug": "living-room",
       "modelPath": "3D models/Sofas/tufted-living-sofa.glb",
       "primaryImagePath": "Images/Sofas/tufted-living-sofa.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/Sofas/sofa+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Sofas/00000069.jpg",
+      "sourceModelPath": "3D models/Sofas/tufted-living-sofa.glb",
+      "sourcePrimaryImagePath": "Images/Sofas/tufted-living-sofa.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 999.99,
-      "description": "Curated tufted sofa for the core living room catalog.",
+      "price": 279797,
+      "currency": "PKR",
+      "description": "Tufted Living Sofa prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 210,
-        "depth": 90,
-        "height": 82,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "sofa",
-        "tufted",
-        "living-room"
+        "dataset-import",
+        "sofas",
+        "tufted-living-sofa"
       ]
     },
     {
-      "importKey": "curated-antique-wooden-table-001",
+      "importKey": "dataset-antique-wooden-table-001",
       "name": "Antique Wooden Table",
       "sourceCategory": "Tables",
       "normalizedCategorySlug": "dining-room",
-      "modelPath": "3D models/tables/antique-wooden-table.glb",
+      "modelPath": "3D models/Tables/antique-wooden-table.glb",
       "primaryImagePath": "Images/Tables/antique-wooden-table.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/tables/antique+wooden+table+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Tables/00000382.jpg",
+      "sourceModelPath": "3D models/Tables/antique-wooden-table.glb",
+      "sourcePrimaryImagePath": "Images/Tables/antique-wooden-table.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 849.99,
-      "description": "Curated antique wooden table selected for the dining catalog.",
+      "price": 237827,
+      "currency": "PKR",
+      "description": "Antique Wooden Table prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 190,
-        "depth": 92,
-        "height": 76,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "table",
-        "antique",
-        "wood"
+        "dataset-import",
+        "tables",
+        "antique-wooden-table"
       ]
     },
     {
-      "importKey": "curated-wooden-dining-table-001",
-      "name": "Wooden Dining Table",
+      "importKey": "dataset-center-table-01-001",
+      "name": "Center Table 01",
       "sourceCategory": "Tables",
       "normalizedCategorySlug": "dining-room",
-      "modelPath": "3D models/tables/wooden-dining-table.glb",
-      "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "modelPath": "3D models/Tables/center-table-01.glb",
+      "primaryImagePath": "Images/Tables/center-table-01.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/tables/wooden+dining+table+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Tables/00000111.jpg",
+      "sourceModelPath": "3D models/Tables/center-table-01.glb",
+      "sourcePrimaryImagePath": "Images/Tables/center-table-01.jpg",
       "sourceAdditionalImagePaths": [],
       "confidence": "high",
-      "price": 749.99,
-      "description": "Curated wooden dining table for the dining room launch set.",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Center Table 01 prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 180,
-        "depth": 90,
-        "height": 76,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "table",
-        "dining-room",
-        "wood"
+        "dataset-import",
+        "tables",
+        "center-table-01"
       ]
     },
     {
-      "importKey": "curated-farmhouse-wooden-table-001",
+      "importKey": "dataset-center-table-02-001",
+      "name": "Center Table 02",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/center-table-02.glb",
+      "primaryImagePath": "Images/Tables/center-table-02.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/center-table-02.glb",
+      "sourcePrimaryImagePath": "Images/Tables/center-table-02.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Center Table 02 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "center-table-02"
+      ]
+    },
+    {
+      "importKey": "dataset-coffee-table-01-001",
+      "name": "Coffee Table 01",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/coffee-table-01.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-01.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/coffee-table-01.glb",
+      "sourcePrimaryImagePath": "Images/Tables/coffee-table-01.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Coffee Table 01 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "coffee-table-01"
+      ]
+    },
+    {
+      "importKey": "dataset-coffee-table-02-001",
+      "name": "Coffee Table 02",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/coffee-table-02.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-02.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/coffee-table-02.glb",
+      "sourcePrimaryImagePath": "Images/Tables/coffee-table-02.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Coffee Table 02 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "coffee-table-02"
+      ]
+    },
+    {
+      "importKey": "dataset-coffee-table-03-001",
+      "name": "Coffee Table 03",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/coffee-table-03.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-03.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/coffee-table-03.glb",
+      "sourcePrimaryImagePath": "Images/Tables/coffee-table-03.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Coffee Table 03 prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "coffee-table-03"
+      ]
+    },
+    {
+      "importKey": "dataset-farmhouse-wooden-table-001",
       "name": "Farmhouse Wooden Table",
       "sourceCategory": "Tables",
       "normalizedCategorySlug": "dining-room",
-      "modelPath": "3D models/tables/farmhouse-wooden-table.glb",
+      "modelPath": "3D models/Tables/farmhouse-wooden-table.glb",
       "primaryImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
       "additionalImagePaths": [],
-      "sourceModelPath": "3D models/tables/wooden+table+3d+model.fbx",
-      "sourcePrimaryImagePath": "Images/Tables/00000069.jpg",
+      "sourceModelPath": "3D models/Tables/farmhouse-wooden-table.glb",
+      "sourcePrimaryImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
       "sourceAdditionalImagePaths": [],
-      "confidence": "medium",
-      "price": 699.99,
-      "description": "Curated wooden table selected as the closest reviewed farmhouse-style match.",
+      "confidence": "high",
+      "price": 195857,
+      "currency": "PKR",
+      "description": "Farmhouse Wooden Table prepared for RenovAR AR placement.",
       "dimensions": {
-        "width": 175,
-        "depth": 88,
-        "height": 76,
         "unit": "cm"
       },
       "tags": [
-        "curated-launch",
-        "table",
-        "farmhouse",
-        "wood"
+        "dataset-import",
+        "tables",
+        "farmhouse-wooden-table"
+      ]
+    },
+    {
+      "importKey": "dataset-glass-table-001",
+      "name": "Glass Table",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/glass-table.glb",
+      "primaryImagePath": "Images/Tables/glass-table.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/glass-table.glb",
+      "sourcePrimaryImagePath": "Images/Tables/glass-table.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Glass Table prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "glass-table"
+      ]
+    },
+    {
+      "importKey": "dataset-mid-century-modern-coffee-table-001",
+      "name": "Mid Century Modern Coffee Table",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
+      "primaryImagePath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
+      "sourcePrimaryImagePath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Mid Century Modern Coffee Table prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "mid-century-modern-coffee-table"
+      ]
+    },
+    {
+      "importKey": "dataset-round-side-table-001",
+      "name": "Round Side Table",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/round-side-table.glb",
+      "primaryImagePath": "Images/Tables/round-side-table.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/round-side-table.glb",
+      "sourcePrimaryImagePath": "Images/Tables/round-side-table.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Round Side Table prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "round-side-table"
+      ]
+    },
+    {
+      "importKey": "dataset-semi-round-wooden-table-001",
+      "name": "Semi Round Wooden Table",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/semi-round-wooden-table.glb",
+      "primaryImagePath": "Images/Tables/semi-round-wooden-table.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/semi-round-wooden-table.glb",
+      "sourcePrimaryImagePath": "Images/Tables/semi-round-wooden-table.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 210000,
+      "currency": "PKR",
+      "description": "Semi Round Wooden Table prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "semi-round-wooden-table"
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-dining-table-001",
+      "name": "Wooden Dining Table",
+      "sourceCategory": "Tables",
+      "normalizedCategorySlug": "dining-room",
+      "modelPath": "3D models/Tables/wooden-dining-table.glb",
+      "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "additionalImagePaths": [],
+      "sourceModelPath": "3D models/Tables/wooden-dining-table.glb",
+      "sourcePrimaryImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "sourceAdditionalImagePaths": [],
+      "confidence": "high",
+      "price": 209847,
+      "currency": "PKR",
+      "description": "Wooden Dining Table prepared for RenovAR AR placement.",
+      "dimensions": {
+        "unit": "cm"
+      },
+      "tags": [
+        "dataset-import",
+        "tables",
+        "wooden-dining-table"
+      ]
+    }
+  ],
+  "wallTextures": [
+    {
+      "importKey": "wall-texture-ceramic-glazed-001",
+      "name": "Ceramic Glazed",
+      "textureFolderPath": "3D models/Wall Textures/Ceramic-Glazed",
+      "textureMapPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Ceramic-Glazed.png",
+      "mapRole": "baseColor",
+      "fileUse": "Apply this textureMapPath to AR wall surfaces; the thumbnailPath is only for selection UI.",
+      "currency": "PKR",
+      "tags": [
+        "wall-texture",
+        "ceramic-glazed"
+      ]
+    },
+    {
+      "importKey": "wall-texture-concrete-worn-001",
+      "name": "Concrete Worn",
+      "textureFolderPath": "3D models/Wall Textures/Concrete-Worn",
+      "textureMapPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Concrete-Worn.png",
+      "mapRole": "baseColor",
+      "fileUse": "Apply this textureMapPath to AR wall surfaces; the thumbnailPath is only for selection UI.",
+      "currency": "PKR",
+      "tags": [
+        "wall-texture",
+        "concrete-worn"
+      ]
+    },
+    {
+      "importKey": "wall-texture-rammed-earth-001",
+      "name": "Rammed Earth",
+      "textureFolderPath": "3D models/Wall Textures/Rammed-Earth",
+      "textureMapPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_COL_2K_METALNESS.png",
+      "thumbnailPath": "Images/Wall Textures/Rammed-Earth.png",
+      "mapRole": "baseColor",
+      "fileUse": "Apply this textureMapPath to AR wall surfaces; the thumbnailPath is only for selection UI.",
+      "currency": "PKR",
+      "tags": [
+        "wall-texture",
+        "rammed-earth"
+      ]
+    },
+    {
+      "importKey": "wall-texture-rusty-gold-ceramic-glazed-001",
+      "name": "Rusty Gold Ceramic Glazed",
+      "textureFolderPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed",
+      "textureMapPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Rusty-Gold-Ceramic-Glazed.png",
+      "mapRole": "baseColor",
+      "fileUse": "Apply this textureMapPath to AR wall surfaces; the thumbnailPath is only for selection UI.",
+      "currency": "PKR",
+      "tags": [
+        "wall-texture",
+        "rusty-gold-ceramic-glazed"
+      ]
+    },
+    {
+      "importKey": "wall-texture-stone-bricks-001",
+      "name": "Stone Bricks",
+      "textureFolderPath": "3D models/Wall Textures/Stone-Bricks",
+      "textureMapPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_COL_2K.jpg",
+      "thumbnailPath": "Images/Wall Textures/Stone-Bricks.png",
+      "mapRole": "baseColor",
+      "fileUse": "Apply this textureMapPath to AR wall surfaces; the thumbnailPath is only for selection UI.",
+      "currency": "PKR",
+      "tags": [
+        "wall-texture",
+        "stone-bricks"
+      ]
+    },
+    {
+      "importKey": "wall-texture-stone-quartzite-001",
+      "name": "Stone Quartzite",
+      "textureFolderPath": "3D models/Wall Textures/Stone-Quartzite",
+      "textureMapPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Stone-Quartzite.png",
+      "mapRole": "baseColor",
+      "fileUse": "Apply this textureMapPath to AR wall surfaces; the thumbnailPath is only for selection UI.",
+      "currency": "PKR",
+      "tags": [
+        "wall-texture",
+        "stone-quartzite"
+      ]
+    },
+    {
+      "importKey": "wall-texture-wood-veneer-oak-001",
+      "name": "Wood Veneer Oak",
+      "textureFolderPath": "3D models/Wall Textures/Wood-Veneer-Oak",
+      "textureMapPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Wood-Veneer-Oak.png",
+      "mapRole": "baseColor",
+      "fileUse": "Apply this textureMapPath to AR wall surfaces; the thumbnailPath is only for selection UI.",
+      "currency": "PKR",
+      "tags": [
+        "wall-texture",
+        "wood-veneer-oak"
       ]
     }
   ]

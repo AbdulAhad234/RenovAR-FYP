@@ -2,6 +2,7 @@ const arRepository = require('./repository');
 const { ApiError } = require('../../utils/apiError');
 const { generateSignedUrl } = require('../../utils/s3Helper');
 const { getPlacementClassification } = require('./placementClassification');
+const { DEFAULT_CURRENCY, DEFAULT_CURRENCY_SYMBOL } = require('../../constants/currency');
 
 const getArProduct = async (productId) => {
   const product = await arRepository.getArReadyProduct(productId);
@@ -18,6 +19,8 @@ const getArProduct = async (productId) => {
     id: product.id,
     name: product.name,
     price: product.price,
+    currency: DEFAULT_CURRENCY,
+    currencySymbol: DEFAULT_CURRENCY_SYMBOL,
     modelUrl,
     thumbnailUrl,
     dimensions: product.dimensions,

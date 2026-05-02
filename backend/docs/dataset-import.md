@@ -24,6 +24,7 @@ Each product entry must explicitly define:
 - `modelPath`
 - `primaryImagePath`
 - `price`
+- `currency` (`PKR` for the current dataset)
 
 Optional fields:
 
@@ -39,6 +40,12 @@ Optional fields:
 
 All file paths in the manifest are relative to `3D_Models_Dataset/`.
 
+Wall texture entries are written under `wallTextures`. Each entry pairs:
+
+- `textureFolderPath`: the source folder containing all available texture maps
+- `textureMapPath`: the single base-color/albedo image the AR app should apply to walls
+- `thumbnailPath`: the matching UI preview image
+
 ## Preparation workflow
 
 Generate the rename map, curation review artifact, and refreshed manifest:
@@ -47,13 +54,13 @@ Generate the rename map, curation review artifact, and refreshed manifest:
 npm run prepare:dataset
 ```
 
-Apply the approved renames for the curated subset and then rewrite the manifest:
+The preparation script derives pairs from same-name model/image files and rewrites the manifest:
 
 ```bash
 npm run prepare:dataset:apply
 ```
 
-The preparation step only renames files for the reviewed curated subset. Unmatched images and models remain untouched and are recorded in `rename-map.json` with `status: "unmatched"`.
+The preparation step does not rename files. Unmatched images and models remain untouched and are recorded in `rename-map.json` with `status: "unmatched"`.
 
 ## Category normalization
 
@@ -64,7 +71,6 @@ Current default mapping:
 - `Chairs` -> `living-room`
 - `Sofas` -> `living-room`
 - `Tables` -> `dining-room`
-- `Coffee tables` -> `living-room`
 
 The manifest can override these defaults.
 
@@ -98,6 +104,7 @@ node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-m
 ## Import behavior
 
 - products are created as `draft`
+- product prices are stored as PKR numeric values
 - model files are stored as `model` assets
 - primary image files are stored as `thumbnail` assets
 - additional images are stored as `image` assets

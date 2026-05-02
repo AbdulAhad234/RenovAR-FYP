@@ -1,142 +1,639 @@
 {
-  "generatedAt": "2026-05-01T11:50:10.045Z",
-  "recommendation": {
-    "preferred": "SigLIP 2",
-    "fallback": [
-      "BLIP-2",
-      "CLIP"
-    ],
-    "appliedMethod": "manual-reviewed-visual-curation",
-    "note": "The local workspace does not include an installed vision-model runtime, so this curated set was reviewed visually and remains traceable through the generated artifacts."
-  },
-  "approvedProducts": [
+  "generatedAt": "2026-05-02T20:45:30.941Z",
+  "productPairs": [
     {
-      "productSlug": "ladder-bookshelf",
+      "importKey": "dataset-basic-wooden-shelf-001",
+      "name": "Basic Wooden Shelf",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/basic-wooden-shelf.glb",
+      "primaryImagePath": "Images/Accessories/basic-wooden-shelf.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-ceiling-lights-001",
+      "name": "Ceiling Lights",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/ceiling-lights.glb",
+      "primaryImagePath": "Images/Accessories/ceiling-lights.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-foot-stool-001",
+      "name": "Foot Stool",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/foot-stool.glb",
+      "primaryImagePath": "Images/Accessories/foot-stool.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-ladder-bookshelf-001",
       "name": "Ladder Bookshelf",
       "sourceCategory": "Accessories",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/Accessories/ladder+bookshelf+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Accessories/Engineered_Wood_21.jpg",
-      "additionalImageOriginalPaths": []
+      "modelPath": "3D models/Accessories/ladder-bookshelf.glb",
+      "primaryImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
+      "price": 69947,
+      "currency": "PKR"
     },
     {
-      "productSlug": "wooden-china-cabinet",
+      "importKey": "dataset-long-drawer-with-cabinet-and-shelf-001",
+      "name": "Long Drawer With Cabinet And Shelf",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/long-drawer-with-cabinet-and-shelf.glb",
+      "primaryImagePath": "Images/Accessories/long-drawer-with-cabinet-and-shelf.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-metal-shoe-rack-001",
+      "name": "Metal Shoe Rack",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/metal-shoe-rack.glb",
+      "primaryImagePath": "Images/Accessories/metal-shoe-rack.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-pothos-potted-money-plant-001",
+      "name": "Pothos Potted Money Plant",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/pothos-potted-money-plant.glb",
+      "primaryImagePath": "Images/Accessories/pothos-potted-money-plant.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-wooden-bar-cabinet-001",
+      "name": "Wooden Bar Cabinet",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/wooden-bar-cabinet.glb",
+      "primaryImagePath": "Images/Accessories/wooden-bar-cabinet.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-wooden-bookshelf-001",
+      "name": "Wooden Bookshelf",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/wooden-bookshelf.glb",
+      "primaryImagePath": "Images/Accessories/wooden-bookshelf.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-wooden-china-cabinet-001",
       "name": "Wooden China Cabinet",
       "sourceCategory": "Accessories",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/Accessories/wooden+china+cabinet+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Accessories/Engineered_Wood_2.jpg",
-      "additionalImageOriginalPaths": []
+      "modelPath": "3D models/Accessories/wooden-china-cabinet.glb",
+      "primaryImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
+      "price": 195857,
+      "currency": "PKR"
     },
     {
-      "productSlug": "wooden-pendant-light",
+      "importKey": "dataset-wooden-pendant-light-001",
       "name": "Wooden Pendant Light",
       "sourceCategory": "Accessories",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/Accessories/wooden+pendant+light+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Accessories/Engineered_Wood_20.jpg",
-      "additionalImageOriginalPaths": []
+      "modelPath": "3D models/Accessories/wooden-pendant-light.glb",
+      "primaryImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
+      "price": 36371,
+      "currency": "PKR"
     },
     {
-      "productSlug": "classic-wooden-bed",
+      "importKey": "dataset-wooden-shelf-001",
+      "name": "Wooden Shelf",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/wooden-shelf.glb",
+      "primaryImagePath": "Images/Accessories/wooden-shelf.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-wooden-storage-cabinet-001",
+      "name": "Wooden Storage Cabinet",
+      "sourceCategory": "Accessories",
+      "modelPath": "3D models/Accessories/wooden-storage-cabinet.glb",
+      "primaryImagePath": "Images/Accessories/wooden-storage-cabinet.jpg",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-bed-01-001",
+      "name": "Bed 01",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/bed-01.glb",
+      "primaryImagePath": "Images/Beds/bed-01.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-bed-02-001",
+      "name": "Bed 02",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/bed-02.glb",
+      "primaryImagePath": "Images/Beds/bed-02.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-bed-03-001",
+      "name": "Bed 03",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/bed-03.glb",
+      "primaryImagePath": "Images/Beds/bed-03.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-bed-04-001",
+      "name": "Bed 04",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/bed-04.glb",
+      "primaryImagePath": "Images/Beds/bed-04.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-bed-05-001",
+      "name": "Bed 05",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/bed-05.glb",
+      "primaryImagePath": "Images/Beds/bed-05.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-bunk-bed-001",
+      "name": "Bunk Bed",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/bunk-bed.glb",
+      "primaryImagePath": "Images/Beds/bunk-bed.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-classic-wooden-bed-001",
       "name": "Classic Wooden Bed",
       "sourceCategory": "Beds",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/Beds/bed+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Beds/Engineered_Wood_Bed_1.jpg",
-      "additionalImageOriginalPaths": []
+      "modelPath": "3D models/Beds/classic-wooden-bed.glb",
+      "primaryImagePath": "Images/Beds/classic-wooden-bed.jpg",
+      "price": 335757,
+      "currency": "PKR"
     },
     {
-      "productSlug": "storage-platform-bed",
+      "importKey": "dataset-eco-brand-bed-001",
+      "name": "Eco Brand Bed",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/eco-brand-bed.glb",
+      "primaryImagePath": "Images/Beds/eco-brand-bed.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-faydra-full-bed-001",
+      "name": "Faydra Full Bed",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/faydra-full-bed.glb",
+      "primaryImagePath": "Images/Beds/faydra-full-bed.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-medieval-bed-001",
+      "name": "Medieval Bed",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/medieval-bed.glb",
+      "primaryImagePath": "Images/Beds/medieval-bed.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-modern-bed-01-001",
+      "name": "Modern Bed 01",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/modern-bed-01.glb",
+      "primaryImagePath": "Images/Beds/modern-bed-01.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-modern-bed-02-001",
+      "name": "Modern Bed 02",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/modern-bed-02.glb",
+      "primaryImagePath": "Images/Beds/modern-bed-02.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-storage-platform-bed-001",
       "name": "Storage Platform Bed",
       "sourceCategory": "Beds",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/Beds/bed+3d+model (1).fbx",
-      "primaryImageOriginalPath": "Images/Beds/King_With_Storage_11.jpg",
-      "additionalImageOriginalPaths": []
+      "modelPath": "3D models/Beds/storage-platform-bed.glb",
+      "primaryImagePath": "Images/Beds/storage-platform-bed.jpg",
+      "price": 391717,
+      "currency": "PKR"
     },
     {
-      "productSlug": "leather-dining-chair",
-      "name": "Leather Dining Chair",
-      "sourceCategory": "Chairs",
-      "confidence": "medium",
-      "modelOriginalPath": "3D models/chairs/leather+chair+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Chairs/00000200.jpg",
-      "additionalImageOriginalPaths": []
-    },
-    {
-      "productSlug": "lounge-accent-chair",
-      "name": "Lounge Accent Chair",
-      "sourceCategory": "Chairs",
-      "confidence": "medium",
-      "modelOriginalPath": "3D models/chairs/outdoor+lounge+chair+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Chairs/00000173.jpg",
-      "additionalImageOriginalPaths": []
-    },
-    {
-      "productSlug": "modern-accent-armchair",
-      "name": "Modern Accent Armchair",
-      "sourceCategory": "Sofas",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/Sofas/armchair+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Sofas/00000020.jpg",
-      "additionalImageOriginalPaths": []
-    },
-    {
-      "productSlug": "leather-chesterfield-sofa",
-      "name": "Leather Chesterfield Sofa",
-      "sourceCategory": "Sofas",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/Sofas/leather+sofa+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Sofas/00000014.jpg",
-      "additionalImageOriginalPaths": []
-    },
-    {
-      "productSlug": "tufted-living-sofa",
-      "name": "Tufted Living Sofa",
-      "sourceCategory": "Sofas",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/Sofas/sofa+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Sofas/00000069.jpg",
-      "additionalImageOriginalPaths": []
-    },
-    {
-      "productSlug": "antique-wooden-table",
-      "name": "Antique Wooden Table",
-      "sourceCategory": "Tables",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/tables/antique+wooden+table+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Tables/00000382.jpg",
-      "additionalImageOriginalPaths": []
-    },
-    {
-      "productSlug": "wooden-dining-table",
-      "name": "Wooden Dining Table",
-      "sourceCategory": "Tables",
-      "confidence": "high",
-      "modelOriginalPath": "3D models/tables/wooden+dining+table+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Tables/00000111.jpg",
-      "additionalImageOriginalPaths": []
-    },
-    {
-      "productSlug": "farmhouse-wooden-table",
-      "name": "Farmhouse Wooden Table",
-      "sourceCategory": "Tables",
-      "confidence": "medium",
-      "modelOriginalPath": "3D models/tables/wooden+table+3d+model.fbx",
-      "primaryImageOriginalPath": "Images/Tables/00000069.jpg",
-      "additionalImageOriginalPaths": []
-    }
-  ],
-  "skippedProducts": [
-    {
-      "productSlug": "tree-canopy-bed",
+      "importKey": "dataset-tree-canopy-bed-001",
       "name": "Tree Canopy Bed",
       "sourceCategory": "Beds",
-      "confidence": "low",
-      "modelOriginalPath": "3D models/Beds/tree+canopy+bed+3d+model.fbx",
-      "candidateImagePath": "Images/Beds/Kids/Kids_Bed_3.jpg",
-      "reason": "No high-confidence canopy-style image was present in the local image set."
+      "modelPath": "3D models/Beds/tree-canopy-bed.glb",
+      "primaryImagePath": "Images/Beds/tree-canopy-bed.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-upholstered-bed-001",
+      "name": "Upholstered Bed",
+      "sourceCategory": "Beds",
+      "modelPath": "3D models/Beds/upholstered-bed.glb",
+      "primaryImagePath": "Images/Beds/upholstered-bed.jpg",
+      "price": 335000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-blue-lounge-chair-001",
+      "name": "Blue Lounge Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/blue-lounge-chair.glb",
+      "primaryImagePath": "Images/Chairs/blue-lounge-chair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-chair-01-001",
+      "name": "Chair 01",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/chair-01.glb",
+      "primaryImagePath": "Images/Chairs/chair-01.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-chair-02-001",
+      "name": "Chair 02",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/chair-02.glb",
+      "primaryImagePath": "Images/Chairs/chair-02.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-classic-tufted-armchair-001",
+      "name": "Classic Tufted Armchair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/classic-tufted-armchair.glb",
+      "primaryImagePath": "Images/Chairs/classic-tufted-armchair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-indochine-upholstered-arm-chair-001",
+      "name": "Indochine Upholstered Arm Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-leather-dining-chair-001",
+      "name": "Leather Dining Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/leather-dining-chair.glb",
+      "primaryImagePath": "Images/Chairs/leather-dining-chair.jpg",
+      "price": 69947,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-lounge-accent-chair-001",
+      "name": "Lounge Accent Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/lounge-accent-chair.glb",
+      "primaryImagePath": "Images/Chairs/lounge-accent-chair.jpg",
+      "price": 92331,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-modern-upholstered-armchair-01-001",
+      "name": "Modern Upholstered Armchair 01",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-modern-upholstered-armchair-02-001",
+      "name": "Modern Upholstered Armchair 02",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-modern-upholstered-lounge-chair-001",
+      "name": "Modern Upholstered Lounge Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-office-chair-001",
+      "name": "Office Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/office-chair.glb",
+      "primaryImagePath": "Images/Chairs/office-chair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-rocking-chair-001",
+      "name": "Rocking Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/rocking-chair.glb",
+      "primaryImagePath": "Images/Chairs/rocking-chair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-vintage-arm-chair-001",
+      "name": "Vintage Arm Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/vintage-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/vintage-arm-chair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-vintage-bar-stool-001",
+      "name": "Vintage Bar Stool",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/vintage-bar-stool.glb",
+      "primaryImagePath": "Images/Chairs/vintage-bar-stool.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-wooden-arm-chair-001",
+      "name": "Wooden Arm Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/wooden-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/wooden-arm-chair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-wooden-chair-02-001",
+      "name": "Wooden Chair 02",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/wooden-chair-02.glb",
+      "primaryImagePath": "Images/Chairs/wooden-chair-02.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-wooden-chair-001",
+      "name": "Wooden Chair",
+      "sourceCategory": "Chairs",
+      "modelPath": "3D models/Chairs/wooden-chair.glb",
+      "primaryImagePath": "Images/Chairs/wooden-chair.jpg",
+      "price": 70000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-l-shaped-sofa-001",
+      "name": "L Shaped Sofa",
+      "sourceCategory": "Sofas",
+      "modelPath": "3D models/Sofas/L-shaped-sofa.glb",
+      "primaryImagePath": "Images/Sofas/L-shaped-sofa.jpg",
+      "price": 280000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-leather-armchair-001",
+      "name": "Leather Armchair",
+      "sourceCategory": "Sofas",
+      "modelPath": "3D models/Sofas/leather-armchair.glb",
+      "primaryImagePath": "Images/Sofas/leather-armchair.jpg",
+      "price": 280000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-leather-chesterfield-sofa-001",
+      "name": "Leather Chesterfield Sofa",
+      "sourceCategory": "Sofas",
+      "modelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
+      "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
+      "price": 363737,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-modern-accent-armchair-001",
+      "name": "Modern Accent Armchair",
+      "sourceCategory": "Sofas",
+      "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
+      "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "price": 125907,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-sofa-with-pillows-001",
+      "name": "Sofa With Pillows",
+      "sourceCategory": "Sofas",
+      "modelPath": "3D models/Sofas/sofa-with-pillows.glb",
+      "primaryImagePath": "Images/Sofas/sofa-with-pillows.jpg",
+      "price": 280000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-three-sitter-sofa-001",
+      "name": "Three Sitter Sofa",
+      "sourceCategory": "Sofas",
+      "modelPath": "3D models/Sofas/three-sitter-sofa.glb",
+      "primaryImagePath": "Images/Sofas/three-sitter-sofa.jpg",
+      "price": 280000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-tufted-living-sofa-001",
+      "name": "Tufted Living Sofa",
+      "sourceCategory": "Sofas",
+      "modelPath": "3D models/Sofas/tufted-living-sofa.glb",
+      "primaryImagePath": "Images/Sofas/tufted-living-sofa.jpg",
+      "price": 279797,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-antique-wooden-table-001",
+      "name": "Antique Wooden Table",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/antique-wooden-table.glb",
+      "primaryImagePath": "Images/Tables/antique-wooden-table.jpg",
+      "price": 237827,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-center-table-01-001",
+      "name": "Center Table 01",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/center-table-01.glb",
+      "primaryImagePath": "Images/Tables/center-table-01.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-center-table-02-001",
+      "name": "Center Table 02",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/center-table-02.glb",
+      "primaryImagePath": "Images/Tables/center-table-02.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-coffee-table-01-001",
+      "name": "Coffee Table 01",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/coffee-table-01.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-01.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-coffee-table-02-001",
+      "name": "Coffee Table 02",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/coffee-table-02.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-02.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-coffee-table-03-001",
+      "name": "Coffee Table 03",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/coffee-table-03.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-03.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-farmhouse-wooden-table-001",
+      "name": "Farmhouse Wooden Table",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/farmhouse-wooden-table.glb",
+      "primaryImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
+      "price": 195857,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-glass-table-001",
+      "name": "Glass Table",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/glass-table.glb",
+      "primaryImagePath": "Images/Tables/glass-table.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-mid-century-modern-coffee-table-001",
+      "name": "Mid Century Modern Coffee Table",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
+      "primaryImagePath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-round-side-table-001",
+      "name": "Round Side Table",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/round-side-table.glb",
+      "primaryImagePath": "Images/Tables/round-side-table.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-semi-round-wooden-table-001",
+      "name": "Semi Round Wooden Table",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/semi-round-wooden-table.glb",
+      "primaryImagePath": "Images/Tables/semi-round-wooden-table.jpg",
+      "price": 210000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "dataset-wooden-dining-table-001",
+      "name": "Wooden Dining Table",
+      "sourceCategory": "Tables",
+      "modelPath": "3D models/Tables/wooden-dining-table.glb",
+      "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "price": 209847,
+      "currency": "PKR"
+    }
+  ],
+  "wallTexturePairs": [
+    {
+      "importKey": "wall-texture-ceramic-glazed-001",
+      "name": "Ceramic Glazed",
+      "textureFolderPath": "3D models/Wall Textures/Ceramic-Glazed",
+      "textureMapPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Ceramic-Glazed.png",
+      "mapRole": "baseColor"
+    },
+    {
+      "importKey": "wall-texture-concrete-worn-001",
+      "name": "Concrete Worn",
+      "textureFolderPath": "3D models/Wall Textures/Concrete-Worn",
+      "textureMapPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Concrete-Worn.png",
+      "mapRole": "baseColor"
+    },
+    {
+      "importKey": "wall-texture-rammed-earth-001",
+      "name": "Rammed Earth",
+      "textureFolderPath": "3D models/Wall Textures/Rammed-Earth",
+      "textureMapPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_COL_2K_METALNESS.png",
+      "thumbnailPath": "Images/Wall Textures/Rammed-Earth.png",
+      "mapRole": "baseColor"
+    },
+    {
+      "importKey": "wall-texture-rusty-gold-ceramic-glazed-001",
+      "name": "Rusty Gold Ceramic Glazed",
+      "textureFolderPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed",
+      "textureMapPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Rusty-Gold-Ceramic-Glazed.png",
+      "mapRole": "baseColor"
+    },
+    {
+      "importKey": "wall-texture-stone-bricks-001",
+      "name": "Stone Bricks",
+      "textureFolderPath": "3D models/Wall Textures/Stone-Bricks",
+      "textureMapPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_COL_2K.jpg",
+      "thumbnailPath": "Images/Wall Textures/Stone-Bricks.png",
+      "mapRole": "baseColor"
+    },
+    {
+      "importKey": "wall-texture-stone-quartzite-001",
+      "name": "Stone Quartzite",
+      "textureFolderPath": "3D models/Wall Textures/Stone-Quartzite",
+      "textureMapPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Stone-Quartzite.png",
+      "mapRole": "baseColor"
+    },
+    {
+      "importKey": "wall-texture-wood-veneer-oak-001",
+      "name": "Wood Veneer Oak",
+      "textureFolderPath": "3D models/Wall Textures/Wood-Veneer-Oak",
+      "textureMapPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_BaseColor.jpg",
+      "thumbnailPath": "Images/Wall Textures/Wood-Veneer-Oak.png",
+      "mapRole": "baseColor"
     }
   ]
 }

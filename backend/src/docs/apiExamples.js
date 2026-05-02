@@ -56,7 +56,7 @@ const apiExamples = {
       body: {
         categoryId: 1,
         name: 'Scandinavian Sofa',
-        price: 899.99,
+        price: 252000,
         dimensions: { width: 220, depth: 95, height: 80, unit: 'cm' }
       }
     },
@@ -113,6 +113,9 @@ const apiExamples = {
       data: {
         id: 10,
         name: 'Leather Chesterfield Sofa',
+        price: 363737,
+        currency: 'PKR',
+        currencySymbol: 'Rs',
         modelUrl: 'https://signed-s3-url.example/model.glb',
         thumbnailUrl: 'https://signed-s3-url.example/thumb.jpg',
         arPlacement: {

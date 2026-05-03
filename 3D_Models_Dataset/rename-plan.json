@@ -1,8 +1,68 @@
 {
-  "generatedAt": "2026-05-01T11:50:37.779Z",
+  "generatedAt": "2026-05-03T12:49:02.473Z",
   "items": [
     {
-      "importKey": "curated-ladder-bookshelf-001",
+      "importKey": "dataset-basic-wooden-shelf-001",
+      "name": "Basic Wooden Shelf",
+      "modelPath": "3D models/Accessories/basic-wooden-shelf.glb",
+      "chosenModelPath": "3D models/Accessories/basic-wooden-shelf.glb",
+      "primaryImagePath": "Images/Accessories/basic-wooden-shelf.jpg",
+      "chosenImagePath": "Images/Accessories/basic-wooden-shelf.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/basic-wooden-shelf.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/basic-wooden-shelf.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-ceiling-lights-001",
+      "name": "Ceiling Lights",
+      "modelPath": "3D models/Accessories/ceiling-lights.glb",
+      "chosenModelPath": "3D models/Accessories/ceiling-lights.glb",
+      "primaryImagePath": "Images/Accessories/ceiling-lights.jpg",
+      "chosenImagePath": "Images/Accessories/ceiling-lights.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/ceiling-lights.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/ceiling-lights.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-foot-stool-001",
+      "name": "Foot Stool",
+      "modelPath": "3D models/Accessories/foot-stool.glb",
+      "chosenModelPath": "3D models/Accessories/foot-stool.glb",
+      "primaryImagePath": "Images/Accessories/foot-stool.jpg",
+      "chosenImagePath": "Images/Accessories/foot-stool.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/foot-stool.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/foot-stool.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-ladder-bookshelf-001",
       "name": "Ladder Bookshelf",
       "modelPath": "3D models/Accessories/ladder-bookshelf.glb",
       "chosenModelPath": "3D models/Accessories/ladder-bookshelf.glb",
@@ -22,7 +82,107 @@
       ]
     },
     {
-      "importKey": "curated-wooden-china-cabinet-001",
+      "importKey": "dataset-long-drawer-with-cabinet-and-shelf-001",
+      "name": "Long Drawer With Cabinet And Shelf",
+      "modelPath": "3D models/Accessories/long-drawer-with-cabinet-and-shelf.glb",
+      "chosenModelPath": "3D models/Accessories/long-drawer-with-cabinet-and-shelf.glb",
+      "primaryImagePath": "Images/Accessories/long-drawer-with-cabinet-and-shelf.jpg",
+      "chosenImagePath": "Images/Accessories/long-drawer-with-cabinet-and-shelf.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/long-drawer-with-cabinet-and-shelf.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/long-drawer-with-cabinet-and-shelf.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-metal-shoe-rack-001",
+      "name": "Metal Shoe Rack",
+      "modelPath": "3D models/Accessories/metal-shoe-rack.glb",
+      "chosenModelPath": "3D models/Accessories/metal-shoe-rack.glb",
+      "primaryImagePath": "Images/Accessories/metal-shoe-rack.jpg",
+      "chosenImagePath": "Images/Accessories/metal-shoe-rack.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/metal-shoe-rack.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/metal-shoe-rack.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-pothos-potted-money-plant-001",
+      "name": "Pothos Potted Money Plant",
+      "modelPath": "3D models/Accessories/pothos-potted-money-plant.glb",
+      "chosenModelPath": "3D models/Accessories/pothos-potted-money-plant.glb",
+      "primaryImagePath": "Images/Accessories/pothos-potted-money-plant.jpg",
+      "chosenImagePath": "Images/Accessories/pothos-potted-money-plant.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/pothos-potted-money-plant.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/pothos-potted-money-plant.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-bar-cabinet-001",
+      "name": "Wooden Bar Cabinet",
+      "modelPath": "3D models/Accessories/wooden-bar-cabinet.glb",
+      "chosenModelPath": "3D models/Accessories/wooden-bar-cabinet.glb",
+      "primaryImagePath": "Images/Accessories/wooden-bar-cabinet.jpg",
+      "chosenImagePath": "Images/Accessories/wooden-bar-cabinet.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/wooden-bar-cabinet.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/wooden-bar-cabinet.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-bookshelf-001",
+      "name": "Wooden Bookshelf",
+      "modelPath": "3D models/Accessories/wooden-bookshelf.glb",
+      "chosenModelPath": "3D models/Accessories/wooden-bookshelf.glb",
+      "primaryImagePath": "Images/Accessories/wooden-bookshelf.jpg",
+      "chosenImagePath": "Images/Accessories/wooden-bookshelf.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/wooden-bookshelf.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/wooden-bookshelf.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-china-cabinet-001",
       "name": "Wooden China Cabinet",
       "modelPath": "3D models/Accessories/wooden-china-cabinet.glb",
       "chosenModelPath": "3D models/Accessories/wooden-china-cabinet.glb",
@@ -42,7 +202,7 @@
       ]
     },
     {
-      "importKey": "curated-wooden-pendant-light-001",
+      "importKey": "dataset-wooden-pendant-light-001",
       "name": "Wooden Pendant Light",
       "modelPath": "3D models/Accessories/wooden-pendant-light.glb",
       "chosenModelPath": "3D models/Accessories/wooden-pendant-light.glb",
@@ -62,7 +222,167 @@
       ]
     },
     {
-      "importKey": "curated-classic-wooden-bed-001",
+      "importKey": "dataset-wooden-shelf-001",
+      "name": "Wooden Shelf",
+      "modelPath": "3D models/Accessories/wooden-shelf.glb",
+      "chosenModelPath": "3D models/Accessories/wooden-shelf.glb",
+      "primaryImagePath": "Images/Accessories/wooden-shelf.jpg",
+      "chosenImagePath": "Images/Accessories/wooden-shelf.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/wooden-shelf.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/wooden-shelf.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-storage-cabinet-001",
+      "name": "Wooden Storage Cabinet",
+      "modelPath": "3D models/Accessories/wooden-storage-cabinet.glb",
+      "chosenModelPath": "3D models/Accessories/wooden-storage-cabinet.glb",
+      "primaryImagePath": "Images/Accessories/wooden-storage-cabinet.jpg",
+      "chosenImagePath": "Images/Accessories/wooden-storage-cabinet.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Accessories/wooden-storage-cabinet.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Accessories/wooden-storage-cabinet.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-bed-01-001",
+      "name": "Bed 01",
+      "modelPath": "3D models/Beds/bed-01.glb",
+      "chosenModelPath": "3D models/Beds/bed-01.glb",
+      "primaryImagePath": "Images/Beds/bed-01.jpg",
+      "chosenImagePath": "Images/Beds/bed-01.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/bed-01.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/bed-01.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-bed-02-001",
+      "name": "Bed 02",
+      "modelPath": "3D models/Beds/bed-02.glb",
+      "chosenModelPath": "3D models/Beds/bed-02.glb",
+      "primaryImagePath": "Images/Beds/bed-02.jpg",
+      "chosenImagePath": "Images/Beds/bed-02.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/bed-02.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/bed-02.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-bed-03-001",
+      "name": "Bed 03",
+      "modelPath": "3D models/Beds/bed-03.glb",
+      "chosenModelPath": "3D models/Beds/bed-03.glb",
+      "primaryImagePath": "Images/Beds/bed-03.jpg",
+      "chosenImagePath": "Images/Beds/bed-03.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/bed-03.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/bed-03.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-bed-04-001",
+      "name": "Bed 04",
+      "modelPath": "3D models/Beds/bed-04.glb",
+      "chosenModelPath": "3D models/Beds/bed-04.glb",
+      "primaryImagePath": "Images/Beds/bed-04.jpg",
+      "chosenImagePath": "Images/Beds/bed-04.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/bed-04.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/bed-04.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-bed-05-001",
+      "name": "Bed 05",
+      "modelPath": "3D models/Beds/bed-05.glb",
+      "chosenModelPath": "3D models/Beds/bed-05.glb",
+      "primaryImagePath": "Images/Beds/bed-05.jpg",
+      "chosenImagePath": "Images/Beds/bed-05.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/bed-05.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/bed-05.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-bunk-bed-001",
+      "name": "Bunk Bed",
+      "modelPath": "3D models/Beds/bunk-bed.glb",
+      "chosenModelPath": "3D models/Beds/bunk-bed.glb",
+      "primaryImagePath": "Images/Beds/bunk-bed.jpg",
+      "chosenImagePath": "Images/Beds/bunk-bed.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/bunk-bed.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/bunk-bed.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-classic-wooden-bed-001",
       "name": "Classic Wooden Bed",
       "modelPath": "3D models/Beds/classic-wooden-bed.glb",
       "chosenModelPath": "3D models/Beds/classic-wooden-bed.glb",
@@ -82,7 +402,107 @@
       ]
     },
     {
-      "importKey": "curated-storage-platform-bed-001",
+      "importKey": "dataset-eco-brand-bed-001",
+      "name": "Eco Brand Bed",
+      "modelPath": "3D models/Beds/eco-brand-bed.glb",
+      "chosenModelPath": "3D models/Beds/eco-brand-bed.glb",
+      "primaryImagePath": "Images/Beds/eco-brand-bed.jpg",
+      "chosenImagePath": "Images/Beds/eco-brand-bed.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/eco-brand-bed.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/eco-brand-bed.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-faydra-full-bed-001",
+      "name": "Faydra Full Bed",
+      "modelPath": "3D models/Beds/faydra-full-bed.glb",
+      "chosenModelPath": "3D models/Beds/faydra-full-bed.glb",
+      "primaryImagePath": "Images/Beds/faydra-full-bed.jpg",
+      "chosenImagePath": "Images/Beds/faydra-full-bed.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/faydra-full-bed.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/faydra-full-bed.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-medieval-bed-001",
+      "name": "Medieval Bed",
+      "modelPath": "3D models/Beds/medieval-bed.glb",
+      "chosenModelPath": "3D models/Beds/medieval-bed.glb",
+      "primaryImagePath": "Images/Beds/medieval-bed.jpg",
+      "chosenImagePath": "Images/Beds/medieval-bed.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/medieval-bed.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/medieval-bed.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-modern-bed-01-001",
+      "name": "Modern Bed 01",
+      "modelPath": "3D models/Beds/modern-bed-01.glb",
+      "chosenModelPath": "3D models/Beds/modern-bed-01.glb",
+      "primaryImagePath": "Images/Beds/modern-bed-01.jpg",
+      "chosenImagePath": "Images/Beds/modern-bed-01.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/modern-bed-01.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/modern-bed-01.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-modern-bed-02-001",
+      "name": "Modern Bed 02",
+      "modelPath": "3D models/Beds/modern-bed-02.glb",
+      "chosenModelPath": "3D models/Beds/modern-bed-02.glb",
+      "primaryImagePath": "Images/Beds/modern-bed-02.jpg",
+      "chosenImagePath": "Images/Beds/modern-bed-02.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/modern-bed-02.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/modern-bed-02.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-storage-platform-bed-001",
       "name": "Storage Platform Bed",
       "modelPath": "3D models/Beds/storage-platform-bed.glb",
       "chosenModelPath": "3D models/Beds/storage-platform-bed.glb",
@@ -102,16 +522,156 @@
       ]
     },
     {
-      "importKey": "curated-leather-dining-chair-001",
+      "importKey": "dataset-tree-canopy-bed-001",
+      "name": "Tree Canopy Bed",
+      "modelPath": "3D models/Beds/tree-canopy-bed.glb",
+      "chosenModelPath": "3D models/Beds/tree-canopy-bed.glb",
+      "primaryImagePath": "Images/Beds/tree-canopy-bed.jpg",
+      "chosenImagePath": "Images/Beds/tree-canopy-bed.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/tree-canopy-bed.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/tree-canopy-bed.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-upholstered-bed-001",
+      "name": "Upholstered Bed",
+      "modelPath": "3D models/Beds/upholstered-bed.glb",
+      "chosenModelPath": "3D models/Beds/upholstered-bed.glb",
+      "primaryImagePath": "Images/Beds/upholstered-bed.jpg",
+      "chosenImagePath": "Images/Beds/upholstered-bed.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Beds/upholstered-bed.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Beds/upholstered-bed.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-blue-lounge-chair-001",
+      "name": "Blue Lounge Chair",
+      "modelPath": "3D models/Chairs/blue-lounge-chair.glb",
+      "chosenModelPath": "3D models/Chairs/blue-lounge-chair.glb",
+      "primaryImagePath": "Images/Chairs/blue-lounge-chair.jpg",
+      "chosenImagePath": "Images/Chairs/blue-lounge-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/blue-lounge-chair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/blue-lounge-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-chair-01-001",
+      "name": "Chair 01",
+      "modelPath": "3D models/Chairs/chair-01.glb",
+      "chosenModelPath": "3D models/Chairs/chair-01.glb",
+      "primaryImagePath": "Images/Chairs/chair-01.jpg",
+      "chosenImagePath": "Images/Chairs/chair-01.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/chair-01.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/chair-01.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-chair-02-001",
+      "name": "Chair 02",
+      "modelPath": "3D models/Chairs/chair-02.glb",
+      "chosenModelPath": "3D models/Chairs/chair-02.glb",
+      "primaryImagePath": "Images/Chairs/chair-02.jpg",
+      "chosenImagePath": "Images/Chairs/chair-02.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/chair-02.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/chair-02.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-classic-tufted-armchair-001",
+      "name": "Classic Tufted Armchair",
+      "modelPath": "3D models/Chairs/classic-tufted-armchair.glb",
+      "chosenModelPath": "3D models/Chairs/classic-tufted-armchair.glb",
+      "primaryImagePath": "Images/Chairs/classic-tufted-armchair.jpg",
+      "chosenImagePath": "Images/Chairs/classic-tufted-armchair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/classic-tufted-armchair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/classic-tufted-armchair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-indochine-upholstered-arm-chair-001",
+      "name": "Indochine Upholstered Arm Chair",
+      "modelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
+      "chosenModelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+      "chosenImagePath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-leather-dining-chair-001",
       "name": "Leather Dining Chair",
-      "modelPath": "3D models/chairs/leather-dining-chair.glb",
-      "chosenModelPath": "3D models/chairs/leather-dining-chair.glb",
+      "modelPath": "3D models/Chairs/leather-dining-chair.glb",
+      "chosenModelPath": "3D models/Chairs/leather-dining-chair.glb",
       "primaryImagePath": "Images/Chairs/leather-dining-chair.jpg",
       "chosenImagePath": "Images/Chairs/leather-dining-chair.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/chairs/leather-dining-chair.glb",
+          "chosenPath": "3D models/Chairs/leather-dining-chair.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -122,16 +682,16 @@
       ]
     },
     {
-      "importKey": "curated-lounge-accent-chair-001",
+      "importKey": "dataset-lounge-accent-chair-001",
       "name": "Lounge Accent Chair",
-      "modelPath": "3D models/chairs/lounge-accent-chair.glb",
-      "chosenModelPath": "3D models/chairs/lounge-accent-chair.glb",
+      "modelPath": "3D models/Chairs/lounge-accent-chair.glb",
+      "chosenModelPath": "3D models/Chairs/lounge-accent-chair.glb",
       "primaryImagePath": "Images/Chairs/lounge-accent-chair.jpg",
       "chosenImagePath": "Images/Chairs/lounge-accent-chair.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/chairs/lounge-accent-chair.glb",
+          "chosenPath": "3D models/Chairs/lounge-accent-chair.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -142,27 +702,247 @@
       ]
     },
     {
-      "importKey": "curated-modern-accent-armchair-001",
-      "name": "Modern Accent Armchair",
-      "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
-      "chosenModelPath": "3D models/Sofas/modern-accent-armchair.glb",
-      "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
-      "chosenImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "importKey": "dataset-modern-upholstered-armchair-01-001",
+      "name": "Modern Upholstered Armchair 01",
+      "modelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
+      "chosenModelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
+      "chosenImagePath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/Sofas/modern-accent-armchair.glb",
+          "chosenPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
           "mimeType": "application/octet-stream"
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Sofas/modern-accent-armchair.jpg",
+          "chosenPath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
           "mimeType": "image/jpeg"
         }
       ]
     },
     {
-      "importKey": "curated-leather-chesterfield-sofa-001",
+      "importKey": "dataset-modern-upholstered-armchair-02-001",
+      "name": "Modern Upholstered Armchair 02",
+      "modelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
+      "chosenModelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+      "chosenImagePath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-modern-upholstered-lounge-chair-001",
+      "name": "Modern Upholstered Lounge Chair",
+      "modelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
+      "chosenModelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+      "chosenImagePath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-office-chair-001",
+      "name": "Office Chair",
+      "modelPath": "3D models/Chairs/office-chair.glb",
+      "chosenModelPath": "3D models/Chairs/office-chair.glb",
+      "primaryImagePath": "Images/Chairs/office-chair.jpg",
+      "chosenImagePath": "Images/Chairs/office-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/office-chair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/office-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-rocking-chair-001",
+      "name": "Rocking Chair",
+      "modelPath": "3D models/Chairs/rocking-chair.glb",
+      "chosenModelPath": "3D models/Chairs/rocking-chair.glb",
+      "primaryImagePath": "Images/Chairs/rocking-chair.jpg",
+      "chosenImagePath": "Images/Chairs/rocking-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/rocking-chair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/rocking-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-vintage-arm-chair-001",
+      "name": "Vintage Arm Chair",
+      "modelPath": "3D models/Chairs/vintage-arm-chair.glb",
+      "chosenModelPath": "3D models/Chairs/vintage-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/vintage-arm-chair.jpg",
+      "chosenImagePath": "Images/Chairs/vintage-arm-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/vintage-arm-chair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/vintage-arm-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-vintage-bar-stool-001",
+      "name": "Vintage Bar Stool",
+      "modelPath": "3D models/Chairs/vintage-bar-stool.glb",
+      "chosenModelPath": "3D models/Chairs/vintage-bar-stool.glb",
+      "primaryImagePath": "Images/Chairs/vintage-bar-stool.jpg",
+      "chosenImagePath": "Images/Chairs/vintage-bar-stool.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/vintage-bar-stool.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/vintage-bar-stool.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-arm-chair-001",
+      "name": "Wooden Arm Chair",
+      "modelPath": "3D models/Chairs/wooden-arm-chair.glb",
+      "chosenModelPath": "3D models/Chairs/wooden-arm-chair.glb",
+      "primaryImagePath": "Images/Chairs/wooden-arm-chair.jpg",
+      "chosenImagePath": "Images/Chairs/wooden-arm-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/wooden-arm-chair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/wooden-arm-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-chair-02-001",
+      "name": "Wooden Chair 02",
+      "modelPath": "3D models/Chairs/wooden-chair-02.glb",
+      "chosenModelPath": "3D models/Chairs/wooden-chair-02.glb",
+      "primaryImagePath": "Images/Chairs/wooden-chair-02.jpg",
+      "chosenImagePath": "Images/Chairs/wooden-chair-02.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/wooden-chair-02.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/wooden-chair-02.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-chair-001",
+      "name": "Wooden Chair",
+      "modelPath": "3D models/Chairs/wooden-chair.glb",
+      "chosenModelPath": "3D models/Chairs/wooden-chair.glb",
+      "primaryImagePath": "Images/Chairs/wooden-chair.jpg",
+      "chosenImagePath": "Images/Chairs/wooden-chair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Chairs/wooden-chair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Chairs/wooden-chair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-l-shaped-sofa-001",
+      "name": "L Shaped Sofa",
+      "modelPath": "3D models/Sofas/L-shaped-sofa.glb",
+      "chosenModelPath": "3D models/Sofas/L-shaped-sofa.glb",
+      "primaryImagePath": "Images/Sofas/L-shaped-sofa.jpg",
+      "chosenImagePath": "Images/Sofas/L-shaped-sofa.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Sofas/L-shaped-sofa.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Sofas/L-shaped-sofa.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-leather-armchair-001",
+      "name": "Leather Armchair",
+      "modelPath": "3D models/Sofas/leather-armchair.glb",
+      "chosenModelPath": "3D models/Sofas/leather-armchair.glb",
+      "primaryImagePath": "Images/Sofas/leather-armchair.jpg",
+      "chosenImagePath": "Images/Sofas/leather-armchair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Sofas/leather-armchair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Sofas/leather-armchair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-leather-chesterfield-sofa-001",
       "name": "Leather Chesterfield Sofa",
       "modelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
       "chosenModelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
@@ -182,7 +962,67 @@
       ]
     },
     {
-      "importKey": "curated-tufted-living-sofa-001",
+      "importKey": "dataset-modern-accent-armchair-001",
+      "name": "Modern Accent Armchair",
+      "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
+      "chosenModelPath": "3D models/Sofas/modern-accent-armchair.glb",
+      "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "chosenImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Sofas/modern-accent-armchair.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Sofas/modern-accent-armchair.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-sofa-with-pillows-001",
+      "name": "Sofa With Pillows",
+      "modelPath": "3D models/Sofas/sofa-with-pillows.glb",
+      "chosenModelPath": "3D models/Sofas/sofa-with-pillows.glb",
+      "primaryImagePath": "Images/Sofas/sofa-with-pillows.jpg",
+      "chosenImagePath": "Images/Sofas/sofa-with-pillows.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Sofas/sofa-with-pillows.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Sofas/sofa-with-pillows.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-three-sitter-sofa-001",
+      "name": "Three Sitter Sofa",
+      "modelPath": "3D models/Sofas/three-sitter-sofa.glb",
+      "chosenModelPath": "3D models/Sofas/three-sitter-sofa.glb",
+      "primaryImagePath": "Images/Sofas/three-sitter-sofa.jpg",
+      "chosenImagePath": "Images/Sofas/three-sitter-sofa.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Sofas/three-sitter-sofa.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Sofas/three-sitter-sofa.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-tufted-living-sofa-001",
       "name": "Tufted Living Sofa",
       "modelPath": "3D models/Sofas/tufted-living-sofa.glb",
       "chosenModelPath": "3D models/Sofas/tufted-living-sofa.glb",
@@ -202,16 +1042,16 @@
       ]
     },
     {
-      "importKey": "curated-antique-wooden-table-001",
+      "importKey": "dataset-antique-wooden-table-001",
       "name": "Antique Wooden Table",
-      "modelPath": "3D models/tables/antique-wooden-table.glb",
-      "chosenModelPath": "3D models/tables/antique-wooden-table.glb",
+      "modelPath": "3D models/Tables/antique-wooden-table.glb",
+      "chosenModelPath": "3D models/Tables/antique-wooden-table.glb",
       "primaryImagePath": "Images/Tables/antique-wooden-table.jpg",
       "chosenImagePath": "Images/Tables/antique-wooden-table.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/tables/antique-wooden-table.glb",
+          "chosenPath": "3D models/Tables/antique-wooden-table.glb",
           "mimeType": "application/octet-stream"
         },
         {
@@ -222,41 +1062,221 @@
       ]
     },
     {
-      "importKey": "curated-wooden-dining-table-001",
-      "name": "Wooden Dining Table",
-      "modelPath": "3D models/tables/wooden-dining-table.glb",
-      "chosenModelPath": "3D models/tables/wooden-dining-table.glb",
-      "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
-      "chosenImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "importKey": "dataset-center-table-01-001",
+      "name": "Center Table 01",
+      "modelPath": "3D models/Tables/center-table-01.glb",
+      "chosenModelPath": "3D models/Tables/center-table-01.glb",
+      "primaryImagePath": "Images/Tables/center-table-01.jpg",
+      "chosenImagePath": "Images/Tables/center-table-01.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/tables/wooden-dining-table.glb",
+          "chosenPath": "3D models/Tables/center-table-01.glb",
           "mimeType": "application/octet-stream"
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/wooden-dining-table.jpg",
+          "chosenPath": "Images/Tables/center-table-01.jpg",
           "mimeType": "image/jpeg"
         }
       ]
     },
     {
-      "importKey": "curated-farmhouse-wooden-table-001",
+      "importKey": "dataset-center-table-02-001",
+      "name": "Center Table 02",
+      "modelPath": "3D models/Tables/center-table-02.glb",
+      "chosenModelPath": "3D models/Tables/center-table-02.glb",
+      "primaryImagePath": "Images/Tables/center-table-02.jpg",
+      "chosenImagePath": "Images/Tables/center-table-02.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/center-table-02.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/center-table-02.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-coffee-table-01-001",
+      "name": "Coffee Table 01",
+      "modelPath": "3D models/Tables/coffee-table-01.glb",
+      "chosenModelPath": "3D models/Tables/coffee-table-01.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-01.jpg",
+      "chosenImagePath": "Images/Tables/coffee-table-01.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/coffee-table-01.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/coffee-table-01.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-coffee-table-02-001",
+      "name": "Coffee Table 02",
+      "modelPath": "3D models/Tables/coffee-table-02.glb",
+      "chosenModelPath": "3D models/Tables/coffee-table-02.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-02.jpg",
+      "chosenImagePath": "Images/Tables/coffee-table-02.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/coffee-table-02.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/coffee-table-02.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-coffee-table-03-001",
+      "name": "Coffee Table 03",
+      "modelPath": "3D models/Tables/coffee-table-03.glb",
+      "chosenModelPath": "3D models/Tables/coffee-table-03.glb",
+      "primaryImagePath": "Images/Tables/coffee-table-03.jpg",
+      "chosenImagePath": "Images/Tables/coffee-table-03.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/coffee-table-03.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/coffee-table-03.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-farmhouse-wooden-table-001",
       "name": "Farmhouse Wooden Table",
-      "modelPath": "3D models/tables/farmhouse-wooden-table.glb",
-      "chosenModelPath": "3D models/tables/farmhouse-wooden-table.glb",
+      "modelPath": "3D models/Tables/farmhouse-wooden-table.glb",
+      "chosenModelPath": "3D models/Tables/farmhouse-wooden-table.glb",
       "primaryImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
       "chosenImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
       "assets": [
         {
           "assetType": "model",
-          "chosenPath": "3D models/tables/farmhouse-wooden-table.glb",
+          "chosenPath": "3D models/Tables/farmhouse-wooden-table.glb",
           "mimeType": "application/octet-stream"
         },
         {
           "assetType": "thumbnail",
           "chosenPath": "Images/Tables/farmhouse-wooden-table.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-glass-table-001",
+      "name": "Glass Table",
+      "modelPath": "3D models/Tables/glass-table.glb",
+      "chosenModelPath": "3D models/Tables/glass-table.glb",
+      "primaryImagePath": "Images/Tables/glass-table.jpg",
+      "chosenImagePath": "Images/Tables/glass-table.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/glass-table.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/glass-table.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-mid-century-modern-coffee-table-001",
+      "name": "Mid Century Modern Coffee Table",
+      "modelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
+      "chosenModelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
+      "primaryImagePath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+      "chosenImagePath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-round-side-table-001",
+      "name": "Round Side Table",
+      "modelPath": "3D models/Tables/round-side-table.glb",
+      "chosenModelPath": "3D models/Tables/round-side-table.glb",
+      "primaryImagePath": "Images/Tables/round-side-table.jpg",
+      "chosenImagePath": "Images/Tables/round-side-table.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/round-side-table.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/round-side-table.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-semi-round-wooden-table-001",
+      "name": "Semi Round Wooden Table",
+      "modelPath": "3D models/Tables/semi-round-wooden-table.glb",
+      "chosenModelPath": "3D models/Tables/semi-round-wooden-table.glb",
+      "primaryImagePath": "Images/Tables/semi-round-wooden-table.jpg",
+      "chosenImagePath": "Images/Tables/semi-round-wooden-table.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/semi-round-wooden-table.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/semi-round-wooden-table.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "importKey": "dataset-wooden-dining-table-001",
+      "name": "Wooden Dining Table",
+      "modelPath": "3D models/Tables/wooden-dining-table.glb",
+      "chosenModelPath": "3D models/Tables/wooden-dining-table.glb",
+      "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "chosenImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "assets": [
+        {
+          "assetType": "model",
+          "chosenPath": "3D models/Tables/wooden-dining-table.glb",
+          "mimeType": "application/octet-stream"
+        },
+        {
+          "assetType": "thumbnail",
+          "chosenPath": "Images/Tables/wooden-dining-table.jpg",
           "mimeType": "image/jpeg"
         }
       ]

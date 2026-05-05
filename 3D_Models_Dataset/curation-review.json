@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T12:46:30.554Z",
+  "generatedAt": "2026-05-05T13:04:13.705Z",
   "productPairs": [
     {
       "importKey": "dataset-basic-wooden-shelf-001",
@@ -258,7 +258,7 @@
       "name": "Blue Lounge Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/blue-lounge-chair.glb",
-      "primaryImagePath": "Images/Chairs/blue-lounge-chair.jpg",
+      "primaryImagePath": "Images/Chairs/blue-lounge-chair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -267,7 +267,7 @@
       "name": "Chair 01",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/chair-01.glb",
-      "primaryImagePath": "Images/Chairs/chair-01.jpg",
+      "primaryImagePath": "Images/Chairs/chair-01.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -276,7 +276,7 @@
       "name": "Chair 02",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/chair-02.glb",
-      "primaryImagePath": "Images/Chairs/chair-02.jpg",
+      "primaryImagePath": "Images/Chairs/chair-02.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -285,7 +285,7 @@
       "name": "Classic Tufted Armchair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/classic-tufted-armchair.glb",
-      "primaryImagePath": "Images/Chairs/classic-tufted-armchair.jpg",
+      "primaryImagePath": "Images/Chairs/classic-tufted-armchair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -294,7 +294,7 @@
       "name": "Indochine Upholstered Arm Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
-      "primaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+      "primaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -303,7 +303,7 @@
       "name": "Leather Dining Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/leather-dining-chair.glb",
-      "primaryImagePath": "Images/Chairs/leather-dining-chair.jpg",
+      "primaryImagePath": "Images/Chairs/leather-dining-chair.png",
       "price": 69947,
       "currency": "PKR"
     },
@@ -312,7 +312,7 @@
       "name": "Lounge Accent Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/lounge-accent-chair.glb",
-      "primaryImagePath": "Images/Chairs/lounge-accent-chair.jpg",
+      "primaryImagePath": "Images/Chairs/lounge-accent-chair.png",
       "price": 92331,
       "currency": "PKR"
     },
@@ -321,7 +321,7 @@
       "name": "Modern Upholstered Armchair 01",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
-      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -330,7 +330,7 @@
       "name": "Modern Upholstered Armchair 02",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
-      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -339,7 +339,7 @@
       "name": "Modern Upholstered Lounge Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
-      "primaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -348,7 +348,7 @@
       "name": "Office Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/office-chair.glb",
-      "primaryImagePath": "Images/Chairs/office-chair.jpg",
+      "primaryImagePath": "Images/Chairs/office-chair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -357,7 +357,7 @@
       "name": "Rocking Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/rocking-chair.glb",
-      "primaryImagePath": "Images/Chairs/rocking-chair.jpg",
+      "primaryImagePath": "Images/Chairs/rocking-chair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -366,7 +366,7 @@
       "name": "Vintage Arm Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/vintage-arm-chair.glb",
-      "primaryImagePath": "Images/Chairs/vintage-arm-chair.jpg",
+      "primaryImagePath": "Images/Chairs/vintage-arm-chair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -375,7 +375,7 @@
       "name": "Vintage Bar Stool",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/vintage-bar-stool.glb",
-      "primaryImagePath": "Images/Chairs/vintage-bar-stool.jpg",
+      "primaryImagePath": "Images/Chairs/vintage-bar-stool.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -384,7 +384,7 @@
       "name": "Wooden Arm Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/wooden-arm-chair.glb",
-      "primaryImagePath": "Images/Chairs/wooden-arm-chair.jpg",
+      "primaryImagePath": "Images/Chairs/wooden-arm-chair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -393,7 +393,7 @@
       "name": "Wooden Chair 02",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/wooden-chair-02.glb",
-      "primaryImagePath": "Images/Chairs/wooden-chair-02.jpg",
+      "primaryImagePath": "Images/Chairs/wooden-chair-02.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -402,7 +402,7 @@
       "name": "Wooden Chair",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/wooden-chair.glb",
-      "primaryImagePath": "Images/Chairs/wooden-chair.jpg",
+      "primaryImagePath": "Images/Chairs/wooden-chair.png",
       "price": 70000,
       "currency": "PKR"
     },
@@ -411,7 +411,7 @@
       "name": "L Shaped Sofa",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/L-shaped-sofa.glb",
-      "primaryImagePath": "Images/Sofas/L-shaped-sofa.jpg",
+      "primaryImagePath": "Images/Sofas/L-shaped-sofa.png",
       "price": 280000,
       "currency": "PKR"
     },
@@ -420,7 +420,7 @@
       "name": "Leather Armchair",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/leather-armchair.glb",
-      "primaryImagePath": "Images/Sofas/leather-armchair.jpg",
+      "primaryImagePath": "Images/Sofas/leather-armchair.png",
       "price": 280000,
       "currency": "PKR"
     },
@@ -429,7 +429,7 @@
       "name": "Leather Chesterfield Sofa",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
-      "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
+      "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.png",
       "price": 363737,
       "currency": "PKR"
     },
@@ -438,7 +438,7 @@
       "name": "Modern Accent Armchair",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
-      "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "primaryImagePath": "Images/Sofas/modern-accent-armchair.png",
       "price": 125907,
       "currency": "PKR"
     },
@@ -447,7 +447,7 @@
       "name": "Sofa With Pillows",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/sofa-with-pillows.glb",
-      "primaryImagePath": "Images/Sofas/sofa-with-pillows.jpg",
+      "primaryImagePath": "Images/Sofas/sofa-with-pillows.png",
       "price": 280000,
       "currency": "PKR"
     },
@@ -456,7 +456,7 @@
       "name": "Three Sitter Sofa",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/three-sitter-sofa.glb",
-      "primaryImagePath": "Images/Sofas/three-sitter-sofa.jpg",
+      "primaryImagePath": "Images/Sofas/three-sitter-sofa.png",
       "price": 280000,
       "currency": "PKR"
     },
@@ -465,7 +465,7 @@
       "name": "Tufted Living Sofa",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/tufted-living-sofa.glb",
-      "primaryImagePath": "Images/Sofas/tufted-living-sofa.jpg",
+      "primaryImagePath": "Images/Sofas/tufted-living-sofa.png",
       "price": 279797,
       "currency": "PKR"
     },
@@ -474,7 +474,7 @@
       "name": "Antique Wooden Table",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/antique-wooden-table.glb",
-      "primaryImagePath": "Images/Tables/antique-wooden-table.jpg",
+      "primaryImagePath": "Images/Tables/antique-wooden-table.png",
       "price": 237827,
       "currency": "PKR"
     },
@@ -483,7 +483,7 @@
       "name": "Center Table 01",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/center-table-01.glb",
-      "primaryImagePath": "Images/Tables/center-table-01.jpg",
+      "primaryImagePath": "Images/Tables/center-table-01.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -492,7 +492,7 @@
       "name": "Center Table 02",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/center-table-02.glb",
-      "primaryImagePath": "Images/Tables/center-table-02.jpg",
+      "primaryImagePath": "Images/Tables/center-table-02.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -501,7 +501,7 @@
       "name": "Coffee Table 01",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/coffee-table-01.glb",
-      "primaryImagePath": "Images/Tables/coffee-table-01.jpg",
+      "primaryImagePath": "Images/Tables/coffee-table-01.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -510,7 +510,7 @@
       "name": "Coffee Table 02",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/coffee-table-02.glb",
-      "primaryImagePath": "Images/Tables/coffee-table-02.jpg",
+      "primaryImagePath": "Images/Tables/coffee-table-02.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -519,7 +519,7 @@
       "name": "Coffee Table 03",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/coffee-table-03.glb",
-      "primaryImagePath": "Images/Tables/coffee-table-03.jpg",
+      "primaryImagePath": "Images/Tables/coffee-table-03.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -528,7 +528,7 @@
       "name": "Farmhouse Wooden Table",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/farmhouse-wooden-table.glb",
-      "primaryImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
+      "primaryImagePath": "Images/Tables/farmhouse-wooden-table.png",
       "price": 195857,
       "currency": "PKR"
     },
@@ -537,7 +537,7 @@
       "name": "Glass Table",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/glass-table.glb",
-      "primaryImagePath": "Images/Tables/glass-table.jpg",
+      "primaryImagePath": "Images/Tables/glass-table.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -546,7 +546,7 @@
       "name": "Mid Century Modern Coffee Table",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
-      "primaryImagePath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+      "primaryImagePath": "Images/Tables/mid-century-modern-coffee-table.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -555,7 +555,7 @@
       "name": "Round Side Table",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/round-side-table.glb",
-      "primaryImagePath": "Images/Tables/round-side-table.jpg",
+      "primaryImagePath": "Images/Tables/round-side-table.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -564,7 +564,7 @@
       "name": "Semi Round Wooden Table",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/semi-round-wooden-table.glb",
-      "primaryImagePath": "Images/Tables/semi-round-wooden-table.jpg",
+      "primaryImagePath": "Images/Tables/semi-round-wooden-table.png",
       "price": 210000,
       "currency": "PKR"
     },
@@ -573,7 +573,7 @@
       "name": "Wooden Dining Table",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/wooden-dining-table.glb",
-      "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "primaryImagePath": "Images/Tables/wooden-dining-table.png",
       "price": 209847,
       "currency": "PKR"
     }

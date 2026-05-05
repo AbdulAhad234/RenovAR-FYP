@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T12:46:30.554Z",
+  "generatedAt": "2026-05-05T13:04:13.705Z",
   "datasetRoot": "D:\\Programming Projects\\RenovAR\\3D_Models_Dataset",
   "summary": {
     "pairedProducts": 64,
@@ -549,8 +549,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/blue-lounge-chair.jpg",
-      "newPath": "Images/Chairs/blue-lounge-chair.jpg",
+      "originalPath": "Images/Chairs/blue-lounge-chair.png",
+      "newPath": "Images/Chairs/blue-lounge-chair.png",
       "category": "Chairs",
       "productSlug": "blue-lounge-chair",
       "sequence": "primary",
@@ -568,8 +568,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/chair-01.jpg",
-      "newPath": "Images/Chairs/chair-01.jpg",
+      "originalPath": "Images/Chairs/chair-01.png",
+      "newPath": "Images/Chairs/chair-01.png",
       "category": "Chairs",
       "productSlug": "chair-01",
       "sequence": "primary",
@@ -587,8 +587,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/chair-02.jpg",
-      "newPath": "Images/Chairs/chair-02.jpg",
+      "originalPath": "Images/Chairs/chair-02.png",
+      "newPath": "Images/Chairs/chair-02.png",
       "category": "Chairs",
       "productSlug": "chair-02",
       "sequence": "primary",
@@ -606,8 +606,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/classic-tufted-armchair.jpg",
-      "newPath": "Images/Chairs/classic-tufted-armchair.jpg",
+      "originalPath": "Images/Chairs/classic-tufted-armchair.png",
+      "newPath": "Images/Chairs/classic-tufted-armchair.png",
       "category": "Chairs",
       "productSlug": "classic-tufted-armchair",
       "sequence": "primary",
@@ -625,8 +625,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
-      "newPath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+      "originalPath": "Images/Chairs/indochine-upholstered-arm-chair.png",
+      "newPath": "Images/Chairs/indochine-upholstered-arm-chair.png",
       "category": "Chairs",
       "productSlug": "indochine-upholstered-arm-chair",
       "sequence": "primary",
@@ -644,8 +644,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/leather-dining-chair.jpg",
-      "newPath": "Images/Chairs/leather-dining-chair.jpg",
+      "originalPath": "Images/Chairs/leather-dining-chair.png",
+      "newPath": "Images/Chairs/leather-dining-chair.png",
       "category": "Chairs",
       "productSlug": "leather-dining-chair",
       "sequence": "primary",
@@ -663,8 +663,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/lounge-accent-chair.jpg",
-      "newPath": "Images/Chairs/lounge-accent-chair.jpg",
+      "originalPath": "Images/Chairs/lounge-accent-chair.png",
+      "newPath": "Images/Chairs/lounge-accent-chair.png",
       "category": "Chairs",
       "productSlug": "lounge-accent-chair",
       "sequence": "primary",
@@ -682,8 +682,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
-      "newPath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
+      "originalPath": "Images/Chairs/modern-upholstered-armchair-01.png",
+      "newPath": "Images/Chairs/modern-upholstered-armchair-01.png",
       "category": "Chairs",
       "productSlug": "modern-upholstered-armchair-01",
       "sequence": "primary",
@@ -701,8 +701,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
-      "newPath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+      "originalPath": "Images/Chairs/modern-upholstered-armchair-02.png",
+      "newPath": "Images/Chairs/modern-upholstered-armchair-02.png",
       "category": "Chairs",
       "productSlug": "modern-upholstered-armchair-02",
       "sequence": "primary",
@@ -720,8 +720,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
-      "newPath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+      "originalPath": "Images/Chairs/modern-upholstered-lounge-chair.png",
+      "newPath": "Images/Chairs/modern-upholstered-lounge-chair.png",
       "category": "Chairs",
       "productSlug": "modern-upholstered-lounge-chair",
       "sequence": "primary",
@@ -739,8 +739,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/office-chair.jpg",
-      "newPath": "Images/Chairs/office-chair.jpg",
+      "originalPath": "Images/Chairs/office-chair.png",
+      "newPath": "Images/Chairs/office-chair.png",
       "category": "Chairs",
       "productSlug": "office-chair",
       "sequence": "primary",
@@ -758,8 +758,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/rocking-chair.jpg",
-      "newPath": "Images/Chairs/rocking-chair.jpg",
+      "originalPath": "Images/Chairs/rocking-chair.png",
+      "newPath": "Images/Chairs/rocking-chair.png",
       "category": "Chairs",
       "productSlug": "rocking-chair",
       "sequence": "primary",
@@ -777,8 +777,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/vintage-arm-chair.jpg",
-      "newPath": "Images/Chairs/vintage-arm-chair.jpg",
+      "originalPath": "Images/Chairs/vintage-arm-chair.png",
+      "newPath": "Images/Chairs/vintage-arm-chair.png",
       "category": "Chairs",
       "productSlug": "vintage-arm-chair",
       "sequence": "primary",
@@ -796,8 +796,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/vintage-bar-stool.jpg",
-      "newPath": "Images/Chairs/vintage-bar-stool.jpg",
+      "originalPath": "Images/Chairs/vintage-bar-stool.png",
+      "newPath": "Images/Chairs/vintage-bar-stool.png",
       "category": "Chairs",
       "productSlug": "vintage-bar-stool",
       "sequence": "primary",
@@ -815,8 +815,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/wooden-arm-chair.jpg",
-      "newPath": "Images/Chairs/wooden-arm-chair.jpg",
+      "originalPath": "Images/Chairs/wooden-arm-chair.png",
+      "newPath": "Images/Chairs/wooden-arm-chair.png",
       "category": "Chairs",
       "productSlug": "wooden-arm-chair",
       "sequence": "primary",
@@ -834,8 +834,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/wooden-chair-02.jpg",
-      "newPath": "Images/Chairs/wooden-chair-02.jpg",
+      "originalPath": "Images/Chairs/wooden-chair-02.png",
+      "newPath": "Images/Chairs/wooden-chair-02.png",
       "category": "Chairs",
       "productSlug": "wooden-chair-02",
       "sequence": "primary",
@@ -853,8 +853,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Chairs/wooden-chair.jpg",
-      "newPath": "Images/Chairs/wooden-chair.jpg",
+      "originalPath": "Images/Chairs/wooden-chair.png",
+      "newPath": "Images/Chairs/wooden-chair.png",
       "category": "Chairs",
       "productSlug": "wooden-chair",
       "sequence": "primary",
@@ -872,8 +872,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Sofas/L-shaped-sofa.jpg",
-      "newPath": "Images/Sofas/L-shaped-sofa.jpg",
+      "originalPath": "Images/Sofas/L-shaped-sofa.png",
+      "newPath": "Images/Sofas/L-shaped-sofa.png",
       "category": "Sofas",
       "productSlug": "l-shaped-sofa",
       "sequence": "primary",
@@ -891,8 +891,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Sofas/leather-armchair.jpg",
-      "newPath": "Images/Sofas/leather-armchair.jpg",
+      "originalPath": "Images/Sofas/leather-armchair.png",
+      "newPath": "Images/Sofas/leather-armchair.png",
       "category": "Sofas",
       "productSlug": "leather-armchair",
       "sequence": "primary",
@@ -910,8 +910,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Sofas/leather-chesterfield-sofa.jpg",
-      "newPath": "Images/Sofas/leather-chesterfield-sofa.jpg",
+      "originalPath": "Images/Sofas/leather-chesterfield-sofa.png",
+      "newPath": "Images/Sofas/leather-chesterfield-sofa.png",
       "category": "Sofas",
       "productSlug": "leather-chesterfield-sofa",
       "sequence": "primary",
@@ -929,8 +929,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Sofas/modern-accent-armchair.jpg",
-      "newPath": "Images/Sofas/modern-accent-armchair.jpg",
+      "originalPath": "Images/Sofas/modern-accent-armchair.png",
+      "newPath": "Images/Sofas/modern-accent-armchair.png",
       "category": "Sofas",
       "productSlug": "modern-accent-armchair",
       "sequence": "primary",
@@ -948,8 +948,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Sofas/sofa-with-pillows.jpg",
-      "newPath": "Images/Sofas/sofa-with-pillows.jpg",
+      "originalPath": "Images/Sofas/sofa-with-pillows.png",
+      "newPath": "Images/Sofas/sofa-with-pillows.png",
       "category": "Sofas",
       "productSlug": "sofa-with-pillows",
       "sequence": "primary",
@@ -967,8 +967,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Sofas/three-sitter-sofa.jpg",
-      "newPath": "Images/Sofas/three-sitter-sofa.jpg",
+      "originalPath": "Images/Sofas/three-sitter-sofa.png",
+      "newPath": "Images/Sofas/three-sitter-sofa.png",
       "category": "Sofas",
       "productSlug": "three-sitter-sofa",
       "sequence": "primary",
@@ -986,8 +986,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Sofas/tufted-living-sofa.jpg",
-      "newPath": "Images/Sofas/tufted-living-sofa.jpg",
+      "originalPath": "Images/Sofas/tufted-living-sofa.png",
+      "newPath": "Images/Sofas/tufted-living-sofa.png",
       "category": "Sofas",
       "productSlug": "tufted-living-sofa",
       "sequence": "primary",
@@ -1005,8 +1005,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/antique-wooden-table.jpg",
-      "newPath": "Images/Tables/antique-wooden-table.jpg",
+      "originalPath": "Images/Tables/antique-wooden-table.png",
+      "newPath": "Images/Tables/antique-wooden-table.png",
       "category": "Tables",
       "productSlug": "antique-wooden-table",
       "sequence": "primary",
@@ -1024,8 +1024,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/center-table-01.jpg",
-      "newPath": "Images/Tables/center-table-01.jpg",
+      "originalPath": "Images/Tables/center-table-01.png",
+      "newPath": "Images/Tables/center-table-01.png",
       "category": "Tables",
       "productSlug": "center-table-01",
       "sequence": "primary",
@@ -1043,8 +1043,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/center-table-02.jpg",
-      "newPath": "Images/Tables/center-table-02.jpg",
+      "originalPath": "Images/Tables/center-table-02.png",
+      "newPath": "Images/Tables/center-table-02.png",
       "category": "Tables",
       "productSlug": "center-table-02",
       "sequence": "primary",
@@ -1062,8 +1062,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/coffee-table-01.jpg",
-      "newPath": "Images/Tables/coffee-table-01.jpg",
+      "originalPath": "Images/Tables/coffee-table-01.png",
+      "newPath": "Images/Tables/coffee-table-01.png",
       "category": "Tables",
       "productSlug": "coffee-table-01",
       "sequence": "primary",
@@ -1081,8 +1081,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/coffee-table-02.jpg",
-      "newPath": "Images/Tables/coffee-table-02.jpg",
+      "originalPath": "Images/Tables/coffee-table-02.png",
+      "newPath": "Images/Tables/coffee-table-02.png",
       "category": "Tables",
       "productSlug": "coffee-table-02",
       "sequence": "primary",
@@ -1100,8 +1100,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/coffee-table-03.jpg",
-      "newPath": "Images/Tables/coffee-table-03.jpg",
+      "originalPath": "Images/Tables/coffee-table-03.png",
+      "newPath": "Images/Tables/coffee-table-03.png",
       "category": "Tables",
       "productSlug": "coffee-table-03",
       "sequence": "primary",
@@ -1119,8 +1119,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/farmhouse-wooden-table.jpg",
-      "newPath": "Images/Tables/farmhouse-wooden-table.jpg",
+      "originalPath": "Images/Tables/farmhouse-wooden-table.png",
+      "newPath": "Images/Tables/farmhouse-wooden-table.png",
       "category": "Tables",
       "productSlug": "farmhouse-wooden-table",
       "sequence": "primary",
@@ -1138,8 +1138,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/glass-table.jpg",
-      "newPath": "Images/Tables/glass-table.jpg",
+      "originalPath": "Images/Tables/glass-table.png",
+      "newPath": "Images/Tables/glass-table.png",
       "category": "Tables",
       "productSlug": "glass-table",
       "sequence": "primary",
@@ -1157,8 +1157,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/mid-century-modern-coffee-table.jpg",
-      "newPath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+      "originalPath": "Images/Tables/mid-century-modern-coffee-table.png",
+      "newPath": "Images/Tables/mid-century-modern-coffee-table.png",
       "category": "Tables",
       "productSlug": "mid-century-modern-coffee-table",
       "sequence": "primary",
@@ -1176,8 +1176,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/round-side-table.jpg",
-      "newPath": "Images/Tables/round-side-table.jpg",
+      "originalPath": "Images/Tables/round-side-table.png",
+      "newPath": "Images/Tables/round-side-table.png",
       "category": "Tables",
       "productSlug": "round-side-table",
       "sequence": "primary",
@@ -1195,8 +1195,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/semi-round-wooden-table.jpg",
-      "newPath": "Images/Tables/semi-round-wooden-table.jpg",
+      "originalPath": "Images/Tables/semi-round-wooden-table.png",
+      "newPath": "Images/Tables/semi-round-wooden-table.png",
       "category": "Tables",
       "productSlug": "semi-round-wooden-table",
       "sequence": "primary",
@@ -1214,8 +1214,8 @@
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Tables/wooden-dining-table.jpg",
-      "newPath": "Images/Tables/wooden-dining-table.jpg",
+      "originalPath": "Images/Tables/wooden-dining-table.png",
+      "newPath": "Images/Tables/wooden-dining-table.png",
       "category": "Tables",
       "productSlug": "wooden-dining-table",
       "sequence": "primary",

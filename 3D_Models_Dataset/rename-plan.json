@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T12:49:02.473Z",
+  "generatedAt": "2026-05-05T13:07:31.088Z",
   "items": [
     {
       "importKey": "dataset-basic-wooden-shelf-001",
@@ -566,8 +566,8 @@
       "name": "Blue Lounge Chair",
       "modelPath": "3D models/Chairs/blue-lounge-chair.glb",
       "chosenModelPath": "3D models/Chairs/blue-lounge-chair.glb",
-      "primaryImagePath": "Images/Chairs/blue-lounge-chair.jpg",
-      "chosenImagePath": "Images/Chairs/blue-lounge-chair.jpg",
+      "primaryImagePath": "Images/Chairs/blue-lounge-chair.png",
+      "chosenImagePath": "Images/Chairs/blue-lounge-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -576,8 +576,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/blue-lounge-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/blue-lounge-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -586,8 +586,8 @@
       "name": "Chair 01",
       "modelPath": "3D models/Chairs/chair-01.glb",
       "chosenModelPath": "3D models/Chairs/chair-01.glb",
-      "primaryImagePath": "Images/Chairs/chair-01.jpg",
-      "chosenImagePath": "Images/Chairs/chair-01.jpg",
+      "primaryImagePath": "Images/Chairs/chair-01.png",
+      "chosenImagePath": "Images/Chairs/chair-01.png",
       "assets": [
         {
           "assetType": "model",
@@ -596,8 +596,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/chair-01.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/chair-01.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -606,8 +606,8 @@
       "name": "Chair 02",
       "modelPath": "3D models/Chairs/chair-02.glb",
       "chosenModelPath": "3D models/Chairs/chair-02.glb",
-      "primaryImagePath": "Images/Chairs/chair-02.jpg",
-      "chosenImagePath": "Images/Chairs/chair-02.jpg",
+      "primaryImagePath": "Images/Chairs/chair-02.png",
+      "chosenImagePath": "Images/Chairs/chair-02.png",
       "assets": [
         {
           "assetType": "model",
@@ -616,8 +616,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/chair-02.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/chair-02.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -626,8 +626,8 @@
       "name": "Classic Tufted Armchair",
       "modelPath": "3D models/Chairs/classic-tufted-armchair.glb",
       "chosenModelPath": "3D models/Chairs/classic-tufted-armchair.glb",
-      "primaryImagePath": "Images/Chairs/classic-tufted-armchair.jpg",
-      "chosenImagePath": "Images/Chairs/classic-tufted-armchair.jpg",
+      "primaryImagePath": "Images/Chairs/classic-tufted-armchair.png",
+      "chosenImagePath": "Images/Chairs/classic-tufted-armchair.png",
       "assets": [
         {
           "assetType": "model",
@@ -636,8 +636,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/classic-tufted-armchair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/classic-tufted-armchair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -646,8 +646,8 @@
       "name": "Indochine Upholstered Arm Chair",
       "modelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
       "chosenModelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
-      "primaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
-      "chosenImagePath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
+      "primaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.png",
+      "chosenImagePath": "Images/Chairs/indochine-upholstered-arm-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -656,8 +656,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/indochine-upholstered-arm-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/indochine-upholstered-arm-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -666,8 +666,8 @@
       "name": "Leather Dining Chair",
       "modelPath": "3D models/Chairs/leather-dining-chair.glb",
       "chosenModelPath": "3D models/Chairs/leather-dining-chair.glb",
-      "primaryImagePath": "Images/Chairs/leather-dining-chair.jpg",
-      "chosenImagePath": "Images/Chairs/leather-dining-chair.jpg",
+      "primaryImagePath": "Images/Chairs/leather-dining-chair.png",
+      "chosenImagePath": "Images/Chairs/leather-dining-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -676,8 +676,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/leather-dining-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/leather-dining-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -686,8 +686,8 @@
       "name": "Lounge Accent Chair",
       "modelPath": "3D models/Chairs/lounge-accent-chair.glb",
       "chosenModelPath": "3D models/Chairs/lounge-accent-chair.glb",
-      "primaryImagePath": "Images/Chairs/lounge-accent-chair.jpg",
-      "chosenImagePath": "Images/Chairs/lounge-accent-chair.jpg",
+      "primaryImagePath": "Images/Chairs/lounge-accent-chair.png",
+      "chosenImagePath": "Images/Chairs/lounge-accent-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -696,8 +696,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/lounge-accent-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/lounge-accent-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -706,8 +706,8 @@
       "name": "Modern Upholstered Armchair 01",
       "modelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
       "chosenModelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
-      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
-      "chosenImagePath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.png",
+      "chosenImagePath": "Images/Chairs/modern-upholstered-armchair-01.png",
       "assets": [
         {
           "assetType": "model",
@@ -716,8 +716,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/modern-upholstered-armchair-01.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/modern-upholstered-armchair-01.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -726,8 +726,8 @@
       "name": "Modern Upholstered Armchair 02",
       "modelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
       "chosenModelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
-      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
-      "chosenImagePath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.png",
+      "chosenImagePath": "Images/Chairs/modern-upholstered-armchair-02.png",
       "assets": [
         {
           "assetType": "model",
@@ -736,8 +736,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/modern-upholstered-armchair-02.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/modern-upholstered-armchair-02.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -746,8 +746,8 @@
       "name": "Modern Upholstered Lounge Chair",
       "modelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
       "chosenModelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
-      "primaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
-      "chosenImagePath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
+      "primaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.png",
+      "chosenImagePath": "Images/Chairs/modern-upholstered-lounge-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -756,8 +756,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/modern-upholstered-lounge-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/modern-upholstered-lounge-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -766,8 +766,8 @@
       "name": "Office Chair",
       "modelPath": "3D models/Chairs/office-chair.glb",
       "chosenModelPath": "3D models/Chairs/office-chair.glb",
-      "primaryImagePath": "Images/Chairs/office-chair.jpg",
-      "chosenImagePath": "Images/Chairs/office-chair.jpg",
+      "primaryImagePath": "Images/Chairs/office-chair.png",
+      "chosenImagePath": "Images/Chairs/office-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -776,8 +776,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/office-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/office-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -786,8 +786,8 @@
       "name": "Rocking Chair",
       "modelPath": "3D models/Chairs/rocking-chair.glb",
       "chosenModelPath": "3D models/Chairs/rocking-chair.glb",
-      "primaryImagePath": "Images/Chairs/rocking-chair.jpg",
-      "chosenImagePath": "Images/Chairs/rocking-chair.jpg",
+      "primaryImagePath": "Images/Chairs/rocking-chair.png",
+      "chosenImagePath": "Images/Chairs/rocking-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -796,8 +796,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/rocking-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/rocking-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -806,8 +806,8 @@
       "name": "Vintage Arm Chair",
       "modelPath": "3D models/Chairs/vintage-arm-chair.glb",
       "chosenModelPath": "3D models/Chairs/vintage-arm-chair.glb",
-      "primaryImagePath": "Images/Chairs/vintage-arm-chair.jpg",
-      "chosenImagePath": "Images/Chairs/vintage-arm-chair.jpg",
+      "primaryImagePath": "Images/Chairs/vintage-arm-chair.png",
+      "chosenImagePath": "Images/Chairs/vintage-arm-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -816,8 +816,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/vintage-arm-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/vintage-arm-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -826,8 +826,8 @@
       "name": "Vintage Bar Stool",
       "modelPath": "3D models/Chairs/vintage-bar-stool.glb",
       "chosenModelPath": "3D models/Chairs/vintage-bar-stool.glb",
-      "primaryImagePath": "Images/Chairs/vintage-bar-stool.jpg",
-      "chosenImagePath": "Images/Chairs/vintage-bar-stool.jpg",
+      "primaryImagePath": "Images/Chairs/vintage-bar-stool.png",
+      "chosenImagePath": "Images/Chairs/vintage-bar-stool.png",
       "assets": [
         {
           "assetType": "model",
@@ -836,8 +836,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/vintage-bar-stool.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/vintage-bar-stool.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -846,8 +846,8 @@
       "name": "Wooden Arm Chair",
       "modelPath": "3D models/Chairs/wooden-arm-chair.glb",
       "chosenModelPath": "3D models/Chairs/wooden-arm-chair.glb",
-      "primaryImagePath": "Images/Chairs/wooden-arm-chair.jpg",
-      "chosenImagePath": "Images/Chairs/wooden-arm-chair.jpg",
+      "primaryImagePath": "Images/Chairs/wooden-arm-chair.png",
+      "chosenImagePath": "Images/Chairs/wooden-arm-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -856,8 +856,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/wooden-arm-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/wooden-arm-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -866,8 +866,8 @@
       "name": "Wooden Chair 02",
       "modelPath": "3D models/Chairs/wooden-chair-02.glb",
       "chosenModelPath": "3D models/Chairs/wooden-chair-02.glb",
-      "primaryImagePath": "Images/Chairs/wooden-chair-02.jpg",
-      "chosenImagePath": "Images/Chairs/wooden-chair-02.jpg",
+      "primaryImagePath": "Images/Chairs/wooden-chair-02.png",
+      "chosenImagePath": "Images/Chairs/wooden-chair-02.png",
       "assets": [
         {
           "assetType": "model",
@@ -876,8 +876,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/wooden-chair-02.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/wooden-chair-02.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -886,8 +886,8 @@
       "name": "Wooden Chair",
       "modelPath": "3D models/Chairs/wooden-chair.glb",
       "chosenModelPath": "3D models/Chairs/wooden-chair.glb",
-      "primaryImagePath": "Images/Chairs/wooden-chair.jpg",
-      "chosenImagePath": "Images/Chairs/wooden-chair.jpg",
+      "primaryImagePath": "Images/Chairs/wooden-chair.png",
+      "chosenImagePath": "Images/Chairs/wooden-chair.png",
       "assets": [
         {
           "assetType": "model",
@@ -896,8 +896,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Chairs/wooden-chair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Chairs/wooden-chair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -906,8 +906,8 @@
       "name": "L Shaped Sofa",
       "modelPath": "3D models/Sofas/L-shaped-sofa.glb",
       "chosenModelPath": "3D models/Sofas/L-shaped-sofa.glb",
-      "primaryImagePath": "Images/Sofas/L-shaped-sofa.jpg",
-      "chosenImagePath": "Images/Sofas/L-shaped-sofa.jpg",
+      "primaryImagePath": "Images/Sofas/L-shaped-sofa.png",
+      "chosenImagePath": "Images/Sofas/L-shaped-sofa.png",
       "assets": [
         {
           "assetType": "model",
@@ -916,8 +916,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Sofas/L-shaped-sofa.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Sofas/L-shaped-sofa.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -926,8 +926,8 @@
       "name": "Leather Armchair",
       "modelPath": "3D models/Sofas/leather-armchair.glb",
       "chosenModelPath": "3D models/Sofas/leather-armchair.glb",
-      "primaryImagePath": "Images/Sofas/leather-armchair.jpg",
-      "chosenImagePath": "Images/Sofas/leather-armchair.jpg",
+      "primaryImagePath": "Images/Sofas/leather-armchair.png",
+      "chosenImagePath": "Images/Sofas/leather-armchair.png",
       "assets": [
         {
           "assetType": "model",
@@ -936,8 +936,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Sofas/leather-armchair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Sofas/leather-armchair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -946,8 +946,8 @@
       "name": "Leather Chesterfield Sofa",
       "modelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
       "chosenModelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
-      "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
-      "chosenImagePath": "Images/Sofas/leather-chesterfield-sofa.jpg",
+      "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.png",
+      "chosenImagePath": "Images/Sofas/leather-chesterfield-sofa.png",
       "assets": [
         {
           "assetType": "model",
@@ -956,8 +956,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Sofas/leather-chesterfield-sofa.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Sofas/leather-chesterfield-sofa.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -966,8 +966,8 @@
       "name": "Modern Accent Armchair",
       "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
       "chosenModelPath": "3D models/Sofas/modern-accent-armchair.glb",
-      "primaryImagePath": "Images/Sofas/modern-accent-armchair.jpg",
-      "chosenImagePath": "Images/Sofas/modern-accent-armchair.jpg",
+      "primaryImagePath": "Images/Sofas/modern-accent-armchair.png",
+      "chosenImagePath": "Images/Sofas/modern-accent-armchair.png",
       "assets": [
         {
           "assetType": "model",
@@ -976,8 +976,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Sofas/modern-accent-armchair.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Sofas/modern-accent-armchair.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -986,8 +986,8 @@
       "name": "Sofa With Pillows",
       "modelPath": "3D models/Sofas/sofa-with-pillows.glb",
       "chosenModelPath": "3D models/Sofas/sofa-with-pillows.glb",
-      "primaryImagePath": "Images/Sofas/sofa-with-pillows.jpg",
-      "chosenImagePath": "Images/Sofas/sofa-with-pillows.jpg",
+      "primaryImagePath": "Images/Sofas/sofa-with-pillows.png",
+      "chosenImagePath": "Images/Sofas/sofa-with-pillows.png",
       "assets": [
         {
           "assetType": "model",
@@ -996,8 +996,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Sofas/sofa-with-pillows.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Sofas/sofa-with-pillows.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1006,8 +1006,8 @@
       "name": "Three Sitter Sofa",
       "modelPath": "3D models/Sofas/three-sitter-sofa.glb",
       "chosenModelPath": "3D models/Sofas/three-sitter-sofa.glb",
-      "primaryImagePath": "Images/Sofas/three-sitter-sofa.jpg",
-      "chosenImagePath": "Images/Sofas/three-sitter-sofa.jpg",
+      "primaryImagePath": "Images/Sofas/three-sitter-sofa.png",
+      "chosenImagePath": "Images/Sofas/three-sitter-sofa.png",
       "assets": [
         {
           "assetType": "model",
@@ -1016,8 +1016,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Sofas/three-sitter-sofa.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Sofas/three-sitter-sofa.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1026,8 +1026,8 @@
       "name": "Tufted Living Sofa",
       "modelPath": "3D models/Sofas/tufted-living-sofa.glb",
       "chosenModelPath": "3D models/Sofas/tufted-living-sofa.glb",
-      "primaryImagePath": "Images/Sofas/tufted-living-sofa.jpg",
-      "chosenImagePath": "Images/Sofas/tufted-living-sofa.jpg",
+      "primaryImagePath": "Images/Sofas/tufted-living-sofa.png",
+      "chosenImagePath": "Images/Sofas/tufted-living-sofa.png",
       "assets": [
         {
           "assetType": "model",
@@ -1036,8 +1036,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Sofas/tufted-living-sofa.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Sofas/tufted-living-sofa.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1046,8 +1046,8 @@
       "name": "Antique Wooden Table",
       "modelPath": "3D models/Tables/antique-wooden-table.glb",
       "chosenModelPath": "3D models/Tables/antique-wooden-table.glb",
-      "primaryImagePath": "Images/Tables/antique-wooden-table.jpg",
-      "chosenImagePath": "Images/Tables/antique-wooden-table.jpg",
+      "primaryImagePath": "Images/Tables/antique-wooden-table.png",
+      "chosenImagePath": "Images/Tables/antique-wooden-table.png",
       "assets": [
         {
           "assetType": "model",
@@ -1056,8 +1056,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/antique-wooden-table.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/antique-wooden-table.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1066,8 +1066,8 @@
       "name": "Center Table 01",
       "modelPath": "3D models/Tables/center-table-01.glb",
       "chosenModelPath": "3D models/Tables/center-table-01.glb",
-      "primaryImagePath": "Images/Tables/center-table-01.jpg",
-      "chosenImagePath": "Images/Tables/center-table-01.jpg",
+      "primaryImagePath": "Images/Tables/center-table-01.png",
+      "chosenImagePath": "Images/Tables/center-table-01.png",
       "assets": [
         {
           "assetType": "model",
@@ -1076,8 +1076,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/center-table-01.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/center-table-01.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1086,8 +1086,8 @@
       "name": "Center Table 02",
       "modelPath": "3D models/Tables/center-table-02.glb",
       "chosenModelPath": "3D models/Tables/center-table-02.glb",
-      "primaryImagePath": "Images/Tables/center-table-02.jpg",
-      "chosenImagePath": "Images/Tables/center-table-02.jpg",
+      "primaryImagePath": "Images/Tables/center-table-02.png",
+      "chosenImagePath": "Images/Tables/center-table-02.png",
       "assets": [
         {
           "assetType": "model",
@@ -1096,8 +1096,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/center-table-02.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/center-table-02.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1106,8 +1106,8 @@
       "name": "Coffee Table 01",
       "modelPath": "3D models/Tables/coffee-table-01.glb",
       "chosenModelPath": "3D models/Tables/coffee-table-01.glb",
-      "primaryImagePath": "Images/Tables/coffee-table-01.jpg",
-      "chosenImagePath": "Images/Tables/coffee-table-01.jpg",
+      "primaryImagePath": "Images/Tables/coffee-table-01.png",
+      "chosenImagePath": "Images/Tables/coffee-table-01.png",
       "assets": [
         {
           "assetType": "model",
@@ -1116,8 +1116,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/coffee-table-01.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/coffee-table-01.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1126,8 +1126,8 @@
       "name": "Coffee Table 02",
       "modelPath": "3D models/Tables/coffee-table-02.glb",
       "chosenModelPath": "3D models/Tables/coffee-table-02.glb",
-      "primaryImagePath": "Images/Tables/coffee-table-02.jpg",
-      "chosenImagePath": "Images/Tables/coffee-table-02.jpg",
+      "primaryImagePath": "Images/Tables/coffee-table-02.png",
+      "chosenImagePath": "Images/Tables/coffee-table-02.png",
       "assets": [
         {
           "assetType": "model",
@@ -1136,8 +1136,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/coffee-table-02.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/coffee-table-02.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1146,8 +1146,8 @@
       "name": "Coffee Table 03",
       "modelPath": "3D models/Tables/coffee-table-03.glb",
       "chosenModelPath": "3D models/Tables/coffee-table-03.glb",
-      "primaryImagePath": "Images/Tables/coffee-table-03.jpg",
-      "chosenImagePath": "Images/Tables/coffee-table-03.jpg",
+      "primaryImagePath": "Images/Tables/coffee-table-03.png",
+      "chosenImagePath": "Images/Tables/coffee-table-03.png",
       "assets": [
         {
           "assetType": "model",
@@ -1156,8 +1156,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/coffee-table-03.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/coffee-table-03.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1166,8 +1166,8 @@
       "name": "Farmhouse Wooden Table",
       "modelPath": "3D models/Tables/farmhouse-wooden-table.glb",
       "chosenModelPath": "3D models/Tables/farmhouse-wooden-table.glb",
-      "primaryImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
-      "chosenImagePath": "Images/Tables/farmhouse-wooden-table.jpg",
+      "primaryImagePath": "Images/Tables/farmhouse-wooden-table.png",
+      "chosenImagePath": "Images/Tables/farmhouse-wooden-table.png",
       "assets": [
         {
           "assetType": "model",
@@ -1176,8 +1176,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/farmhouse-wooden-table.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/farmhouse-wooden-table.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1186,8 +1186,8 @@
       "name": "Glass Table",
       "modelPath": "3D models/Tables/glass-table.glb",
       "chosenModelPath": "3D models/Tables/glass-table.glb",
-      "primaryImagePath": "Images/Tables/glass-table.jpg",
-      "chosenImagePath": "Images/Tables/glass-table.jpg",
+      "primaryImagePath": "Images/Tables/glass-table.png",
+      "chosenImagePath": "Images/Tables/glass-table.png",
       "assets": [
         {
           "assetType": "model",
@@ -1196,8 +1196,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/glass-table.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/glass-table.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1206,8 +1206,8 @@
       "name": "Mid Century Modern Coffee Table",
       "modelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
       "chosenModelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
-      "primaryImagePath": "Images/Tables/mid-century-modern-coffee-table.jpg",
-      "chosenImagePath": "Images/Tables/mid-century-modern-coffee-table.jpg",
+      "primaryImagePath": "Images/Tables/mid-century-modern-coffee-table.png",
+      "chosenImagePath": "Images/Tables/mid-century-modern-coffee-table.png",
       "assets": [
         {
           "assetType": "model",
@@ -1216,8 +1216,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/mid-century-modern-coffee-table.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/mid-century-modern-coffee-table.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1226,8 +1226,8 @@
       "name": "Round Side Table",
       "modelPath": "3D models/Tables/round-side-table.glb",
       "chosenModelPath": "3D models/Tables/round-side-table.glb",
-      "primaryImagePath": "Images/Tables/round-side-table.jpg",
-      "chosenImagePath": "Images/Tables/round-side-table.jpg",
+      "primaryImagePath": "Images/Tables/round-side-table.png",
+      "chosenImagePath": "Images/Tables/round-side-table.png",
       "assets": [
         {
           "assetType": "model",
@@ -1236,8 +1236,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/round-side-table.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/round-side-table.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1246,8 +1246,8 @@
       "name": "Semi Round Wooden Table",
       "modelPath": "3D models/Tables/semi-round-wooden-table.glb",
       "chosenModelPath": "3D models/Tables/semi-round-wooden-table.glb",
-      "primaryImagePath": "Images/Tables/semi-round-wooden-table.jpg",
-      "chosenImagePath": "Images/Tables/semi-round-wooden-table.jpg",
+      "primaryImagePath": "Images/Tables/semi-round-wooden-table.png",
+      "chosenImagePath": "Images/Tables/semi-round-wooden-table.png",
       "assets": [
         {
           "assetType": "model",
@@ -1256,8 +1256,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/semi-round-wooden-table.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/semi-round-wooden-table.png",
+          "mimeType": "image/png"
         }
       ]
     },
@@ -1266,8 +1266,8 @@
       "name": "Wooden Dining Table",
       "modelPath": "3D models/Tables/wooden-dining-table.glb",
       "chosenModelPath": "3D models/Tables/wooden-dining-table.glb",
-      "primaryImagePath": "Images/Tables/wooden-dining-table.jpg",
-      "chosenImagePath": "Images/Tables/wooden-dining-table.jpg",
+      "primaryImagePath": "Images/Tables/wooden-dining-table.png",
+      "chosenImagePath": "Images/Tables/wooden-dining-table.png",
       "assets": [
         {
           "assetType": "model",
@@ -1276,8 +1276,8 @@
         },
         {
           "assetType": "thumbnail",
-          "chosenPath": "Images/Tables/wooden-dining-table.jpg",
-          "mimeType": "image/jpeg"
+          "chosenPath": "Images/Tables/wooden-dining-table.png",
+          "mimeType": "image/png"
         }
       ]
     }

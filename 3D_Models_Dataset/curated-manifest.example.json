@@ -1,5 +1,36 @@
 {
   "defaultVendorEmail": "vendor@example.com",
+  "defaultBrandName": "Example Furniture Co",
+  "datasetVendors": [
+    {
+      "firebaseUid": "dataset-vendor-urban-living-studio",
+      "email": "urban.living@renovar.local",
+      "displayName": "Urban Living Studio",
+      "companyName": "Urban Living Studio",
+      "brandName": "Urban Living Studio"
+    },
+    {
+      "firebaseUid": "dataset-vendor-heritage-home-co",
+      "email": "heritage.home@renovar.local",
+      "displayName": "Heritage Home Co",
+      "companyName": "Heritage Home Co",
+      "brandName": "Heritage Home Co"
+    },
+    {
+      "firebaseUid": "dataset-vendor-minimal-nest",
+      "email": "minimal.nest@renovar.local",
+      "displayName": "Minimal Nest",
+      "companyName": "Minimal Nest",
+      "brandName": "Minimal Nest"
+    },
+    {
+      "firebaseUid": "dataset-vendor-wallcraft-surfaces",
+      "email": "wallcraft.surfaces@renovar.local",
+      "displayName": "Wallcraft Surfaces",
+      "companyName": "Wallcraft Surfaces",
+      "brandName": "Wallcraft Surfaces"
+    }
+  ],
   "categoryMapping": {
     "Accessories": "decor",
     "Beds": "bedroom",
@@ -25,6 +56,7 @@
     {
       "importKey": "example-ladder-bookshelf-001",
       "name": "Ladder Bookshelf",
+      "brandName": "Example Furniture Co",
       "sourceCategory": "Accessories",
       "normalizedCategorySlug": "decor",
       "modelPath": "3D models/Accessories/ladder-bookshelf.fbx",

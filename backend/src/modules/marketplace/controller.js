@@ -11,7 +11,13 @@ const getProductDetails = async (req, res) => {
   return successResponse(res, product, 'Marketplace product fetched successfully');
 };
 
+const getBrands = async (req, res) => {
+  const brands = await marketplaceService.getBrands();
+  return successResponse(res, brands, 'Marketplace brands fetched successfully');
+};
+
 module.exports = {
   searchProducts,
-  getProductDetails
+  getProductDetails,
+  getBrands
 };

@@ -56,6 +56,7 @@ const apiExamples = {
       body: {
         categoryId: 1,
         name: "Scandinavian Sofa",
+        brandName: "Urban Living Studio",
         price: 252000,
         dimensions: { width: 220, depth: 95, height: 80, unit: "cm" },
       },
@@ -214,7 +215,7 @@ const apiExamples = {
   marketplace: {
     request: {
       method: "GET",
-      path: "/api/marketplace/products?search=sofa&categoryId=1",
+      path: "/api/marketplace/products?search=sofa&categoryId=1&brandName=Urban%20Living%20Studio",
     },
     response: {
       success: true,
@@ -227,6 +228,7 @@ const apiExamples = {
           {
             id: 10,
             name: "Leather Chesterfield Sofa",
+            brandName: "Urban Living Studio",
             description: "Classic deep-button leather sofa",
             price: 363737,
             dimensions: { width: 220, depth: 95, height: 80, unit: "cm" },
@@ -239,6 +241,17 @@ const apiExamples = {
           },
         ],
       },
+    },
+  },
+  marketplaceBrands: {
+    request: {
+      method: "GET",
+      path: "/api/marketplace/brands",
+    },
+    response: {
+      success: true,
+      message: "Marketplace brands fetched successfully",
+      data: ["RenovAR Curated", "Urban Living Studio"],
     },
   },
   ar: {

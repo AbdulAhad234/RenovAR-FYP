@@ -10,9 +10,11 @@ This backend imports curated 3D model products from the local dataset folder:
 - Working manifest: `../3D_Models_Dataset/curated-manifest.json`
 - Rename traceability map: `../3D_Models_Dataset/rename-map.json`
 - Review summary: `../3D_Models_Dataset/curation-review.json`
+- Dataset vendor seed script: `scripts/seed-dataset-vendors.js`
 - Dataset preparation script: `scripts/prepare-curated-dataset.js`
 - Import script: `scripts/import-curated-dataset.js`
 - Asset repair script: `scripts/fix-assets-from-manifest.js`
+- Import wall textures: `scripts/import-wall-textures.js`
 
 ## Manifest rules
 
@@ -29,6 +31,8 @@ Each product entry must explicitly define:
 Optional fields:
 
 - `importKey`
+- `vendorEmail` (falls back to round-robin assignment from top-level `datasetVendors`)
+- `brandName` (falls back to top-level `defaultBrandName`, then the vendor company/display name)
 - `additionalImagePaths`
 - `sourceModelPath`
 - `sourcePrimaryImagePath`
@@ -39,6 +43,8 @@ Optional fields:
 - `tags`
 
 All file paths in the manifest are relative to `3D_Models_Dataset/`.
+
+The top-level `datasetVendors` array defines the four seeded dataset vendors. When a product does not specify `vendorEmail`, the importer assigns products round-robin across those vendors so each vendor owns a different subset of products.
 
 Wall texture entries are written under `wallTextures`. Each entry pairs:
 
@@ -54,7 +60,7 @@ Generate the rename map, curation review artifact, and refreshed manifest:
 npm run prepare:dataset
 ```
 
-The preparation script derives pairs from same-name model/image files and rewrites the manifest:
+Apply the same preparation script and rewrite the manifest artifacts:
 
 ```bash
 npm run prepare:dataset:apply
@@ -76,6 +82,12 @@ The manifest can override these defaults.
 
 ## Import commands
 
+Create or update the four approved dataset vendors:
+
+```bash
+npm run seed:dataset-vendors
+```
+
 Dry run:
 
 ```bash
@@ -94,16 +106,44 @@ Custom manifest:
 node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-manifest.json --skip-duplicates
 ```
 
+Wall texture dry run:
+
+```bash
+npm run import:wall-textures:dry-run
+```
+
+Wall texture import:
+
+```bash
+npm run import:wall-textures
+```
+
+Approve all imported products for the configured vendor:
+
+```bash
+npm run approve:vendor-products -- --dataset-vendors
+```
+
+Approve one vendor only:
+
+```bash
+npm run approve:vendor-products -- --vendor renovar.test1@gmail.com
+```
+
 ## Preconditions
 
 - backend `.env` must be configured
 - PostgreSQL schema must already exist
+- run `npm run db:migrate` before importing if the database was created from an older schema
+- run `npm run seed:dataset-vendors` before importing when using `datasetVendors`
 - S3 credentials must be valid
-- the vendor user in `defaultVendorEmail` must already exist in PostgreSQL with role `vendor`
+- every vendor in `datasetVendors` must exist in PostgreSQL with role `vendor`
 
 ## Import behavior
 
 - products are created as `draft`
+- furniture products are distributed round-robin across `datasetVendors` unless `vendorEmail` is set on an entry
+- product `brand_name` is populated from `brandName`, `defaultBrandName`, or the vendor company/display name
 - product prices are stored as PKR numeric values
 - model files are stored as `model` assets
 - primary image files are stored as `thumbnail` assets

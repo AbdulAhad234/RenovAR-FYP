@@ -7,6 +7,7 @@ const { searchMarketplaceValidation, marketplaceProductIdValidation } = require(
 const router = express.Router();
 
 router.get('/products', validateRequest(searchMarketplaceValidation), asyncHandler(controller.searchProducts));
+router.get('/brands', asyncHandler(controller.getBrands));
 router.get('/products/:productId', validateRequest(marketplaceProductIdValidation), asyncHandler(controller.getProductDetails));
 
 module.exports = router;

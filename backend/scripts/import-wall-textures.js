@@ -69,7 +69,18 @@ const ensureFileExists = (absolutePath) => {
 
 const findVendorByEmail = async (email) => {
   const res = await query(
-    `SELECT id, email, role FROM users WHERE LOWER(email)=LOWER($1) LIMIT 1`,
+    `
+      SELECT
+        u.id,
+        u.email,
+        u.role,
+        u.display_name AS "displayName",
+        vp.company_name AS "companyName"
+      FROM users u
+      LEFT JOIN vendor_profiles vp ON vp.user_id = u.id
+      WHERE LOWER(u.email)=LOWER($1)
+      LIMIT 1
+    `,
     [email],
   );
   return res.rows[0] || null;
@@ -81,6 +92,74 @@ const findCategoryBySlug = async (slug) => {
     [slug],
   );
   return res.rows[0] || null;
+};
+
+const resolveVendorSpecs = (manifest) => {
+  if (
+    Array.isArray(manifest.datasetVendors) &&
+    manifest.datasetVendors.length > 0
+  ) {
+    return manifest.datasetVendors;
+  }
+
+  return [
+    {
+      email: manifest.defaultVendorEmail,
+      brandName: manifest.defaultBrandName,
+    },
+  ].filter((vendor) => vendor.email);
+};
+
+const loadImportVendors = async (manifest) => {
+  const vendorSpecs = resolveVendorSpecs(manifest);
+  if (vendorSpecs.length === 0) {
+    throw new Error("Manifest must define datasetVendors or defaultVendorEmail");
+  }
+
+  const vendors = [];
+  for (const vendorSpec of vendorSpecs) {
+    const vendor = await findVendorByEmail(vendorSpec.email);
+    if (!vendor) {
+      throw new Error(
+        `Vendor user not found for email: ${vendorSpec.email}. Run npm run seed:dataset-vendors first.`,
+      );
+    }
+
+    if (vendor.role !== "vendor") {
+      throw new Error(
+        `User ${vendorSpec.email} must have role "vendor" before import`,
+      );
+    }
+
+    vendors.push({
+      ...vendor,
+      brandName:
+        vendorSpec.brandName ||
+        vendorSpec.companyName ||
+        vendor.companyName ||
+        vendor.displayName ||
+        null,
+    });
+  }
+
+  return vendors;
+};
+
+const pickVendorForEntry = (entry, vendors, index) => {
+  if (entry.vendorEmail) {
+    const vendor = vendors.find(
+      (candidate) =>
+        candidate.email.toLowerCase() === entry.vendorEmail.toLowerCase(),
+    );
+    if (!vendor) {
+      throw new Error(
+        `Vendor ${entry.vendorEmail} is not listed in manifest.datasetVendors`,
+      );
+    }
+    return vendor;
+  }
+
+  return vendors[index % vendors.length];
 };
 
 const createCategory = async ({ name, slug, description = null }) => {
@@ -101,11 +180,12 @@ const findExistingProduct = async (vendorId, productName, categoryId) => {
 
 const createProductRecord = async (payload) => {
   const res = await query(
-    `INSERT INTO products (vendor_id, category_id, name, description, price, dimensions_json, status) VALUES ($1,$2,$3,$4,$5,$6,'draft') RETURNING id, name`,
+    `INSERT INTO products (vendor_id, category_id, name, brand_name, description, price, dimensions_json, status) VALUES ($1,$2,$3,$4,$5,$6,$7,'draft') RETURNING id, name`,
     [
       payload.vendorId,
       payload.categoryId,
       payload.name,
+      payload.brandName || null,
       payload.description || null,
       payload.price || 0,
       payload.dimensions || null,
@@ -163,18 +243,7 @@ const main = async () => {
   const options = parseArgs(process.argv.slice(2));
   const manifest = loadManifest(options.manifest);
   const datasetRoot = path.dirname(options.manifest);
-
-  if (!manifest.defaultVendorEmail)
-    throw new Error("Manifest must define defaultVendorEmail");
-  const vendor = await findVendorByEmail(manifest.defaultVendorEmail);
-  if (!vendor)
-    throw new Error(
-      `Vendor user not found for email: ${manifest.defaultVendorEmail}`,
-    );
-  if (vendor.role !== "vendor")
-    throw new Error(
-      `User ${manifest.defaultVendorEmail} must have role "vendor" before import`,
-    );
+  const vendors = await loadImportVendors(manifest);
 
   // Ensure category exists: Wall Textures
   const CAT_SLUG = "wall-textures";
@@ -200,11 +269,20 @@ const main = async () => {
     skipped: 0,
     uploaded: 0,
     failed: 0,
+    byVendor: {},
   };
 
-  for (const entry of manifest.wallTextures) {
+  for (const [index, entry] of manifest.wallTextures.entries()) {
     try {
       summary.processed += 1;
+      const vendor = pickVendorForEntry(entry, vendors, index);
+      const brandName =
+        entry.brandName ||
+        vendor.brandName ||
+        manifest.defaultBrandName ||
+        vendor.companyName ||
+        vendor.displayName ||
+        null;
       const name =
         entry.name || entry.textureFolderPath || "unnamed-wall-texture";
       const importKey = entry.importKey || slugify(name);
@@ -229,9 +307,11 @@ const main = async () => {
 
       const productPreview = {
         name,
+        brandName,
         vendorEmail: vendor.email,
         categorySlug: CAT_SLUG,
       };
+      summary.byVendor[vendor.email] = (summary.byVendor[vendor.email] || 0) + 1;
       if (options.dryRun) {
         console.log(
           `[DRY-RUN] Would create product: ${JSON.stringify(productPreview)}`,
@@ -244,6 +324,7 @@ const main = async () => {
         vendorId: vendor.id,
         categoryId: category.id,
         name,
+        brandName,
         description: entry.fileUse || null,
         price: entry.price || 0,
       });
@@ -254,6 +335,7 @@ const main = async () => {
         manifestKey: importKey,
         datasetPath: entry.textureMapPath,
         sourceCategory: "Wall Textures",
+        brandName,
         tags: entry.tags || ["wall-texture"],
       };
 

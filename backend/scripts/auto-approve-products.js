@@ -4,11 +4,19 @@ const path = require("path");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 const { query, pool } = require("../src/config/database");
 
+const DATASET_VENDOR_EMAILS = [
+  "urban.living@renovar.local",
+  "heritage.home@renovar.local",
+  "minimal.nest@renovar.local",
+  "wallcraft.surfaces@renovar.local",
+];
+
 const parseArgs = (argv) => {
   return {
     vendorEmail: argv.includes("--vendor")
       ? argv[argv.indexOf("--vendor") + 1]
       : null,
+    datasetVendors: argv.includes("--dataset-vendors"),
     dryRun: argv.includes("--dry-run"),
   };
 };
@@ -21,12 +29,9 @@ const findVendorByEmail = async (email) => {
   return result.rows[0] || null;
 };
 
-const run = async () => {
-  const opts = parseArgs(process.argv.slice(2));
-  if (!opts.vendorEmail) throw new Error("Provide --vendor <email>");
-
-  const vendor = await findVendorByEmail(opts.vendorEmail);
-  if (!vendor) throw new Error(`Vendor not found: ${opts.vendorEmail}`);
+const approveVendorProducts = async (vendorEmail, opts) => {
+  const vendor = await findVendorByEmail(vendorEmail);
+  if (!vendor) throw new Error(`Vendor not found: ${vendorEmail}`);
 
   const productsRes = await query(
     `SELECT id FROM products WHERE vendor_id = $1 AND status <> 'approved'`,
@@ -34,12 +39,12 @@ const run = async () => {
   );
   const products = productsRes.rows;
   if (products.length === 0) {
-    console.log("No products to approve for vendor.");
+    console.log(`No products to approve for vendor ${vendorEmail}.`);
     return;
   }
 
   console.log(
-    `Found ${products.length} products to approve for vendor ${opts.vendorEmail}`,
+    `Found ${products.length} products to approve for vendor ${vendorEmail}`,
   );
   if (opts.dryRun) return;
 
@@ -54,7 +59,22 @@ const run = async () => {
     ).catch(() => {});
   }
 
-  console.log("Products approved.");
+  console.log(`Products approved for ${vendorEmail}.`);
+};
+
+const run = async () => {
+  const opts = parseArgs(process.argv.slice(2));
+  const vendorEmails = opts.datasetVendors
+    ? DATASET_VENDOR_EMAILS
+    : [opts.vendorEmail].filter(Boolean);
+
+  if (vendorEmails.length === 0) {
+    throw new Error("Provide --vendor <email> or --dataset-vendors");
+  }
+
+  for (const vendorEmail of vendorEmails) {
+    await approveVendorProducts(vendorEmail, opts);
+  }
 };
 
 run()

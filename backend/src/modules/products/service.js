@@ -44,6 +44,7 @@ const createProduct = async (firebaseUid, payload) => {
     vendorId: user.id,
     categoryId: payload.categoryId,
     name: payload.name,
+    brandName: payload.brandName || vendorProfile.companyName,
     description: payload.description,
     price: payload.price,
     dimensions: payload.dimensions
@@ -56,6 +57,7 @@ const updateProduct = async (productId, firebaseUid, payload) => {
   return productRepository.updateProduct(productId, {
     categoryId: payload.categoryId,
     name: payload.name,
+    brandName: payload.brandName,
     description: payload.description,
     price: payload.price,
     dimensions: payload.dimensions,
@@ -86,6 +88,7 @@ const submitProductForApproval = async (productId, firebaseUid) => {
   return productRepository.updateProduct(productId, {
     categoryId: product.categoryId,
     name: product.name,
+    brandName: product.brandName,
     description: product.description,
     price: product.price,
     dimensions: product.dimensions,

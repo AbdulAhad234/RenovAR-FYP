@@ -47,6 +47,37 @@ const KNOWN_USD_PRICES = {
   'farmhouse-wooden-table': 699.99
 };
 
+const DATASET_VENDORS = [
+  {
+    firebaseUid: 'dataset-vendor-urban-living-studio',
+    email: 'urban.living@renovar.local',
+    displayName: 'Urban Living Studio',
+    companyName: 'Urban Living Studio',
+    brandName: 'Urban Living Studio'
+  },
+  {
+    firebaseUid: 'dataset-vendor-heritage-home-co',
+    email: 'heritage.home@renovar.local',
+    displayName: 'Heritage Home Co',
+    companyName: 'Heritage Home Co',
+    brandName: 'Heritage Home Co'
+  },
+  {
+    firebaseUid: 'dataset-vendor-minimal-nest',
+    email: 'minimal.nest@renovar.local',
+    displayName: 'Minimal Nest',
+    companyName: 'Minimal Nest',
+    brandName: 'Minimal Nest'
+  },
+  {
+    firebaseUid: 'dataset-vendor-wallcraft-surfaces',
+    email: 'wallcraft.surfaces@renovar.local',
+    displayName: 'Wallcraft Surfaces',
+    companyName: 'Wallcraft Surfaces',
+    brandName: 'Wallcraft Surfaces'
+  }
+];
+
 const IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp']);
 const MODEL_EXTENSIONS = new Set(['.glb', '.fbx']);
 const WALL_TEXTURE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.tif', '.tiff']);
@@ -154,9 +185,12 @@ const buildProductPairs = () => {
     }
 
     usedImages.add(chosenImage);
+    const vendor = DATASET_VENDORS[products.length % DATASET_VENDORS.length];
     products.push({
       importKey: `dataset-${slug}-001`,
       name: slugToTitle(slug),
+      vendorEmail: vendor.email,
+      brandName: vendor.brandName,
       sourceCategory: category,
       normalizedCategorySlug: CATEGORY_MAPPING[category] || normalizeSlug(category),
       modelPath: relativeDatasetPath(modelPath),
@@ -222,8 +256,9 @@ const buildWallTexturePairs = () => {
 
   return fs.readdirSync(WALL_TEXTURE_MODELS_ROOT, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
-    .map((entry) => {
+    .map((entry, index) => {
       const slug = normalizeSlug(entry.name);
+      const vendor = DATASET_VENDORS[index % DATASET_VENDORS.length];
       const textureFolder = path.join(WALL_TEXTURE_MODELS_ROOT, entry.name);
       const thumbnailCandidates = listFiles(WALL_TEXTURE_IMAGES_ROOT)
         .filter((filePath) => IMAGE_EXTENSIONS.has(path.extname(filePath).toLowerCase()))
@@ -237,6 +272,8 @@ const buildWallTexturePairs = () => {
       return {
         importKey: `wall-texture-${slug}-001`,
         name: slugToTitle(slug),
+        vendorEmail: vendor.email,
+        brandName: vendor.brandName,
         textureFolderPath: relativeDatasetPath(textureFolder),
         textureMapPath: relativeDatasetPath(textureMap),
         thumbnailPath: relativeDatasetPath(thumbnailCandidates[0]),
@@ -256,6 +293,8 @@ const buildManifest = () => {
 
   return {
     defaultVendorEmail: 'renovar.test1@gmail.com',
+    defaultBrandName: 'RenovAR Curated',
+    datasetVendors: DATASET_VENDORS,
     currency: 'PKR',
     currencySymbol: 'Rs',
     priceMetadata: {
@@ -367,6 +406,7 @@ const buildReviewArtifact = (manifest) => {
     productPairs: manifest.products.map((product) => ({
       importKey: product.importKey,
       name: product.name,
+      brandName: product.brandName || manifest.defaultBrandName || null,
       sourceCategory: product.sourceCategory,
       modelPath: product.modelPath,
       primaryImagePath: product.primaryImagePath,

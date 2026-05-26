@@ -16,6 +16,11 @@ const searchApprovedProducts = async (filters) => {
     clauses.push(`p.category_id = $${values.length}`);
   }
 
+  if (filters.brandName) {
+    values.push(filters.brandName);
+    clauses.push(`LOWER(p.brand_name) = LOWER($${values.length})`);
+  }
+
   if (filters.minPrice !== undefined) {
     values.push(filters.minPrice);
     clauses.push(`p.price >= $${values.length}`);
@@ -35,6 +40,7 @@ const searchApprovedProducts = async (filters) => {
         p.id,
         p.name,
         p.description,
+        p.brand_name AS "brandName",
         p.price,
         p.dimensions_json AS dimensions,
         c.id AS "categoryId",
@@ -82,6 +88,11 @@ const countApprovedProducts = async (filters) => {
     clauses.push(`category_id = $${values.length}`);
   }
 
+  if (filters.brandName) {
+    values.push(filters.brandName);
+    clauses.push(`LOWER(brand_name) = LOWER($${values.length})`);
+  }
+
   if (filters.minPrice !== undefined) {
     values.push(filters.minPrice);
     clauses.push(`price >= $${values.length}`);
@@ -106,6 +117,7 @@ const getApprovedProductDetails = async (productId) => {
         p.id,
         p.name,
         p.description,
+        p.brand_name AS "brandName",
         p.price,
         p.dimensions_json AS dimensions,
         p.status,
@@ -123,6 +135,21 @@ const getApprovedProductDetails = async (productId) => {
   );
 
   return result.rows[0] || null;
+};
+
+const getApprovedBrands = async () => {
+  const result = await query(
+    `
+      SELECT DISTINCT brand_name AS "brandName"
+      FROM products
+      WHERE status = 'approved'
+        AND brand_name IS NOT NULL
+        AND BTRIM(brand_name) <> ''
+      ORDER BY brand_name ASC
+    `,
+  );
+
+  return result.rows.map((row) => row.brandName);
 };
 
 const getProductAssets = async (productId) => {
@@ -150,5 +177,6 @@ module.exports = {
   searchApprovedProducts,
   countApprovedProducts,
   getApprovedProductDetails,
+  getApprovedBrands,
   getProductAssets,
 };

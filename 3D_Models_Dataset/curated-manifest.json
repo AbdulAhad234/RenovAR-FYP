@@ -1,5 +1,36 @@
 {
   "defaultVendorEmail": "renovar.test1@gmail.com",
+  "defaultBrandName": "RenovAR Curated",
+  "datasetVendors": [
+    {
+      "firebaseUid": "dataset-vendor-urban-living-studio",
+      "email": "urban.living@renovar.local",
+      "displayName": "Urban Living Studio",
+      "companyName": "Urban Living Studio",
+      "brandName": "Urban Living Studio"
+    },
+    {
+      "firebaseUid": "dataset-vendor-heritage-home-co",
+      "email": "heritage.home@renovar.local",
+      "displayName": "Heritage Home Co",
+      "companyName": "Heritage Home Co",
+      "brandName": "Heritage Home Co"
+    },
+    {
+      "firebaseUid": "dataset-vendor-minimal-nest",
+      "email": "minimal.nest@renovar.local",
+      "displayName": "Minimal Nest",
+      "companyName": "Minimal Nest",
+      "brandName": "Minimal Nest"
+    },
+    {
+      "firebaseUid": "dataset-vendor-wallcraft-surfaces",
+      "email": "wallcraft.surfaces@renovar.local",
+      "displayName": "Wallcraft Surfaces",
+      "companyName": "Wallcraft Surfaces",
+      "brandName": "Wallcraft Surfaces"
+    }
+  ],
   "currency": "PKR",
   "currencySymbol": "Rs",
   "priceMetadata": {

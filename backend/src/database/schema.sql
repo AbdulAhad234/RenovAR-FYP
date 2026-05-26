@@ -51,6 +51,7 @@ CREATE TABLE IF NOT EXISTS products (
     vendor_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
     category_id INTEGER REFERENCES categories(id),
     name VARCHAR(255) NOT NULL,
+    brand_name VARCHAR(255),
     description TEXT,
     price DECIMAL(10,2) NOT NULL CHECK (price >= 0),
     dimensions_json JSONB, -- {height, width, depth, unit}
@@ -126,6 +127,7 @@ CREATE INDEX IF NOT EXISTS idx_vendor_profiles_status ON vendor_profiles(status)
 
 CREATE INDEX IF NOT EXISTS idx_products_vendor_id ON products(vendor_id);
 CREATE INDEX IF NOT EXISTS idx_products_category_id ON products(category_id);
+CREATE INDEX IF NOT EXISTS idx_products_brand_name ON products(LOWER(brand_name));
 CREATE INDEX IF NOT EXISTS idx_products_status ON products(status);
 CREATE INDEX IF NOT EXISTS idx_products_created_at ON products(created_at DESC);
 

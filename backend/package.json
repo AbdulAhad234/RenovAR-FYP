@@ -9,6 +9,7 @@
     "set:role-claim": "node scripts/set-user-role-claim.js",
     "prepare:dataset": "node scripts/prepare-curated-dataset.js",
     "prepare:dataset:apply": "node scripts/prepare-curated-dataset.js --apply",
+    "seed:dataset-vendors": "node scripts/seed-dataset-vendors.js",
     "import:wall-textures": "node scripts/import-wall-textures.js",
     "import:wall-textures:dry-run": "node scripts/import-wall-textures.js --dry-run",
     "import:dataset": "node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-manifest.json --skip-duplicates",
@@ -19,6 +20,7 @@
     "approve:vendor-products": "node scripts/auto-approve-products.js",
     "test": "jest",
     "lint": "eslint src/**/*.js",
+    "db:schema": "node scripts/apply-schema.js",
     "db:migrate": "node scripts/run-migration.js"
   },
   "keywords": [

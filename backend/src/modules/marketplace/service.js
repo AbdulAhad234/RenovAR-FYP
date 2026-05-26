@@ -26,6 +26,7 @@ const searchProducts = async (queryParams) => {
     categoryId: queryParams.categoryId
       ? Number(queryParams.categoryId)
       : undefined,
+    brandName: queryParams.brandName,
     minPrice:
       queryParams.minPrice !== undefined
         ? Number(queryParams.minPrice)
@@ -81,7 +82,10 @@ const getProductDetails = async (productId) => {
   };
 };
 
+const getBrands = async () => marketplaceRepository.getApprovedBrands();
+
 module.exports = {
   searchProducts,
   getProductDetails,
+  getBrands,
 };

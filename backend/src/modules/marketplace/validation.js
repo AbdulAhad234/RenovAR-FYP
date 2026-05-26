@@ -2,6 +2,7 @@ const { param, query } = require('express-validator');
 
 const searchMarketplaceValidation = [
   query('categoryId').optional().isInt({ min: 1 }),
+  query('brandName').optional().isString().trim().isLength({ min: 1, max: 255 }),
   query('minPrice').optional().isFloat({ min: 0 }),
   query('maxPrice').optional().isFloat({ min: 0 }),
   query('page').optional().isInt({ min: 1 }),

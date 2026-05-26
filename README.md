@@ -14,7 +14,7 @@ Backend API for RenovAR, an AR-based interior design and furniture marketplace F
 
 ## Current Status
 
-The backend foundation and the main modular API structure have been implemented.
+The backend foundation and the main modular API structure have been implemented. The marketplace now supports product brands through `products.brand_name`, `brandName` API fields, and `brandName` marketplace filtering.
 
 ## What Has Been Done
 
@@ -110,7 +110,13 @@ Schema includes:
 
 Schema file:
 
-- [schema.sql](D:\Programming Projects\RenovAR\src\database\schema.sql)
+- [schema.sql](D:\Programming Projects\RenovAR\backend\src\database\schema.sql)
+
+Recent database additions:
+
+- `products.brand_name` stores the browse/filter brand or company name.
+- `GET /api/marketplace/brands` returns approved product brands for filter controls.
+- `GET /api/marketplace/products?brandName=Urban%20Living%20Studio` filters approved marketplace products by brand.
 
 ### 5. Implemented API modules
 
@@ -195,11 +201,14 @@ Implemented:
 
 - list approved public products
 - search and filter products
+- filter products by `brandName`
+- list available approved marketplace brands
 - get product details
 
 Routes:
 
 - `GET /api/marketplace/products`
+- `GET /api/marketplace/brands`
 - `GET /api/marketplace/products/:productId`
 
 #### AR module
@@ -399,6 +408,107 @@ Run in production mode:
 ```bash
 npm start
 ```
+
+Apply database migrations:
+
+```bash
+npm run db:migrate
+```
+
+For a brand-new PostgreSQL database, apply the full schema first. This command uses the Node `pg` driver, so it works even when `psql` is not installed:
+
+```bash
+npm run db:schema
+```
+
+If PostgreSQL CLI tools are installed, this works too:
+
+```bash
+psql "$DATABASE_URL" -f src/database/schema.sql
+```
+
+PowerShell:
+
+```powershell
+psql $env:DATABASE_URL -f src/database/schema.sql
+```
+
+Recommended fresh Render database setup:
+
+```bash
+npm run db:schema
+npm run db:migrate
+npm run seed:dataset-vendors
+npm run import:dataset:dry-run
+npm run import:dataset
+npm run import:wall-textures:dry-run
+npm run import:wall-textures
+npm run approve:vendor-products -- --dataset-vendors
+```
+
+## Dataset Commands
+
+Run these from the [backend](D:\Programming Projects\RenovAR\backend) folder.
+
+Prepare or refresh the curated dataset manifest files:
+
+```bash
+npm run prepare:dataset
+npm run prepare:dataset:apply
+```
+
+Create or update the four approved dataset vendors:
+
+```bash
+npm run seed:dataset-vendors
+```
+
+Seeded dataset vendors:
+
+- `Urban Living Studio` / `urban.living@renovar.local`
+- `Heritage Home Co` / `heritage.home@renovar.local`
+- `Minimal Nest` / `minimal.nest@renovar.local`
+- `Wallcraft Surfaces` / `wallcraft.surfaces@renovar.local`
+
+Preview and import curated 3D products:
+
+```bash
+npm run import:dataset:dry-run
+npm run import:dataset
+```
+
+Preview and import wall textures:
+
+```bash
+npm run import:wall-textures:dry-run
+npm run import:wall-textures
+```
+
+Repair S3/database asset pairs from the manifest:
+
+```bash
+npm run fix:dataset-assets:plan
+npm run fix:dataset-assets:dry-run
+npm run fix:dataset-assets
+```
+
+Approve imported vendor products:
+
+```bash
+npm run approve:vendor-products -- --dataset-vendors
+```
+
+More detail is in [dataset-import.md](D:\Programming Projects\RenovAR\backend\docs\dataset-import.md).
+
+## Render Database Replacement
+
+Free Render PostgreSQL databases expire, so a student-friendly recovery path is to create a new free database, replace the backend `DATABASE_URL`, run `schema.sql`, run `npm run db:migrate`, seed the dataset vendors, then re-import the dataset. The full checklist is in [deployment-render.md](D:\Programming Projects\RenovAR\backend\docs\deployment-render.md).
+
+## Firebase Vendor Accounts
+
+The seeded dataset vendors are enough for importing products and browsing the public marketplace. You do not need Firebase accounts for these vendors unless you want to log in as each vendor and manage their products through authenticated vendor routes.
+
+If vendor login is needed, create the vendor users in Firebase Auth, set their Firebase custom claim to `vendor`, and make sure the matching PostgreSQL user row uses that Firebase UID. The seeded `.local` emails are demo database identities for dataset ownership, not real Firebase login accounts.
 
 ## Required Environment Variables
 

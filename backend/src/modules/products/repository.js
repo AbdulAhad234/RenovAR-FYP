@@ -8,6 +8,7 @@ const productSelect = `
     c.name AS "categoryName",
     c.slug AS "categorySlug",
     p.name,
+    p.brand_name AS "brandName",
     p.description,
     p.price,
     p.dimensions_json AS dimensions,
@@ -24,13 +25,14 @@ const productSelect = `
 const createProduct = async (payload) => {
   const result = await query(
     `
-      INSERT INTO products (vendor_id, category_id, name, description, price, dimensions_json, status)
-      VALUES ($1, $2, $3, $4, $5, $6, 'draft')
+      INSERT INTO products (vendor_id, category_id, name, brand_name, description, price, dimensions_json, status)
+      VALUES ($1, $2, $3, $4, $5, $6, $7, 'draft')
       RETURNING
         id,
         vendor_id AS "vendorId",
         category_id AS "categoryId",
         name,
+        brand_name AS "brandName",
         description,
         price,
         dimensions_json AS dimensions,
@@ -45,6 +47,7 @@ const createProduct = async (payload) => {
       payload.vendorId,
       payload.categoryId || null,
       payload.name,
+      payload.brandName || null,
       payload.description || null,
       payload.price,
       payload.dimensions || null,
@@ -61,17 +64,19 @@ const updateProduct = async (productId, payload) => {
       SET
         category_id = COALESCE($2, category_id),
         name = COALESCE($3, name),
-        description = COALESCE($4, description),
-        price = COALESCE($5, price),
-        dimensions_json = COALESCE($6, dimensions_json),
-        status = COALESCE($7, status),
-        rejection_reason = $8
+        brand_name = COALESCE($4, brand_name),
+        description = COALESCE($5, description),
+        price = COALESCE($6, price),
+        dimensions_json = COALESCE($7, dimensions_json),
+        status = COALESCE($8, status),
+        rejection_reason = $9
       WHERE id = $1
       RETURNING
         id,
         vendor_id AS "vendorId",
         category_id AS "categoryId",
         name,
+        brand_name AS "brandName",
         description,
         price,
         dimensions_json AS dimensions,
@@ -86,6 +91,7 @@ const updateProduct = async (productId, payload) => {
       productId,
       payload.categoryId,
       payload.name,
+      payload.brandName,
       payload.description,
       payload.price,
       payload.dimensions,
@@ -150,6 +156,7 @@ const updateReviewState = async (productId, payload) => {
         vendor_id AS "vendorId",
         category_id AS "categoryId",
         name,
+        brand_name AS "brandName",
         description,
         price,
         dimensions_json AS dimensions,

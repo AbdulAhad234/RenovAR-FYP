@@ -6,10 +6,10 @@ This backend imports curated 3D model products from the local dataset folder:
 
 ## Files
 
-- Curated manifest template: `../3D_Models_Dataset/curated-manifest.example.json`
-- Working manifest: `../3D_Models_Dataset/curated-manifest.json`
-- Rename traceability map: `../3D_Models_Dataset/rename-map.json`
-- Review summary: `../3D_Models_Dataset/curation-review.json`
+- Curated manifest template: `<DATASET_ROOT>/curated-manifest.example.json` (use your dataset root)
+- Working manifest: `<DATASET_ROOT>/curated-manifest.json`
+- Rename traceability map: `<DATASET_ROOT>/rename-map.json`
+- Review summary: `<DATASET_ROOT>/curation-review.json`
 - Dataset vendor seed script: `scripts/seed-dataset-vendors.js`
 - Dataset preparation script: `scripts/prepare-curated-dataset.js`
 - Import script: `scripts/import-curated-dataset.js`
@@ -59,15 +59,19 @@ Wall texture entries are written under `wallTextures`. Each entry pairs:
 
 ## Preparation workflow
 
-Generate the rename map, curation review artifact, and refreshed manifest:
+Generate the rename map, curation review artifact, and refreshed manifest.
+
+Generic:
 
 ```bash
+# Regenerates manifest and review artifacts from the dataset folder
 npm run prepare:dataset
 ```
 
-Apply the same preparation script and rewrite the manifest artifacts:
+To overwrite or apply changes in-place (if your npm script supports it):
 
 ```bash
+# Apply prepared changes back to manifest/artifacts (script-specific)
 npm run prepare:dataset:apply
 ```
 
@@ -87,65 +91,45 @@ The manifest can override these defaults.
 
 ## Import commands
 
-Create or update the four approved dataset vendors:
+Create or update dataset vendors, then import. Use the dry-run variants first to verify.
+
+Generic workflow (recommended order):
 
 ```bash
+# 1) Ensure environment and DB ready (set up .env, run migrations)
+npm run db:migrate
+
+# 2) Seed dataset vendor accounts (creates vendor users used by imports)
 npm run seed:dataset-vendors
-```
 
-Dry run:
+# 3) Prepare dataset artifacts (rename map, curation review, manifest)
+npm run prepare:dataset
 
-```bash
+# 4) Dry-run import to validate manifest and file availability
 npm run import:dataset:dry-run
-```
 
-Real import:
-
-```bash
+# 5) Real import (when dry-run succeeds)
 npm run import:dataset
-```
 
-Custom manifest:
-
-```bash
-node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-manifest.json --skip-duplicates
-```
-
-Wall texture dry run:
-
-```bash
+# 6) Wall-texture-specific dry-run / import
 npm run import:wall-textures:dry-run
-```
-
-Wall texture import:
-
-```bash
 npm run import:wall-textures
-```
 
-Upload missing material maps for wall texture products that already exist:
-
-```bash
+# 7) Sync missing material maps (dry-run then real)
 npm run sync:wall-texture-maps:dry-run
 npm run sync:wall-texture-maps
-```
 
-Update descriptions and texture targets for products that were already imported:
-
-```bash
+# 8) Update product copy or metadata after import
 npm run update:product-copy
-```
 
-Approve all imported products for the configured vendor:
-
-```bash
+# 9) Approve imported products (all dataset vendors or a single vendor)
 npm run approve:vendor-products -- --dataset-vendors
-```
+# or for a single vendor
+npm run approve:vendor-products -- --vendor <VENDOR_EMAIL>
 
-Approve one vendor only:
-
-```bash
-npm run approve:vendor-products -- --vendor renovar.test1@gmail.com
+# 10) Advanced: import with a custom manifest path
+# (replace <MANIFEST_PATH> with a relative or absolute path)
+node scripts/import-curated-dataset.js --manifest <MANIFEST_PATH> --skip-duplicates
 ```
 
 ## Preconditions

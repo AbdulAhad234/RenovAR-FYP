@@ -106,6 +106,18 @@ const PRODUCT_COPY = {
 };
 
 const WALL_TEXTURE_COPY = {
+  "Bare Rough Concrete Wall":
+    "Industrial raw concrete with subtle aggregate and a matte finish. Ideal for modern, minimal, or industrial interiors — use at room scale to evaluate tone, surface character, and how light sculpts the finish.",
+  "Beige Brick Stretcher":
+    "Warm beige stretcher-bond brick with low-profile mortar lines. Great for feature walls and rustic or transitional interiors; helps preview grout contrast and pattern scale in-situ.",
+  "Concrete Wall Texture":
+    "Neutral mid-tone concrete with fine surface variation — a versatile backdrop for many interior styles. Use it to assess tone balance and diffuse reflection against fixtures.",
+  "Dark Blue Stone Wall":
+    "Deep blue-grey stone with subtle veining and tactile relief — suited for dramatic accent walls and mood-driven interiors. Use to preview contrast and veining scale at room level.",
+  "Red Brick Wall Texture":
+    "Classic red stretcher-bond brick with visible mortar lines — ideal for authentic interior or exterior brickwork previews. Use it to evaluate rustic character and mortar contrast.",
+  "Stone Wall Texture":
+    "Natural stone cladding with varied tone and gentle relief — great for organic, natural-material feature walls and facades. Useful for judging texture depth and color variation in AR.",
   "Ceramic Glazed":
     "A glossy ceramic wall texture with a handcrafted glazed finish. It is suited to feature walls, backsplashes, and decorative accent surfaces in AR previews.",
   "Concrete Worn":
@@ -121,6 +133,20 @@ const WALL_TEXTURE_COPY = {
   "Wood Veneer Oak":
     "An oak wood veneer wall texture with natural grain and warm paneling character. It helps users preview timber-clad feature walls and cozy interior finishes.",
 };
+
+// Add explicit floor texture descriptions; floor uses the same mapping object
+WALL_TEXTURE_COPY["Dark Smoked Herringbone Floor"] =
+  "Rich smoked wood laid in a herringbone pattern — premium flooring with strong visual character. Use to preview plank scale, joint detail, and how floor tone anchors the room.";
+WALL_TEXTURE_COPY["Light Oak Wood Floor"] =
+  "Pale oak planks with soft, natural grain — ideal for bright Scandinavian and contemporary interiors. Helps evaluate how floor reflectance affects overall room brightness.";
+WALL_TEXTURE_COPY["Oak Wood Pattern Floor"] =
+  "Mid-tone oak with pronounced grain and consistent plank pattern — a warm, versatile residential flooring option. Useful for previewing grain direction and color temperature in-situ.";
+WALL_TEXTURE_COPY["Parquet Pattern Wood Floor"] =
+  "Classic geometric parquet with mixed-tone inlays — an elegant, traditional flooring choice for formal interiors. Use it to preview pattern scale and visual rhythm across room areas.";
+WALL_TEXTURE_COPY["Textured Marble Floor"] =
+  "Polished marble with distinct veining and subtle surface texture — premium stone flooring suited to bathrooms, lobbies, and refined living spaces. Use to assess veining scale and reflection.";
+WALL_TEXTURE_COPY["White Grey Marble Floor"] =
+  "Light marble with soft grey veining — a refined, airy flooring option for modern and minimalist interiors. Use to preview how natural stone brightens and elevates the space.";
 
 const numberedDescription = (name) => {
   if (/^Bed \d+/i.test(name)) {

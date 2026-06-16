@@ -1722,180 +1722,148 @@
   ],
   "wallTextures": [
     {
-      "importKey": "wall-texture-ceramic-glazed-001",
-      "name": "Ceramic Glazed",
+      "importKey": "wall-texture-brick-wall-textures-background-001",
+      "name": "Brick Wall",
       "vendorEmail": "urban.living@renovar.local",
       "brandName": "Urban Living Studio",
-      "textureFolderPath": "3D models/Wall Textures/Ceramic-Glazed",
-      "textureMapPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_BaseColor.jpg",
-      "materialMaps": {
-        "ambientOcclusion": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_AmbientOcclusion.jpg",
-        "baseColor": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_BaseColor.jpg",
-        "metallic": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_Metallic.jpg",
-        "normal": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_Normal.png",
-        "roughness": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_Roughness.jpg"
-      },
-      "thumbnailPath": "Images/Wall Textures/Ceramic-Glazed.png",
+      "textureMapPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/brick-wall-textures-background.jpg" },
+      "thumbnailPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
+      "price": 35000,
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": [
-        "wall-texture",
-        "ceramic-glazed"
-      ],
-      "description": "A glossy ceramic wall texture with a handcrafted glazed finish. It is suited to feature walls, backsplashes, and decorative accent surfaces in AR previews."
+      "tags": ["wall-texture", "brick-wall"],
+      "description": "Brick wall texture for rustic or industrial interior previews."
     },
     {
-      "importKey": "wall-texture-concrete-worn-001",
-      "name": "Concrete Worn",
+      "importKey": "wall-texture-cracked-shabby-plaster-surface-001",
+      "name": "Cracked Shabby Plaster",
       "vendorEmail": "heritage.home@renovar.local",
       "brandName": "Heritage Home Co",
-      "textureFolderPath": "3D models/Wall Textures/Concrete-Worn",
-      "textureMapPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_BaseColor.jpg",
-      "materialMaps": {
-        "ambientOcclusion": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_AmbientOcclusion.jpg",
-        "baseColor": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_BaseColor.jpg",
-        "metallic": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_Metallic.jpg",
-        "normal": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_Normal.png",
-        "roughness": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_Roughness.jpg"
-      },
-      "thumbnailPath": "Images/Wall Textures/Concrete-Worn.png",
+      "textureMapPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg" },
+      "thumbnailPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
+      "price": 35000,
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": [
-        "wall-texture",
-        "concrete-worn"
-      ],
-      "description": "A worn concrete wall texture with subtle weathering and industrial character. Use it to preview raw, modern, or urban wall finishes."
+      "tags": ["wall-texture", "shabby-plaster"],
+      "description": "Shabby plaster texture with cracking and weathered detail for aged wall finishes."
     },
     {
-      "importKey": "wall-texture-rammed-earth-001",
-      "name": "Rammed Earth",
+      "importKey": "wall-texture-gray-brick-wall-001",
+      "name": "Gray Brick",
       "vendorEmail": "minimal.nest@renovar.local",
       "brandName": "Minimal Nest",
-      "textureFolderPath": "3D models/Wall Textures/Rammed-Earth",
-      "textureMapPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_COL_2K_METALNESS.png",
-      "materialMaps": {
-        "ambientOcclusion": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_AO_2K_METALNESS.png",
-        "baseColor": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_COL_2K_METALNESS.png",
-        "metallic": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_DISP_2K_METALNESS.png",
-        "normal": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_NRM_2K_METALNESS.png",
-        "roughness": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_ROUGHNESS_2K_METALNESS.png"
-      },
-      "thumbnailPath": "Images/Wall Textures/Rammed-Earth.png",
+      "textureMapPath": "Images/Wall Textures/gray-brick-wall.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/gray-brick-wall.jpg" },
+      "thumbnailPath": "Images/Wall Textures/gray-brick-wall.jpg",
+      "price": 35000,
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": [
-        "wall-texture",
-        "rammed-earth"
-      ],
-      "description": "A layered rammed earth wall texture with natural striations and a grounded mineral look. It is ideal for warm, organic feature walls."
+      "tags": ["wall-texture", "gray-brick"],
+      "description": "Neutral gray brick texture suitable for modern and industrial interiors."
     },
     {
-      "importKey": "wall-texture-rusty-gold-ceramic-glazed-001",
-      "name": "Rusty Gold Ceramic Glazed",
+      "importKey": "wall-texture-gray-cement-wall-texture-001",
+      "name": "Gray Cement",
       "vendorEmail": "wallcraft.surfaces@renovar.local",
       "brandName": "Wallcraft Surfaces",
-      "textureFolderPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed",
-      "textureMapPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_BaseColor.jpg",
-      "materialMaps": {
-        "ambientOcclusion": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_AmbientOcclusion.jpg",
-        "baseColor": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_BaseColor.jpg",
-        "metallic": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_Metallic.jpg",
-        "normal": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_Normal.png",
-        "roughness": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_Roughness.jpg"
-      },
-      "thumbnailPath": "Images/Wall Textures/Rusty-Gold-Ceramic-Glazed.png",
+      "textureMapPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/gray_cement_wall_texture.jpg" },
+      "thumbnailPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
+      "price": 35000,
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": [
-        "wall-texture",
-        "rusty-gold-ceramic-glazed"
-      ],
-      "description": "A rich ceramic wall texture with rusty gold glazing and a reflective handmade feel. It works well for bold accent walls and premium decorative surfaces."
+      "tags": ["wall-texture", "cement"],
+      "description": "Gray cement surface texture with subtle variation for contemporary finishes."
     },
     {
-      "importKey": "wall-texture-stone-bricks-001",
-      "name": "Stone Bricks",
+      "importKey": "wall-texture-porous-chalked-surface-white-wall-001",
+      "name": "Porous Chalked Surface",
       "vendorEmail": "urban.living@renovar.local",
       "brandName": "Urban Living Studio",
-      "textureFolderPath": "3D models/Wall Textures/Stone-Bricks",
-      "textureMapPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_COL_2K.jpg",
-      "materialMaps": {
-        "ambientOcclusion": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_AO_2K.jpg",
-        "baseColor": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_COL_2K.jpg",
-        "glossiness": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_GLOSS_2K.jpg",
-        "height": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_BUMP_2K.jpg",
-        "normal": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_NRM_2K.jpg",
-        "reflection": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_REFL_2K.jpg"
-      },
-      "thumbnailPath": "Images/Wall Textures/Stone-Bricks.png",
+      "textureMapPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg" },
+      "thumbnailPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
+      "price": 35000,
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": [
-        "wall-texture",
-        "stone-bricks"
-      ],
-      "description": "A split-face stone brick wall texture with rugged depth and masonry character. Use it for feature walls, fireplace surrounds, and exterior-inspired interiors."
+      "tags": ["wall-texture", "chalked-surface"],
+      "description": "White porous chalked wall texture for soft, matte interior finishes."
     },
     {
-      "importKey": "wall-texture-stone-quartzite-001",
-      "name": "Stone Quartzite",
+      "importKey": "wall-texture-rough-structure-rock-brown-pattern-001",
+      "name": "Rough Rock Brown",
       "vendorEmail": "heritage.home@renovar.local",
       "brandName": "Heritage Home Co",
-      "textureFolderPath": "3D models/Wall Textures/Stone-Quartzite",
-      "textureMapPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_BaseColor.jpg",
-      "materialMaps": {
-        "ambientOcclusion": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_AmbientOcclusion.jpg",
-        "baseColor": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_BaseColor.jpg",
-        "metallic": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_Metallic.jpg",
-        "normal": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_Normal.png",
-        "roughness": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_Roughness.jpg"
-      },
-      "thumbnailPath": "Images/Wall Textures/Stone-Quartzite.png",
+      "textureMapPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg" },
+      "thumbnailPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
+      "price": 35000,
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": [
-        "wall-texture",
-        "stone-quartzite"
-      ],
-      "description": "A quartzite stone wall texture with layered natural variation. It is suited to refined feature walls, textured panels, and upscale interior surfaces."
+      "tags": ["wall-texture", "rock-brown"],
+      "description": "Rough rock texture with brown tones for textured feature walls."
     },
     {
-      "importKey": "wall-texture-wood-veneer-oak-001",
-      "name": "Wood Veneer Oak",
+      "importKey": "wall-texture-white-brick-wall-textures-background-001",
+      "name": "White Brick",
       "vendorEmail": "minimal.nest@renovar.local",
       "brandName": "Minimal Nest",
-      "textureFolderPath": "3D models/Wall Textures/Wood-Veneer-Oak",
-      "textureMapPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_BaseColor.jpg",
-      "materialMaps": {
-        "ambientOcclusion": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_AmbientOcclusion.jpg",
-        "baseColor": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_BaseColor.jpg",
-        "metallic": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_Metallic.jpg",
-        "normal": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_Normal.png",
-        "roughness": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_Roughness.jpg"
-      },
-      "thumbnailPath": "Images/Wall Textures/Wood-Veneer-Oak.png",
+      "textureMapPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/white-brick-wall-textures-background.jpg" },
+      "thumbnailPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
+      "price": 35000,
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": [
-        "wall-texture",
-        "wood-veneer-oak"
-      ],
-      "description": "An oak wood veneer wall texture with natural grain and warm paneling character. It helps users preview timber-clad feature walls and cozy interior finishes."
+      "tags": ["wall-texture", "white-brick"],
+      "description": "White painted brick texture for clean, minimal interiors."
+    },
+    {
+      "importKey": "wall-texture-white-painted-stone-wall-background-001",
+      "name": "White Painted Stone",
+      "vendorEmail": "wallcraft.surfaces@renovar.local",
+      "brandName": "Wallcraft Surfaces",
+      "textureMapPath": "Images/Wall Textures/white-painted-stone-wall-background.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/white-painted-stone-wall-background.jpg" },
+      "thumbnailPath": "Images/Wall Textures/white-painted-stone-wall-background.jpg",
+      "price": 35000,
+      "mapRole": "baseColor",
+      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
+      "textureTarget": "wall",
+      "currency": "PKR",
+      "tags": ["wall-texture", "white-stone"],
+      "description": "Painted stone texture in white for refined textured surfaces."
+    },
+    {
+      "importKey": "wall-texture-white-striped-plaster-texture-001",
+      "name": "White Striped Plaster",
+      "vendorEmail": "urban.living@renovar.local",
+      "brandName": "Urban Living Studio",
+      "textureMapPath": "Images/Wall Textures/white-striped-plaster-texture.jpg",
+      "materialMaps": { "baseColor": "Images/Wall Textures/white-striped-plaster-texture.jpg" },
+      "thumbnailPath": "Images/Wall Textures/white-striped-plaster-texture.jpg",
+      "price": 35000,
+      "mapRole": "baseColor",
+      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
+      "textureTarget": "wall",
+      "currency": "PKR",
+      "tags": ["wall-texture", "striped-plaster"],
+      "description": "Striped plaster texture in white for subtle linear detail on walls."
     }
   ]
 }

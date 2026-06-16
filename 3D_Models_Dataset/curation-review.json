@@ -644,60 +644,85 @@
   ],
   "wallTexturePairs": [
     {
-      "importKey": "wall-texture-ceramic-glazed-001",
-      "name": "Ceramic Glazed",
-      "textureFolderPath": "3D models/Wall Textures/Ceramic-Glazed",
-      "textureMapPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_BaseColor.jpg",
-      "thumbnailPath": "Images/Wall Textures/Ceramic-Glazed.png",
-      "mapRole": "baseColor"
+      "importKey": "wall-texture-brick-wall-textures-background-001",
+      "name": "Brick Wall",
+      "textureMapPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
+      "thumbnailPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
     },
     {
-      "importKey": "wall-texture-concrete-worn-001",
-      "name": "Concrete Worn",
-      "textureFolderPath": "3D models/Wall Textures/Concrete-Worn",
-      "textureMapPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_BaseColor.jpg",
-      "thumbnailPath": "Images/Wall Textures/Concrete-Worn.png",
-      "mapRole": "baseColor"
+      "importKey": "wall-texture-cracked-shabby-plaster-surface-001",
+      "name": "Cracked Shabby Plaster",
+      "textureMapPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
+      "thumbnailPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
     },
     {
-      "importKey": "wall-texture-rammed-earth-001",
-      "name": "Rammed Earth",
-      "textureFolderPath": "3D models/Wall Textures/Rammed-Earth",
-      "textureMapPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_COL_2K_METALNESS.png",
-      "thumbnailPath": "Images/Wall Textures/Rammed-Earth.png",
-      "mapRole": "baseColor"
+      "importKey": "wall-texture-gray-brick-wall-001",
+      "name": "Gray Brick",
+      "textureMapPath": "Images/Wall Textures/gray-brick-wall.jpg",
+      "thumbnailPath": "Images/Wall Textures/gray-brick-wall.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
     },
     {
-      "importKey": "wall-texture-rusty-gold-ceramic-glazed-001",
-      "name": "Rusty Gold Ceramic Glazed",
-      "textureFolderPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed",
-      "textureMapPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_BaseColor.jpg",
-      "thumbnailPath": "Images/Wall Textures/Rusty-Gold-Ceramic-Glazed.png",
-      "mapRole": "baseColor"
+      "importKey": "wall-texture-gray-cement-wall-texture-001",
+      "name": "Gray Cement",
+      "textureMapPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
+      "thumbnailPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
     },
     {
-      "importKey": "wall-texture-stone-bricks-001",
-      "name": "Stone Bricks",
-      "textureFolderPath": "3D models/Wall Textures/Stone-Bricks",
-      "textureMapPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_COL_2K.jpg",
-      "thumbnailPath": "Images/Wall Textures/Stone-Bricks.png",
-      "mapRole": "baseColor"
+      "importKey": "wall-texture-porous-chalked-surface-white-wall-001",
+      "name": "Porous Chalked Surface",
+      "textureMapPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
+      "thumbnailPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
     },
     {
-      "importKey": "wall-texture-stone-quartzite-001",
-      "name": "Stone Quartzite",
-      "textureFolderPath": "3D models/Wall Textures/Stone-Quartzite",
-      "textureMapPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_BaseColor.jpg",
-      "thumbnailPath": "Images/Wall Textures/Stone-Quartzite.png",
-      "mapRole": "baseColor"
+      "importKey": "wall-texture-rough-structure-rock-brown-pattern-001",
+      "name": "Rough Rock Brown",
+      "textureMapPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
+      "thumbnailPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
     },
     {
-      "importKey": "wall-texture-wood-veneer-oak-001",
-      "name": "Wood Veneer Oak",
-      "textureFolderPath": "3D models/Wall Textures/Wood-Veneer-Oak",
-      "textureMapPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_BaseColor.jpg",
-      "thumbnailPath": "Images/Wall Textures/Wood-Veneer-Oak.png",
-      "mapRole": "baseColor"
+      "importKey": "wall-texture-white-brick-wall-textures-background-001",
+      "name": "White Brick",
+      "textureMapPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
+      "thumbnailPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "wall-texture-white-painted-stone-wall-background-001",
+      "name": "White Painted Stone",
+      "textureMapPath": "Images/Wall Textures/white-painted-stone-wall-background.jpg",
+      "thumbnailPath": "Images/Wall Textures/white-painted-stone-wall-background.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
+    },
+    {
+      "importKey": "wall-texture-white-striped-plaster-texture-001",
+      "name": "White Striped Plaster",
+      "textureMapPath": "Images/Wall Textures/white-striped-plaster-texture.jpg",
+      "thumbnailPath": "Images/Wall Textures/white-striped-plaster-texture.jpg",
+      "mapRole": "baseColor",
+      "price": 35000,
+      "currency": "PKR"
     }
   ]
 }

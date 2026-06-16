@@ -9,6 +9,7 @@ const {
   generateSignedUrl,
   objectExists,
   buildS3Url,
+  deleteFromS3,
 } = require("../../utils/s3Helper");
 const { ApiError } = require("../../utils/apiError");
 const {
@@ -225,6 +226,16 @@ const confirmAssetUpload = async (productId, firebaseUid, payload) => {
     throw new ApiError(400, "Uploaded file not found in S3", "BAD_REQUEST");
   }
 
+  // normalize assetType: treat image uploads with texture metadata as texture
+  let normalizedAssetType = payload.assetType;
+  const mapRole = payload.metadata && payload.metadata.mapRole;
+  if (
+    payload.assetType === "image" &&
+    (mapRole || (payload.metadata && payload.metadata.isTexture))
+  ) {
+    normalizedAssetType = "texture";
+  }
+
   const existingAsset = await assetRepository.findByProductIdAndS3Key(
     productId,
     payload.s3Key,
@@ -237,9 +248,9 @@ const confirmAssetUpload = async (productId, firebaseUid, payload) => {
     );
   }
 
-  return assetRepository.createAsset({
+  const created = await assetRepository.createAsset({
     productId,
-    assetType: payload.assetType,
+    assetType: normalizedAssetType,
     s3Key: payload.s3Key,
     s3Url: buildS3Url(payload.s3Key),
     fileName: payload.fileName,
@@ -247,6 +258,32 @@ const confirmAssetUpload = async (productId, firebaseUid, payload) => {
     mimeType: payload.mimeType,
     metadata: buildMetadata(payload),
   });
+
+  // If this is a texture and has a mapRole, remove older textures for same mapRole
+  try {
+    if (normalizedAssetType === "texture" && mapRole) {
+      const older = await assetRepository.getTexturesByProductIdAndMapRole(
+        productId,
+        mapRole,
+      );
+
+      for (const asset of older) {
+        if (asset.s3Key && asset.s3Key !== created.s3Key) {
+          // delete from S3 then DB
+          try {
+            await deleteFromS3(asset.s3Key);
+          } catch (e) {
+            // log and continue; not critical to block creation
+          }
+          await assetRepository.deleteAssetById(asset.id);
+        }
+      }
+    }
+  } catch (e) {
+    // swallow cleanup errors to avoid failing upload confirmation
+  }
+
+  return created;
 };
 
 const uploadAsset = async (productId, firebaseUid, payload) => {
@@ -262,16 +299,26 @@ const uploadAsset = async (productId, firebaseUid, payload) => {
     );
   }
 
+  // normalize assetType: treat image uploads with texture metadata as texture
+  let normalizedAssetType = payload.assetType;
+  const mapRole = payload.metadata && payload.metadata.mapRole;
+  if (
+    payload.assetType === "image" &&
+    (mapRole || (payload.metadata && payload.metadata.isTexture))
+  ) {
+    normalizedAssetType = "texture";
+  }
+
   const key = generateS3Key(
     String(productId),
-    payload.assetType,
+    normalizedAssetType,
     payload.fileName,
   );
   const uploadResult = await uploadToS3(fileBuffer, key, payload.mimeType);
 
-  return assetRepository.createAsset({
+  const created = await assetRepository.createAsset({
     productId,
-    assetType: payload.assetType,
+    assetType: normalizedAssetType,
     s3Key: uploadResult.key,
     s3Url: uploadResult.location,
     fileName: payload.fileName,
@@ -279,6 +326,27 @@ const uploadAsset = async (productId, firebaseUid, payload) => {
     mimeType: payload.mimeType,
     metadata: buildMetadata(payload),
   });
+
+  // cleanup older textures with same mapRole
+  try {
+    if (normalizedAssetType === "texture" && mapRole) {
+      const older = await assetRepository.getTexturesByProductIdAndMapRole(
+        productId,
+        mapRole,
+      );
+
+      for (const asset of older) {
+        if (asset.s3Key && asset.s3Key !== created.s3Key) {
+          try {
+            await deleteFromS3(asset.s3Key);
+          } catch (e) {}
+          await assetRepository.deleteAssetById(asset.id);
+        }
+      }
+    }
+  } catch (e) {}
+
+  return created;
 };
 
 const withSignedAccessUrl = async (asset) => {

@@ -148,7 +148,9 @@ const numberedDescription = (name) => {
 
 const categoryFallback = (entry) => {
   const name = titleCase(entry.name);
-  const category = String(entry.sourceCategory || entry.category || "").toLowerCase();
+  const category = String(
+    entry.sourceCategory || entry.category || "",
+  ).toLowerCase();
 
   if (category === "beds") {
     return `${name} is a bedroom furniture piece for previewing bed placement, room scale, and surrounding clearance before purchase.`;
@@ -166,12 +168,20 @@ const categoryFallback = (entry) => {
 };
 
 const getProductDescription = (entry) =>
-  PRODUCT_COPY[entry.name] || numberedDescription(entry.name) || categoryFallback(entry);
+  PRODUCT_COPY[entry.name] ||
+  numberedDescription(entry.name) ||
+  categoryFallback(entry);
 
 const getWallTextureDescription = (entry) =>
-  WALL_TEXTURE_COPY[entry.name] || `${entry.name} is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character.`;
+  WALL_TEXTURE_COPY[entry.name] ||
+  `${entry.name} is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character.`;
+
+const getFloorTextureDescription = (entry) =>
+  WALL_TEXTURE_COPY[entry.name] ||
+  `${entry.name} is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character.`;
 
 module.exports = {
   getProductDescription,
   getWallTextureDescription,
+  getFloorTextureDescription,
 };

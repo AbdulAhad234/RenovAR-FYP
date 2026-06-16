@@ -12,6 +12,8 @@
     "seed:dataset-vendors": "node scripts/seed-dataset-vendors.js",
     "import:wall-textures": "node scripts/import-wall-textures.js",
     "import:wall-textures:dry-run": "node scripts/import-wall-textures.js --dry-run",
+    "import:floor-textures": "node scripts/import-floor-textures.js",
+    "import:floor-textures:dry-run": "node scripts/import-floor-textures.js --dry-run",
     "sync:wall-texture-maps": "node scripts/sync-wall-texture-material-maps.js --manifest ../3D_Models_Dataset/curated-manifest.json",
     "sync:wall-texture-maps:dry-run": "node scripts/sync-wall-texture-material-maps.js --manifest ../3D_Models_Dataset/curated-manifest.json --dry-run",
     "import:dataset": "node scripts/import-curated-dataset.js --manifest ../3D_Models_Dataset/curated-manifest.json --skip-duplicates",

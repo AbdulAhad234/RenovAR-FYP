@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T13:33:17.007Z",
+  "generatedAt": "2026-06-16T20:50:46.016Z",
   "productPairs": [
     {
       "importKey": "dataset-basic-wooden-shelf-001",
@@ -644,85 +644,90 @@
   ],
   "wallTexturePairs": [
     {
-      "importKey": "wall-texture-brick-wall-textures-background-001",
-      "name": "Brick Wall",
-      "textureMapPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
-      "thumbnailPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "wall-texture-bare-rough-concrete-wall-001",
+      "name": "Bare Rough Concrete Wall",
+      "textureMapPath": "Images/Wall Textures/bare-rough-concrete-wall.jpg",
+      "thumbnailPath": "Images/Wall Textures/bare-rough-concrete-wall.jpg",
+      "mapRole": "baseColor"
     },
     {
-      "importKey": "wall-texture-cracked-shabby-plaster-surface-001",
-      "name": "Cracked Shabby Plaster",
-      "textureMapPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
-      "thumbnailPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "wall-texture-beige-brick-stretcher-001",
+      "name": "Beige Brick Stretcher",
+      "textureMapPath": "Images/Wall Textures/beige-brick-stretcher.jpg",
+      "thumbnailPath": "Images/Wall Textures/beige-brick-stretcher.jpg",
+      "mapRole": "baseColor"
     },
     {
-      "importKey": "wall-texture-gray-brick-wall-001",
-      "name": "Gray Brick",
-      "textureMapPath": "Images/Wall Textures/gray-brick-wall.jpg",
-      "thumbnailPath": "Images/Wall Textures/gray-brick-wall.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "wall-texture-concrete-wall-texture-001",
+      "name": "Concrete Wall Texture",
+      "textureMapPath": "Images/Wall Textures/Concrete-Wall-Texture.jpg",
+      "thumbnailPath": "Images/Wall Textures/Concrete-Wall-Texture.jpg",
+      "mapRole": "baseColor"
     },
     {
-      "importKey": "wall-texture-gray-cement-wall-texture-001",
-      "name": "Gray Cement",
-      "textureMapPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
-      "thumbnailPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "wall-texture-dark-blue-stone-wall-001",
+      "name": "Dark Blue Stone Wall",
+      "textureMapPath": "Images/Wall Textures/dark-blue-stone-wall.jpg",
+      "thumbnailPath": "Images/Wall Textures/dark-blue-stone-wall.jpg",
+      "mapRole": "baseColor"
     },
     {
-      "importKey": "wall-texture-porous-chalked-surface-white-wall-001",
-      "name": "Porous Chalked Surface",
-      "textureMapPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
-      "thumbnailPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "wall-texture-red-brick-wall-texture-001",
+      "name": "Red Brick Wall Texture",
+      "textureMapPath": "Images/Wall Textures/red-brick-wall-texture.jpg",
+      "thumbnailPath": "Images/Wall Textures/red-brick-wall-texture.jpg",
+      "mapRole": "baseColor"
     },
     {
-      "importKey": "wall-texture-rough-structure-rock-brown-pattern-001",
-      "name": "Rough Rock Brown",
-      "textureMapPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
-      "thumbnailPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "wall-texture-stone-wall-texture-001",
+      "name": "Stone Wall Texture",
+      "textureMapPath": "Images/Wall Textures/stone-wall-texture.jpg",
+      "thumbnailPath": "Images/Wall Textures/stone-wall-texture.jpg",
+      "mapRole": "baseColor"
+    }
+  ],
+  "floorTexturePairs": [
+    {
+      "importKey": "floor-texture-dark-smoked-herringbone-floor-001",
+      "name": "Dark Smoked Herringbone Floor",
+      "textureMapPath": "Images/Floor Textures/dark-smoked-herringbone-floor.jpg",
+      "thumbnailPath": "Images/Floor Textures/dark-smoked-herringbone-floor.jpg",
+      "mapRole": "baseColor"
     },
     {
-      "importKey": "wall-texture-white-brick-wall-textures-background-001",
-      "name": "White Brick",
-      "textureMapPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
-      "thumbnailPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "floor-texture-light-oak-wood-floor-001",
+      "name": "Light Oak Wood Floor",
+      "textureMapPath": "Images/Floor Textures/light-oak-wood-floor.jpg",
+      "thumbnailPath": "Images/Floor Textures/light-oak-wood-floor.jpg",
+      "mapRole": "baseColor"
     },
     {
-      "importKey": "wall-texture-white-painted-stone-wall-background-001",
-      "name": "White Painted Stone",
-      "textureMapPath": "Images/Wall Textures/white-painted-stone-wall-background.jpg",
-      "thumbnailPath": "Images/Wall Textures/white-painted-stone-wall-background.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "floor-texture-oak-wood-pattern-floor-001",
+      "name": "Oak Wood Pattern Floor",
+      "textureMapPath": "Images/Floor Textures/oak-wood-pattern-floor.jpg",
+      "thumbnailPath": "Images/Floor Textures/oak-wood-pattern-floor.jpg",
+      "mapRole": "baseColor"
     },
     {
-      "importKey": "wall-texture-white-striped-plaster-texture-001",
-      "name": "White Striped Plaster",
-      "textureMapPath": "Images/Wall Textures/white-striped-plaster-texture.jpg",
-      "thumbnailPath": "Images/Wall Textures/white-striped-plaster-texture.jpg",
-      "mapRole": "baseColor",
-      "price": 35000,
-      "currency": "PKR"
+      "importKey": "floor-texture-parquet-pattern-wood-floor-001",
+      "name": "Parquet Pattern Wood Floor",
+      "textureMapPath": "Images/Floor Textures/parquet-pattern-wood-floor.jpg",
+      "thumbnailPath": "Images/Floor Textures/parquet-pattern-wood-floor.jpg",
+      "mapRole": "baseColor"
+    },
+    {
+      "importKey": "floor-texture-textured-marble-floor-001",
+      "name": "Textured Marble Floor",
+      "textureMapPath": "Images/Floor Textures/textured-marble-floor.jpg",
+      "thumbnailPath": "Images/Floor Textures/textured-marble-floor.jpg",
+      "mapRole": "baseColor"
+    },
+    {
+      "importKey": "floor-texture-white-grey-marble-floor-001",
+      "name": "White Grey Marble Floor",
+      "textureMapPath": "Images/Floor Textures/white-grey-marble-floor.jpg",
+      "thumbnailPath": "Images/Floor Textures/white-grey-marble-floor.jpg",
+      "mapRole": "baseColor"
     }
   ]
 }

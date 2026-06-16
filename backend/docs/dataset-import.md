@@ -17,6 +17,7 @@ This backend imports curated 3D model products from the local dataset folder:
 - Import wall textures: `scripts/import-wall-textures.js`
 - Sync wall texture material maps: `scripts/sync-wall-texture-material-maps.js`
 - Product copy update script: `scripts/update-product-copy-from-manifest.js`
+- Import floor textures: `scripts/import-wall-textures.js` (script also supports floor textures)
 
 ## Manifest rules
 
@@ -56,6 +57,7 @@ Wall texture entries are written under `wallTextures`. Each entry pairs:
 - `materialMaps`: role-based texture map paths such as `baseColor`, `normal`, `roughness`, `ambientOcclusion`, `metallic`, `height`, `glossiness`, or `reflection`
 - `thumbnailPath`: the matching UI preview image
 - `textureTarget`: currently `wall` for curated wall textures
+Floor texture entries are written under `floorTextures` and use the same fields as wall textures. For floor textures set `textureTarget` to `floor`.
 
 ## Preparation workflow
 
@@ -114,6 +116,10 @@ npm run import:dataset
 # 6) Wall-texture-specific dry-run / import
 npm run import:wall-textures:dry-run
 npm run import:wall-textures
+
+# 6b) Floor-texture-specific dry-run / import (same script)
+npm run import:wall-textures:dry-run -- --manifest 3D_Models_Dataset/curated-manifest.json
+npm run import:wall-textures -- --manifest 3D_Models_Dataset/curated-manifest.json
 
 # 7) Sync missing material maps (dry-run then real)
 npm run sync:wall-texture-maps:dry-run

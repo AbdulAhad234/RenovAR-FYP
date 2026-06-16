@@ -133,7 +133,9 @@ const resolveVendorSpecs = (manifest) => {
 const loadImportVendors = async (manifest) => {
   const vendorSpecs = resolveVendorSpecs(manifest);
   if (vendorSpecs.length === 0) {
-    throw new Error("Manifest must define datasetVendors or defaultVendorEmail");
+    throw new Error(
+      "Manifest must define datasetVendors or defaultVendorEmail",
+    );
   }
 
   const vendors = [];
@@ -266,19 +268,24 @@ const main = async () => {
   const datasetRoot = path.dirname(options.manifest);
   const vendors = await loadImportVendors(manifest);
 
-  // Ensure category exists: Wall Textures
-  const CAT_SLUG = "wall-textures";
-  let category = await findCategoryBySlug(CAT_SLUG);
+  // Prepare category for wall textures
+  const WALL_DEF = {
+    slug: "wall-textures",
+    name: "Wall Textures",
+    description: "Wall texture maps for AR wall surfaces",
+  };
+
+  let category = await findCategoryBySlug(WALL_DEF.slug);
   if (!category) {
     if (options.dryRun) {
       console.log(
-        `[DRY-RUN] Would create category 'Wall Textures' (slug: ${CAT_SLUG})`,
+        `[DRY-RUN] Would create category '${WALL_DEF.name}' (slug: ${WALL_DEF.slug})`,
       );
     } else {
       category = await createCategory({
-        name: "Wall Textures",
-        slug: CAT_SLUG,
-        description: "Wall texture maps for AR wall surfaces",
+        name: WALL_DEF.name,
+        slug: WALL_DEF.slug,
+        description: WALL_DEF.description,
       });
       console.log(`[CREATED] category ${category.name} (id=${category.id})`);
     }
@@ -293,7 +300,13 @@ const main = async () => {
     byVendor: {},
   };
 
-  for (const [index, entry] of manifest.wallTextures.entries()) {
+  const set = {
+    entries: manifest.wallTextures || [],
+    type: "wall",
+    descriptionFn: getWallTextureDescription,
+  };
+
+  for (const [index, entry] of set.entries.entries()) {
     try {
       summary.processed += 1;
       const vendor = pickVendorForEntry(entry, vendors, index);
@@ -305,7 +318,7 @@ const main = async () => {
         vendor.displayName ||
         null;
       const name =
-        entry.name || entry.textureFolderPath || "unnamed-wall-texture";
+        entry.name || entry.textureFolderPath || `unnamed-${set.type}-texture`;
       const importKey = entry.importKey || slugify(name);
       const materialMaps = getMaterialMaps(entry);
       const thumbnailAbs = resolveDatasetPath(datasetRoot, entry.thumbnailPath);
@@ -332,9 +345,10 @@ const main = async () => {
         name,
         brandName,
         vendorEmail: vendor.email,
-        categorySlug: CAT_SLUG,
+        categorySlug: category.slug,
       };
-      summary.byVendor[vendor.email] = (summary.byVendor[vendor.email] || 0) + 1;
+      summary.byVendor[vendor.email] =
+        (summary.byVendor[vendor.email] || 0) + 1;
       if (options.dryRun) {
         console.log(
           `[DRY-RUN] Would create product: ${JSON.stringify(productPreview)}`,
@@ -348,8 +362,8 @@ const main = async () => {
         categoryId: category.id,
         name,
         brandName,
-        description: getWallTextureDescription(entry),
-        textureTarget: "wall",
+        description: (set.descriptionFn || getWallTextureDescription)(entry),
+        textureTarget: set.type,
         price: entry.price || 0,
       });
       summary.created += 1;
@@ -357,10 +371,10 @@ const main = async () => {
       const baseMetadata = {
         importSource: "curated-dataset-manifest",
         manifestKey: importKey,
-        sourceCategory: "Wall Textures",
+        sourceCategory: `${category.name}`,
         brandName,
-        tags: entry.tags || ["wall-texture"],
-        textureTarget: "wall",
+        tags: entry.tags || [`${set.type}-texture`],
+        textureTarget: set.type,
       };
 
       for (const map of materialMaps) {

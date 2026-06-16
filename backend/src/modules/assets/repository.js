@@ -1,4 +1,4 @@
-const { query } = require('../../config/database');
+const { query } = require("../../config/database");
 
 const createAsset = async (payload) => {
   const result = await query(
@@ -34,8 +34,8 @@ const createAsset = async (payload) => {
       payload.fileName,
       payload.fileSize,
       payload.mimeType,
-      payload.metadata || null
-    ]
+      payload.metadata || null,
+    ],
   );
 
   return result.rows[0];
@@ -59,7 +59,7 @@ const findByProductIdAndS3Key = async (productId, s3Key) => {
       WHERE product_id = $1 AND s3_key = $2
       LIMIT 1
     `,
-    [productId, s3Key]
+    [productId, s3Key],
   );
 
   return result.rows[0] || null;
@@ -83,14 +83,55 @@ const findByProductId = async (productId) => {
       WHERE product_id = $1
       ORDER BY uploaded_at DESC
     `,
-    [productId]
+    [productId],
   );
 
   return result.rows;
 };
 
+const getTexturesByProductIdAndMapRole = async (productId, mapRole) => {
+  const result = await query(
+    `
+      SELECT
+        id,
+        product_id AS "productId",
+        asset_type AS "assetType",
+        s3_key AS "s3Key",
+        s3_url AS "s3Url",
+        file_name AS "fileName",
+        file_size AS "fileSize",
+        mime_type AS "mimeType",
+        metadata_json AS metadata,
+        uploaded_at AS "uploadedAt"
+      FROM product_assets
+      WHERE product_id = $1
+        AND asset_type = 'texture'
+        AND (metadata_json->>'mapRole') = $2
+      ORDER BY uploaded_at ASC
+    `,
+    [productId, mapRole],
+  );
+
+  return result.rows;
+};
+
+const deleteAssetById = async (id) => {
+  const result = await query(
+    `
+      DELETE FROM product_assets
+      WHERE id = $1
+      RETURNING s3_key AS "s3Key"
+    `,
+    [id],
+  );
+
+  return result.rows[0] || null;
+};
+
 module.exports = {
   createAsset,
   findByProductId,
-  findByProductIdAndS3Key
+  findByProductIdAndS3Key,
+  getTexturesByProductIdAndMapRole,
+  deleteAssetById,
 };

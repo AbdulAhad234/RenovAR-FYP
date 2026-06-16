@@ -7,6 +7,7 @@ const { query, pool } = require("../src/config/database");
 const {
   getProductDescription,
   getWallTextureDescription,
+  getFloorTextureDescription,
 } = require("./product-copy");
 
 const DEFAULT_MANIFEST_PATH = path.resolve(
@@ -95,6 +96,11 @@ const main = async () => {
       importKey: entry.importKey,
       description: getWallTextureDescription(entry),
       textureTarget: "wall",
+    })),
+    ...(manifest.floorTextures || []).map((entry) => ({
+      importKey: entry.importKey,
+      description: getFloorTextureDescription(entry),
+      textureTarget: "floor",
     })),
   ];
 

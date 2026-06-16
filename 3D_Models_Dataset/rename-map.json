@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-06-16T13:33:17.007Z",
+  "generatedAt": "2026-06-16T20:50:46.015Z",
   "datasetRoot": "D:\\Programming Projects\\RenovAR\\3D_Models_Dataset",
   "summary": {
     "pairedProducts": 64,
-    "pairedWallTextures": 7,
-    "totalItemsInventoried": 188
+    "pairedWallTextures": 6,
+    "pairedFloorTextures": 6,
+    "totalItemsInventoried": 146
   },
   "items": [
     {
@@ -1224,542 +1225,164 @@
       "confidence": "high"
     },
     {
-      "originalPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_BaseColor.jpg",
-      "newPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
+      "originalPath": "Images/Wall Textures/bare-rough-concrete-wall.jpg",
+      "newPath": "Images/Wall Textures/bare-rough-concrete-wall.jpg",
       "category": "Wall Textures",
-      "productSlug": "ceramic-glazed",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "bare-rough-concrete-wall",
+      "assetKind": "wall-texture-map",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Wall Textures/Ceramic-Glazed.png",
-      "newPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
+      "originalPath": "Images/Wall Textures/bare-rough-concrete-wall.jpg",
+      "newPath": "Images/Wall Textures/bare-rough-concrete-wall.jpg",
       "category": "Wall Textures",
-      "productSlug": "ceramic-glazed",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "bare-rough-concrete-wall",
+      "assetKind": "wall-texture-thumbnail",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_BaseColor.jpg",
-      "newPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
+      "originalPath": "Images/Wall Textures/beige-brick-stretcher.jpg",
+      "newPath": "Images/Wall Textures/beige-brick-stretcher.jpg",
       "category": "Wall Textures",
-      "productSlug": "concrete-worn",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "beige-brick-stretcher",
+      "assetKind": "wall-texture-map",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Wall Textures/Concrete-Worn.png",
-      "newPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
+      "originalPath": "Images/Wall Textures/beige-brick-stretcher.jpg",
+      "newPath": "Images/Wall Textures/beige-brick-stretcher.jpg",
       "category": "Wall Textures",
-      "productSlug": "concrete-worn",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "beige-brick-stretcher",
+      "assetKind": "wall-texture-thumbnail",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_COL_2K_METALNESS.png",
-      "newPath": "Images/Wall Textures/gray-brick-wall.jpg",
+      "originalPath": "Images/Wall Textures/Concrete-Wall-Texture.jpg",
+      "newPath": "Images/Wall Textures/Concrete-Wall-Texture.jpg",
       "category": "Wall Textures",
-      "productSlug": "rammed-earth",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "concrete-wall-texture",
+      "assetKind": "wall-texture-map",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Wall Textures/Rammed-Earth.png",
-      "newPath": "Images/Wall Textures/gray-brick-wall.jpg",
+      "originalPath": "Images/Wall Textures/Concrete-Wall-Texture.jpg",
+      "newPath": "Images/Wall Textures/Concrete-Wall-Texture.jpg",
       "category": "Wall Textures",
-      "productSlug": "rammed-earth",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "concrete-wall-texture",
+      "assetKind": "wall-texture-thumbnail",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_BaseColor.jpg",
-      "newPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
+      "originalPath": "Images/Wall Textures/dark-blue-stone-wall.jpg",
+      "newPath": "Images/Wall Textures/dark-blue-stone-wall.jpg",
       "category": "Wall Textures",
-      "productSlug": "rusty-gold-ceramic-glazed",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "dark-blue-stone-wall",
+      "assetKind": "wall-texture-map",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Wall Textures/Rusty-Gold-Ceramic-Glazed.png",
-      "newPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
+      "originalPath": "Images/Wall Textures/dark-blue-stone-wall.jpg",
+      "newPath": "Images/Wall Textures/dark-blue-stone-wall.jpg",
       "category": "Wall Textures",
-      "productSlug": "rusty-gold-ceramic-glazed",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "dark-blue-stone-wall",
+      "assetKind": "wall-texture-thumbnail",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_COL_2K.jpg",
-      "newPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
+      "originalPath": "Images/Wall Textures/red-brick-wall-texture.jpg",
+      "newPath": "Images/Wall Textures/red-brick-wall-texture.jpg",
       "category": "Wall Textures",
-      "productSlug": "stone-bricks",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "red-brick-wall-texture",
+      "assetKind": "wall-texture-map",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Wall Textures/Stone-Bricks.png",
-      "newPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
+      "originalPath": "Images/Wall Textures/red-brick-wall-texture.jpg",
+      "newPath": "Images/Wall Textures/red-brick-wall-texture.jpg",
       "category": "Wall Textures",
-      "productSlug": "stone-bricks",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "red-brick-wall-texture",
+      "assetKind": "wall-texture-thumbnail",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_BaseColor.jpg",
-      "newPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
+      "originalPath": "Images/Wall Textures/stone-wall-texture.jpg",
+      "newPath": "Images/Wall Textures/stone-wall-texture.jpg",
       "category": "Wall Textures",
-      "productSlug": "stone-quartzite",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "stone-wall-texture",
+      "assetKind": "wall-texture-map",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "Images/Wall Textures/Stone-Quartzite.png",
-      "newPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
+      "originalPath": "Images/Wall Textures/stone-wall-texture.jpg",
+      "newPath": "Images/Wall Textures/stone-wall-texture.jpg",
       "category": "Wall Textures",
-      "productSlug": "stone-quartzite",
-      "assetKind": "image",
-      "status": "mapped",
+      "productSlug": "stone-wall-texture",
+      "assetKind": "wall-texture-thumbnail",
+      "status": "paired",
       "confidence": "high"
     },
     {
-      "originalPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_BaseColor.jpg",
-      "newPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
-      "category": "Wall Textures",
-      "productSlug": "wood-veneer-oak",
+      "originalPath": "Images/Floor Textures/dark-smoked-herringbone-floor.jpg",
+      "newPath": null,
+      "category": "Floor Textures",
+      "productSlug": null,
       "assetKind": "image",
-      "status": "mapped",
-      "confidence": "high"
+      "status": "unmatched",
+      "confidence": null
     },
     {
-      "originalPath": "Images/Wall Textures/Wood-Veneer-Oak.png",
-      "newPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
-      "category": "Wall Textures",
-      "productSlug": "wood-veneer-oak",
+      "originalPath": "Images/Floor Textures/light-oak-wood-floor.jpg",
+      "newPath": null,
+      "category": "Floor Textures",
+      "productSlug": null,
       "assetKind": "image",
-      "status": "mapped",
-      "confidence": "high"
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861.mtlx",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
       "status": "unmatched",
       "confidence": null
     },
     {
-      "originalPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_AmbientOcclusion.jpg",
+      "originalPath": "Images/Floor Textures/oak-wood-pattern-floor.jpg",
       "newPath": null,
-      "category": "Wall Textures",
+      "category": "Floor Textures",
       "productSlug": null,
-      "assetKind": "model",
+      "assetKind": "image",
       "status": "unmatched",
       "confidence": null
     },
     {
-      "originalPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_Displacement.tiff",
+      "originalPath": "Images/Floor Textures/parquet-pattern-wood-floor.jpg",
       "newPath": null,
-      "category": "Wall Textures",
+      "category": "Floor Textures",
       "productSlug": null,
-      "assetKind": "model",
+      "assetKind": "image",
       "status": "unmatched",
       "confidence": null
     },
     {
-      "originalPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_Metallic.jpg",
+      "originalPath": "Images/Floor Textures/textured-marble-floor.jpg",
       "newPath": null,
-      "category": "Wall Textures",
+      "category": "Floor Textures",
       "productSlug": null,
-      "assetKind": "model",
+      "assetKind": "image",
       "status": "unmatched",
       "confidence": null
     },
     {
-      "originalPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_Normal.png",
+      "originalPath": "Images/Floor Textures/white-grey-marble-floor.jpg",
       "newPath": null,
-      "category": "Wall Textures",
+      "category": "Floor Textures",
       "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10861_Roughness.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690.mtlx",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_AmbientOcclusion.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_Displacement.tiff",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_Metallic.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_Normal.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Concrete-Worn/Poliigon_ConcreteWorn_8690_Roughness.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_AO_2K_METALNESS.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_DISP16_2K_METALNESS.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_DISP_2K_METALNESS.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_METALNESS_2K_METALNESS.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_NRM_2K_METALNESS.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rammed-Earth/RammedEarth018_ROUGHNESS_2K_METALNESS.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828.mtlx",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_AmbientOcclusion.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_Displacement.tiff",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_Metallic.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_Normal.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Rusty-Gold-Ceramic-Glazed/Poliigon_CeramicPotteryGlazed_10828_Roughness.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_AO_2K.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_BUMP16_2K.tiff",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_BUMP_2K.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_DISP16_2K.tiff",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_DISP_2K.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_DISP_2K.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_GLOSS_2K.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_NRM_2K.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_NRM_2K.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Bricks/StoneBricksSplitface001_REFL_2K.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060.mtlx",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_AmbientOcclusion.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_Displacement.tiff",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_Metallic.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_Normal.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Stone-Quartzite/Poliigon_StoneQuartzite_8060_Roughness.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760.mtlx",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_AmbientOcclusion.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_Displacement.tiff",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_Metallic.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_Normal.png",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
-      "status": "unmatched",
-      "confidence": null
-    },
-    {
-      "originalPath": "3D models/Wall Textures/Wood-Veneer-Oak/Poliigon_WoodVeneerOak_7760_Roughness.jpg",
-      "newPath": null,
-      "category": "Wall Textures",
-      "productSlug": null,
-      "assetKind": "model",
+      "assetKind": "image",
       "status": "unmatched",
       "confidence": null
     }

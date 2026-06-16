@@ -1,5 +1,5 @@
 {
-  "defaultVendorEmail": "wallcraft.surfaces@renovar.local",
+  "defaultVendorEmail": "renovar.test1@gmail.com",
   "defaultBrandName": "RenovAR Curated",
   "datasetVendors": [
     {
@@ -49,10 +49,11 @@
     "Coffee tables": "living-room"
   },
   "metadata": {
-    "generatedAt": "2026-06-16T13:33:16.999Z",
+    "generatedAt": "2026-06-16T20:50:45.999Z",
     "appliedMethod": "same-basename-category-pairing",
     "productsPaired": 64,
-    "wallTexturesPaired": 7
+    "wallTexturesPaired": 6,
+    "floorTexturesPaired": 6
   },
   "products": [
     {
@@ -1722,148 +1723,246 @@
   ],
   "wallTextures": [
     {
-      "importKey": "wall-texture-brick-wall-textures-background-001",
-      "name": "Brick Wall",
+      "importKey": "wall-texture-bare-rough-concrete-wall-001",
+      "name": "Bare Rough Concrete Wall",
       "vendorEmail": "urban.living@renovar.local",
       "brandName": "Urban Living Studio",
-      "textureMapPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/brick-wall-textures-background.jpg" },
-      "thumbnailPath": "Images/Wall Textures/brick-wall-textures-background.jpg",
-      "price": 35000,
+      "textureMapPath": "Images/Wall Textures/bare-rough-concrete-wall.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Wall Textures/bare-rough-concrete-wall.jpg"
+      },
+      "thumbnailPath": "Images/Wall Textures/bare-rough-concrete-wall.jpg",
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": ["wall-texture", "brick-wall"],
-      "description": "Brick wall texture for rustic or industrial interior previews."
+      "tags": [
+        "wall-texture",
+        "bare-rough-concrete-wall"
+      ],
+      "description": "Bare Rough Concrete Wall is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
     },
     {
-      "importKey": "wall-texture-cracked-shabby-plaster-surface-001",
-      "name": "Cracked Shabby Plaster",
+      "importKey": "wall-texture-beige-brick-stretcher-001",
+      "name": "Beige Brick Stretcher",
       "vendorEmail": "heritage.home@renovar.local",
       "brandName": "Heritage Home Co",
-      "textureMapPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg" },
-      "thumbnailPath": "Images/Wall Textures/cracked-shabby-plaster-surface.jpg",
-      "price": 35000,
+      "textureMapPath": "Images/Wall Textures/beige-brick-stretcher.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Wall Textures/beige-brick-stretcher.jpg"
+      },
+      "thumbnailPath": "Images/Wall Textures/beige-brick-stretcher.jpg",
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": ["wall-texture", "shabby-plaster"],
-      "description": "Shabby plaster texture with cracking and weathered detail for aged wall finishes."
+      "tags": [
+        "wall-texture",
+        "beige-brick-stretcher"
+      ],
+      "description": "Beige Brick Stretcher is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
     },
     {
-      "importKey": "wall-texture-gray-brick-wall-001",
-      "name": "Gray Brick",
+      "importKey": "wall-texture-concrete-wall-texture-001",
+      "name": "Concrete Wall Texture",
       "vendorEmail": "minimal.nest@renovar.local",
       "brandName": "Minimal Nest",
-      "textureMapPath": "Images/Wall Textures/gray-brick-wall.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/gray-brick-wall.jpg" },
-      "thumbnailPath": "Images/Wall Textures/gray-brick-wall.jpg",
-      "price": 35000,
+      "textureMapPath": "Images/Wall Textures/Concrete-Wall-Texture.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Wall Textures/Concrete-Wall-Texture.jpg"
+      },
+      "thumbnailPath": "Images/Wall Textures/Concrete-Wall-Texture.jpg",
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": ["wall-texture", "gray-brick"],
-      "description": "Neutral gray brick texture suitable for modern and industrial interiors."
+      "tags": [
+        "wall-texture",
+        "concrete-wall-texture"
+      ],
+      "description": "Concrete Wall Texture is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
     },
     {
-      "importKey": "wall-texture-gray-cement-wall-texture-001",
-      "name": "Gray Cement",
+      "importKey": "wall-texture-dark-blue-stone-wall-001",
+      "name": "Dark Blue Stone Wall",
       "vendorEmail": "wallcraft.surfaces@renovar.local",
       "brandName": "Wallcraft Surfaces",
-      "textureMapPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/gray_cement_wall_texture.jpg" },
-      "thumbnailPath": "Images/Wall Textures/gray_cement_wall_texture.jpg",
-      "price": 35000,
+      "textureMapPath": "Images/Wall Textures/dark-blue-stone-wall.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Wall Textures/dark-blue-stone-wall.jpg"
+      },
+      "thumbnailPath": "Images/Wall Textures/dark-blue-stone-wall.jpg",
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": ["wall-texture", "cement"],
-      "description": "Gray cement surface texture with subtle variation for contemporary finishes."
+      "tags": [
+        "wall-texture",
+        "dark-blue-stone-wall"
+      ],
+      "description": "Dark Blue Stone Wall is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
     },
     {
-      "importKey": "wall-texture-porous-chalked-surface-white-wall-001",
-      "name": "Porous Chalked Surface",
+      "importKey": "wall-texture-red-brick-wall-texture-001",
+      "name": "Red Brick Wall Texture",
       "vendorEmail": "urban.living@renovar.local",
       "brandName": "Urban Living Studio",
-      "textureMapPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg" },
-      "thumbnailPath": "Images/Wall Textures/porous-chalked-surface-white-wall.jpg",
-      "price": 35000,
+      "textureMapPath": "Images/Wall Textures/red-brick-wall-texture.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Wall Textures/red-brick-wall-texture.jpg"
+      },
+      "thumbnailPath": "Images/Wall Textures/red-brick-wall-texture.jpg",
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": ["wall-texture", "chalked-surface"],
-      "description": "White porous chalked wall texture for soft, matte interior finishes."
+      "tags": [
+        "wall-texture",
+        "red-brick-wall-texture"
+      ],
+      "description": "Red Brick Wall Texture is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
     },
     {
-      "importKey": "wall-texture-rough-structure-rock-brown-pattern-001",
-      "name": "Rough Rock Brown",
+      "importKey": "wall-texture-stone-wall-texture-001",
+      "name": "Stone Wall Texture",
       "vendorEmail": "heritage.home@renovar.local",
       "brandName": "Heritage Home Co",
-      "textureMapPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg" },
-      "thumbnailPath": "Images/Wall Textures/rough-structure-rock-brown-pattern.jpg",
-      "price": 35000,
+      "textureMapPath": "Images/Wall Textures/stone-wall-texture.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Wall Textures/stone-wall-texture.jpg"
+      },
+      "thumbnailPath": "Images/Wall Textures/stone-wall-texture.jpg",
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
       "textureTarget": "wall",
       "currency": "PKR",
-      "tags": ["wall-texture", "rock-brown"],
-      "description": "Rough rock texture with brown tones for textured feature walls."
-    },
+      "tags": [
+        "wall-texture",
+        "stone-wall-texture"
+      ],
+      "description": "Stone Wall Texture is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
+    }
+  ],
+  "floorTextures": [
     {
-      "importKey": "wall-texture-white-brick-wall-textures-background-001",
-      "name": "White Brick",
-      "vendorEmail": "minimal.nest@renovar.local",
-      "brandName": "Minimal Nest",
-      "textureMapPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/white-brick-wall-textures-background.jpg" },
-      "thumbnailPath": "Images/Wall Textures/white-brick-wall-textures-background.jpg",
-      "price": 35000,
-      "mapRole": "baseColor",
-      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
-      "textureTarget": "wall",
-      "currency": "PKR",
-      "tags": ["wall-texture", "white-brick"],
-      "description": "White painted brick texture for clean, minimal interiors."
-    },
-    {
-      "importKey": "wall-texture-white-painted-stone-wall-background-001",
-      "name": "White Painted Stone",
-      "vendorEmail": "wallcraft.surfaces@renovar.local",
-      "brandName": "Wallcraft Surfaces",
-      "textureMapPath": "Images/Wall Textures/white-painted-stone-wall-background.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/white-painted-stone-wall-background.jpg" },
-      "thumbnailPath": "Images/Wall Textures/white-painted-stone-wall-background.jpg",
-      "price": 35000,
-      "mapRole": "baseColor",
-      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
-      "textureTarget": "wall",
-      "currency": "PKR",
-      "tags": ["wall-texture", "white-stone"],
-      "description": "Painted stone texture in white for refined textured surfaces."
-    },
-    {
-      "importKey": "wall-texture-white-striped-plaster-texture-001",
-      "name": "White Striped Plaster",
+      "importKey": "floor-texture-dark-smoked-herringbone-floor-001",
+      "name": "Dark Smoked Herringbone Floor",
       "vendorEmail": "urban.living@renovar.local",
       "brandName": "Urban Living Studio",
-      "textureMapPath": "Images/Wall Textures/white-striped-plaster-texture.jpg",
-      "materialMaps": { "baseColor": "Images/Wall Textures/white-striped-plaster-texture.jpg" },
-      "thumbnailPath": "Images/Wall Textures/white-striped-plaster-texture.jpg",
-      "price": 35000,
+      "textureMapPath": "Images/Floor Textures/dark-smoked-herringbone-floor.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Floor Textures/dark-smoked-herringbone-floor.jpg"
+      },
+      "thumbnailPath": "Images/Floor Textures/dark-smoked-herringbone-floor.jpg",
       "mapRole": "baseColor",
       "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
-      "textureTarget": "wall",
+      "textureTarget": "floor",
       "currency": "PKR",
-      "tags": ["wall-texture", "striped-plaster"],
-      "description": "Striped plaster texture in white for subtle linear detail on walls."
+      "tags": [
+        "floor-texture",
+        "dark-smoked-herringbone-floor"
+      ],
+      "description": "Dark Smoked Herringbone Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+    },
+    {
+      "importKey": "floor-texture-light-oak-wood-floor-001",
+      "name": "Light Oak Wood Floor",
+      "vendorEmail": "heritage.home@renovar.local",
+      "brandName": "Heritage Home Co",
+      "textureMapPath": "Images/Floor Textures/light-oak-wood-floor.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Floor Textures/light-oak-wood-floor.jpg"
+      },
+      "thumbnailPath": "Images/Floor Textures/light-oak-wood-floor.jpg",
+      "mapRole": "baseColor",
+      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
+      "textureTarget": "floor",
+      "currency": "PKR",
+      "tags": [
+        "floor-texture",
+        "light-oak-wood-floor"
+      ],
+      "description": "Light Oak Wood Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+    },
+    {
+      "importKey": "floor-texture-oak-wood-pattern-floor-001",
+      "name": "Oak Wood Pattern Floor",
+      "vendorEmail": "minimal.nest@renovar.local",
+      "brandName": "Minimal Nest",
+      "textureMapPath": "Images/Floor Textures/oak-wood-pattern-floor.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Floor Textures/oak-wood-pattern-floor.jpg"
+      },
+      "thumbnailPath": "Images/Floor Textures/oak-wood-pattern-floor.jpg",
+      "mapRole": "baseColor",
+      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
+      "textureTarget": "floor",
+      "currency": "PKR",
+      "tags": [
+        "floor-texture",
+        "oak-wood-pattern-floor"
+      ],
+      "description": "Oak Wood Pattern Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+    },
+    {
+      "importKey": "floor-texture-parquet-pattern-wood-floor-001",
+      "name": "Parquet Pattern Wood Floor",
+      "vendorEmail": "wallcraft.surfaces@renovar.local",
+      "brandName": "Wallcraft Surfaces",
+      "textureMapPath": "Images/Floor Textures/parquet-pattern-wood-floor.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Floor Textures/parquet-pattern-wood-floor.jpg"
+      },
+      "thumbnailPath": "Images/Floor Textures/parquet-pattern-wood-floor.jpg",
+      "mapRole": "baseColor",
+      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
+      "textureTarget": "floor",
+      "currency": "PKR",
+      "tags": [
+        "floor-texture",
+        "parquet-pattern-wood-floor"
+      ],
+      "description": "Parquet Pattern Wood Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+    },
+    {
+      "importKey": "floor-texture-textured-marble-floor-001",
+      "name": "Textured Marble Floor",
+      "vendorEmail": "urban.living@renovar.local",
+      "brandName": "Urban Living Studio",
+      "textureMapPath": "Images/Floor Textures/textured-marble-floor.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Floor Textures/textured-marble-floor.jpg"
+      },
+      "thumbnailPath": "Images/Floor Textures/textured-marble-floor.jpg",
+      "mapRole": "baseColor",
+      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
+      "textureTarget": "floor",
+      "currency": "PKR",
+      "tags": [
+        "floor-texture",
+        "textured-marble-floor"
+      ],
+      "description": "Textured Marble Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+    },
+    {
+      "importKey": "floor-texture-white-grey-marble-floor-001",
+      "name": "White Grey Marble Floor",
+      "vendorEmail": "heritage.home@renovar.local",
+      "brandName": "Heritage Home Co",
+      "textureMapPath": "Images/Floor Textures/white-grey-marble-floor.jpg",
+      "materialMaps": {
+        "baseColor": "Images/Floor Textures/white-grey-marble-floor.jpg"
+      },
+      "thumbnailPath": "Images/Floor Textures/white-grey-marble-floor.jpg",
+      "mapRole": "baseColor",
+      "fileUse": "Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.",
+      "textureTarget": "floor",
+      "currency": "PKR",
+      "tags": [
+        "floor-texture",
+        "white-grey-marble-floor"
+      ],
+      "description": "White Grey Marble Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
     }
   ]
 }

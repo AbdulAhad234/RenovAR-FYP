@@ -15,6 +15,8 @@ This backend imports curated 3D model products from the local dataset folder:
 - Import script: `scripts/import-curated-dataset.js`
 - Asset repair script: `scripts/fix-assets-from-manifest.js`
 - Import wall textures: `scripts/import-wall-textures.js`
+- Sync wall texture material maps: `scripts/sync-wall-texture-material-maps.js`
+- Product copy update script: `scripts/update-product-copy-from-manifest.js`
 
 ## Manifest rules
 
@@ -39,6 +41,7 @@ Optional fields:
 - `sourceAdditionalImagePaths`
 - `confidence`
 - `description`
+- `textureTarget` (`floor`, `wall`, or `both`; required for texture products that need AR surface classification)
 - `dimensions`
 - `tags`
 
@@ -50,7 +53,9 @@ Wall texture entries are written under `wallTextures`. Each entry pairs:
 
 - `textureFolderPath`: the source folder containing all available texture maps
 - `textureMapPath`: the single base-color/albedo image the AR app should apply to walls
+- `materialMaps`: role-based texture map paths such as `baseColor`, `normal`, `roughness`, `ambientOcclusion`, `metallic`, `height`, `glossiness`, or `reflection`
 - `thumbnailPath`: the matching UI preview image
+- `textureTarget`: currently `wall` for curated wall textures
 
 ## Preparation workflow
 
@@ -118,6 +123,19 @@ Wall texture import:
 npm run import:wall-textures
 ```
 
+Upload missing material maps for wall texture products that already exist:
+
+```bash
+npm run sync:wall-texture-maps:dry-run
+npm run sync:wall-texture-maps
+```
+
+Update descriptions and texture targets for products that were already imported:
+
+```bash
+npm run update:product-copy
+```
+
 Approve all imported products for the configured vendor:
 
 ```bash
@@ -145,8 +163,11 @@ npm run approve:vendor-products -- --vendor renovar.test1@gmail.com
 - furniture products are distributed round-robin across `datasetVendors` unless `vendorEmail` is set on an entry
 - product `brand_name` is populated from `brandName`, `defaultBrandName`, or the vendor company/display name
 - product prices are stored as PKR numeric values
+- product descriptions come from `scripts/product-copy.js`
+- wall texture products are stored with `texture_target = 'wall'`
 - model files are stored as `model` assets
 - primary image files are stored as `thumbnail` assets
+- every supported wall texture material map is stored as a `texture` asset with `metadata_json.mapRole`
 - additional images are stored as `image` assets
 - product and asset metadata are persisted in PostgreSQL
 - original dataset paths and curation confidence are preserved in asset metadata when provided in the manifest

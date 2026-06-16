@@ -10,6 +10,7 @@ const productSelect = `
     p.name,
     p.brand_name AS "brandName",
     p.description,
+    p.texture_target AS "textureTarget",
     p.price,
     p.dimensions_json AS dimensions,
     p.status,
@@ -25,8 +26,8 @@ const productSelect = `
 const createProduct = async (payload) => {
   const result = await query(
     `
-      INSERT INTO products (vendor_id, category_id, name, brand_name, description, price, dimensions_json, status)
-      VALUES ($1, $2, $3, $4, $5, $6, $7, 'draft')
+      INSERT INTO products (vendor_id, category_id, name, brand_name, description, texture_target, price, dimensions_json, status)
+      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, 'draft')
       RETURNING
         id,
         vendor_id AS "vendorId",
@@ -34,6 +35,7 @@ const createProduct = async (payload) => {
         name,
         brand_name AS "brandName",
         description,
+        texture_target AS "textureTarget",
         price,
         dimensions_json AS dimensions,
         status,
@@ -49,6 +51,7 @@ const createProduct = async (payload) => {
       payload.name,
       payload.brandName || null,
       payload.description || null,
+      payload.textureTarget || null,
       payload.price,
       payload.dimensions || null,
     ],
@@ -66,10 +69,11 @@ const updateProduct = async (productId, payload) => {
         name = COALESCE($3, name),
         brand_name = COALESCE($4, brand_name),
         description = COALESCE($5, description),
-        price = COALESCE($6, price),
-        dimensions_json = COALESCE($7, dimensions_json),
-        status = COALESCE($8, status),
-        rejection_reason = $9
+        texture_target = COALESCE($6, texture_target),
+        price = COALESCE($7, price),
+        dimensions_json = COALESCE($8, dimensions_json),
+        status = COALESCE($9, status),
+        rejection_reason = $10
       WHERE id = $1
       RETURNING
         id,
@@ -78,6 +82,7 @@ const updateProduct = async (productId, payload) => {
         name,
         brand_name AS "brandName",
         description,
+        texture_target AS "textureTarget",
         price,
         dimensions_json AS dimensions,
         status,
@@ -93,6 +98,7 @@ const updateProduct = async (productId, payload) => {
       payload.name,
       payload.brandName,
       payload.description,
+      payload.textureTarget,
       payload.price,
       payload.dimensions,
       payload.status,
@@ -158,6 +164,7 @@ const updateReviewState = async (productId, payload) => {
         name,
         brand_name AS "brandName",
         description,
+        texture_target AS "textureTarget",
         price,
         dimensions_json AS dimensions,
         status,

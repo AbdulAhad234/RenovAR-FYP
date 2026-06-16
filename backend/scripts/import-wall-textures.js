@@ -9,6 +9,8 @@ const {
   uploadToS3,
   buildS3Url,
 } = require("../src/utils/s3Helper");
+const { getWallTextureDescription } = require("./product-copy");
+const { normalizeRole } = require("./material-map-utils");
 
 const DEFAULT_MANIFEST_PATH = path.resolve(
   __dirname,
@@ -92,6 +94,24 @@ const findCategoryBySlug = async (slug) => {
     [slug],
   );
   return res.rows[0] || null;
+};
+
+const getMaterialMaps = (entry) => {
+  if (entry.materialMaps && typeof entry.materialMaps === "object") {
+    return Object.entries(entry.materialMaps)
+      .map(([role, relativePath]) => ({
+        role: normalizeRole(role),
+        relativePath,
+      }))
+      .filter((item) => item.role && item.relativePath);
+  }
+
+  return [
+    {
+      role: entry.mapRole || "baseColor",
+      relativePath: entry.textureMapPath,
+    },
+  ];
 };
 
 const resolveVendorSpecs = (manifest) => {
@@ -180,13 +200,14 @@ const findExistingProduct = async (vendorId, productName, categoryId) => {
 
 const createProductRecord = async (payload) => {
   const res = await query(
-    `INSERT INTO products (vendor_id, category_id, name, brand_name, description, price, dimensions_json, status) VALUES ($1,$2,$3,$4,$5,$6,$7,'draft') RETURNING id, name`,
+    `INSERT INTO products (vendor_id, category_id, name, brand_name, description, texture_target, price, dimensions_json, status) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,'draft') RETURNING id, name`,
     [
       payload.vendorId,
       payload.categoryId,
       payload.name,
       payload.brandName || null,
       payload.description || null,
+      payload.textureTarget || null,
       payload.price || 0,
       payload.dimensions || null,
     ],
@@ -286,10 +307,12 @@ const main = async () => {
       const name =
         entry.name || entry.textureFolderPath || "unnamed-wall-texture";
       const importKey = entry.importKey || slugify(name);
-      const textureAbs = resolveDatasetPath(datasetRoot, entry.textureMapPath);
+      const materialMaps = getMaterialMaps(entry);
       const thumbnailAbs = resolveDatasetPath(datasetRoot, entry.thumbnailPath);
 
-      ensureFileExists(textureAbs);
+      materialMaps.forEach((map) =>
+        ensureFileExists(resolveDatasetPath(datasetRoot, map.relativePath)),
+      );
       ensureFileExists(thumbnailAbs);
 
       const existingProduct = await findExistingProduct(
@@ -325,7 +348,8 @@ const main = async () => {
         categoryId: category.id,
         name,
         brandName,
-        description: entry.fileUse || null,
+        description: getWallTextureDescription(entry),
+        textureTarget: "wall",
         price: entry.price || 0,
       });
       summary.created += 1;
@@ -333,21 +357,26 @@ const main = async () => {
       const baseMetadata = {
         importSource: "curated-dataset-manifest",
         manifestKey: importKey,
-        datasetPath: entry.textureMapPath,
         sourceCategory: "Wall Textures",
         brandName,
         tags: entry.tags || ["wall-texture"],
+        textureTarget: "wall",
       };
 
-      // upload texture map as 'texture'
-      const textureAsset = await uploadAssetFile({
-        productId: product.id,
-        assetType: "texture",
-        absolutePath: textureAbs,
-        metadata: baseMetadata,
-      });
-      await createAssetRecord({ productId: product.id, ...textureAsset });
-      summary.uploaded += 1;
+      for (const map of materialMaps) {
+        const textureAsset = await uploadAssetFile({
+          productId: product.id,
+          assetType: "texture",
+          absolutePath: resolveDatasetPath(datasetRoot, map.relativePath),
+          metadata: {
+            ...baseMetadata,
+            datasetPath: map.relativePath,
+            mapRole: map.role,
+          },
+        });
+        await createAssetRecord({ productId: product.id, ...textureAsset });
+        summary.uploaded += 1;
+      }
 
       // upload thumbnail as 'thumbnail'
       const thumbAsset = await uploadAssetFile({

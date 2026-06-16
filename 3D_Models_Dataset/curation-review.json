@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-05-05T13:04:13.705Z",
+  "generatedAt": "2026-06-16T13:33:17.007Z",
   "productPairs": [
     {
       "importKey": "dataset-basic-wooden-shelf-001",
       "name": "Basic Wooden Shelf",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/basic-wooden-shelf.glb",
       "primaryImagePath": "Images/Accessories/basic-wooden-shelf.jpg",
@@ -13,6 +14,7 @@
     {
       "importKey": "dataset-ceiling-lights-001",
       "name": "Ceiling Lights",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/ceiling-lights.glb",
       "primaryImagePath": "Images/Accessories/ceiling-lights.jpg",
@@ -22,6 +24,7 @@
     {
       "importKey": "dataset-foot-stool-001",
       "name": "Foot Stool",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/foot-stool.glb",
       "primaryImagePath": "Images/Accessories/foot-stool.jpg",
@@ -31,6 +34,7 @@
     {
       "importKey": "dataset-ladder-bookshelf-001",
       "name": "Ladder Bookshelf",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/ladder-bookshelf.glb",
       "primaryImagePath": "Images/Accessories/ladder-bookshelf-primary.jpg",
@@ -40,6 +44,7 @@
     {
       "importKey": "dataset-long-drawer-with-cabinet-and-shelf-001",
       "name": "Long Drawer With Cabinet And Shelf",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/long-drawer-with-cabinet-and-shelf.glb",
       "primaryImagePath": "Images/Accessories/long-drawer-with-cabinet-and-shelf.jpg",
@@ -49,6 +54,7 @@
     {
       "importKey": "dataset-metal-shoe-rack-001",
       "name": "Metal Shoe Rack",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/metal-shoe-rack.glb",
       "primaryImagePath": "Images/Accessories/metal-shoe-rack.jpg",
@@ -58,6 +64,7 @@
     {
       "importKey": "dataset-pothos-potted-money-plant-001",
       "name": "Pothos Potted Money Plant",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/pothos-potted-money-plant.glb",
       "primaryImagePath": "Images/Accessories/pothos-potted-money-plant.jpg",
@@ -67,6 +74,7 @@
     {
       "importKey": "dataset-wooden-bar-cabinet-001",
       "name": "Wooden Bar Cabinet",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/wooden-bar-cabinet.glb",
       "primaryImagePath": "Images/Accessories/wooden-bar-cabinet.jpg",
@@ -76,6 +84,7 @@
     {
       "importKey": "dataset-wooden-bookshelf-001",
       "name": "Wooden Bookshelf",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/wooden-bookshelf.glb",
       "primaryImagePath": "Images/Accessories/wooden-bookshelf.jpg",
@@ -85,6 +94,7 @@
     {
       "importKey": "dataset-wooden-china-cabinet-001",
       "name": "Wooden China Cabinet",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/wooden-china-cabinet.glb",
       "primaryImagePath": "Images/Accessories/wooden-china-cabinet-primary.jpg",
@@ -94,6 +104,7 @@
     {
       "importKey": "dataset-wooden-pendant-light-001",
       "name": "Wooden Pendant Light",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/wooden-pendant-light.glb",
       "primaryImagePath": "Images/Accessories/wooden-pendant-light-primary.jpg",
@@ -103,6 +114,7 @@
     {
       "importKey": "dataset-wooden-shelf-001",
       "name": "Wooden Shelf",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/wooden-shelf.glb",
       "primaryImagePath": "Images/Accessories/wooden-shelf.jpg",
@@ -112,6 +124,7 @@
     {
       "importKey": "dataset-wooden-storage-cabinet-001",
       "name": "Wooden Storage Cabinet",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Accessories",
       "modelPath": "3D models/Accessories/wooden-storage-cabinet.glb",
       "primaryImagePath": "Images/Accessories/wooden-storage-cabinet.jpg",
@@ -121,6 +134,7 @@
     {
       "importKey": "dataset-bed-01-001",
       "name": "Bed 01",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/bed-01.glb",
       "primaryImagePath": "Images/Beds/bed-01.jpg",
@@ -130,6 +144,7 @@
     {
       "importKey": "dataset-bed-02-001",
       "name": "Bed 02",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/bed-02.glb",
       "primaryImagePath": "Images/Beds/bed-02.jpg",
@@ -139,6 +154,7 @@
     {
       "importKey": "dataset-bed-03-001",
       "name": "Bed 03",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/bed-03.glb",
       "primaryImagePath": "Images/Beds/bed-03.jpg",
@@ -148,6 +164,7 @@
     {
       "importKey": "dataset-bed-04-001",
       "name": "Bed 04",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/bed-04.glb",
       "primaryImagePath": "Images/Beds/bed-04.jpg",
@@ -157,6 +174,7 @@
     {
       "importKey": "dataset-bed-05-001",
       "name": "Bed 05",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/bed-05.glb",
       "primaryImagePath": "Images/Beds/bed-05.jpg",
@@ -166,6 +184,7 @@
     {
       "importKey": "dataset-bunk-bed-001",
       "name": "Bunk Bed",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/bunk-bed.glb",
       "primaryImagePath": "Images/Beds/bunk-bed.jpg",
@@ -175,6 +194,7 @@
     {
       "importKey": "dataset-classic-wooden-bed-001",
       "name": "Classic Wooden Bed",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/classic-wooden-bed.glb",
       "primaryImagePath": "Images/Beds/classic-wooden-bed.jpg",
@@ -184,6 +204,7 @@
     {
       "importKey": "dataset-eco-brand-bed-001",
       "name": "Eco Brand Bed",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/eco-brand-bed.glb",
       "primaryImagePath": "Images/Beds/eco-brand-bed.jpg",
@@ -193,6 +214,7 @@
     {
       "importKey": "dataset-faydra-full-bed-001",
       "name": "Faydra Full Bed",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/faydra-full-bed.glb",
       "primaryImagePath": "Images/Beds/faydra-full-bed.jpg",
@@ -202,6 +224,7 @@
     {
       "importKey": "dataset-medieval-bed-001",
       "name": "Medieval Bed",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/medieval-bed.glb",
       "primaryImagePath": "Images/Beds/medieval-bed.jpg",
@@ -211,6 +234,7 @@
     {
       "importKey": "dataset-modern-bed-01-001",
       "name": "Modern Bed 01",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/modern-bed-01.glb",
       "primaryImagePath": "Images/Beds/modern-bed-01.jpg",
@@ -220,6 +244,7 @@
     {
       "importKey": "dataset-modern-bed-02-001",
       "name": "Modern Bed 02",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/modern-bed-02.glb",
       "primaryImagePath": "Images/Beds/modern-bed-02.jpg",
@@ -229,6 +254,7 @@
     {
       "importKey": "dataset-storage-platform-bed-001",
       "name": "Storage Platform Bed",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/storage-platform-bed.glb",
       "primaryImagePath": "Images/Beds/storage-platform-bed.jpg",
@@ -238,6 +264,7 @@
     {
       "importKey": "dataset-tree-canopy-bed-001",
       "name": "Tree Canopy Bed",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/tree-canopy-bed.glb",
       "primaryImagePath": "Images/Beds/tree-canopy-bed.jpg",
@@ -247,6 +274,7 @@
     {
       "importKey": "dataset-upholstered-bed-001",
       "name": "Upholstered Bed",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Beds",
       "modelPath": "3D models/Beds/upholstered-bed.glb",
       "primaryImagePath": "Images/Beds/upholstered-bed.jpg",
@@ -256,6 +284,7 @@
     {
       "importKey": "dataset-blue-lounge-chair-001",
       "name": "Blue Lounge Chair",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/blue-lounge-chair.glb",
       "primaryImagePath": "Images/Chairs/blue-lounge-chair.png",
@@ -265,6 +294,7 @@
     {
       "importKey": "dataset-chair-01-001",
       "name": "Chair 01",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/chair-01.glb",
       "primaryImagePath": "Images/Chairs/chair-01.png",
@@ -274,6 +304,7 @@
     {
       "importKey": "dataset-chair-02-001",
       "name": "Chair 02",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/chair-02.glb",
       "primaryImagePath": "Images/Chairs/chair-02.png",
@@ -283,6 +314,7 @@
     {
       "importKey": "dataset-classic-tufted-armchair-001",
       "name": "Classic Tufted Armchair",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/classic-tufted-armchair.glb",
       "primaryImagePath": "Images/Chairs/classic-tufted-armchair.png",
@@ -292,6 +324,7 @@
     {
       "importKey": "dataset-indochine-upholstered-arm-chair-001",
       "name": "Indochine Upholstered Arm Chair",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/indochine-upholstered-arm-chair.glb",
       "primaryImagePath": "Images/Chairs/indochine-upholstered-arm-chair.png",
@@ -301,6 +334,7 @@
     {
       "importKey": "dataset-leather-dining-chair-001",
       "name": "Leather Dining Chair",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/leather-dining-chair.glb",
       "primaryImagePath": "Images/Chairs/leather-dining-chair.png",
@@ -310,6 +344,7 @@
     {
       "importKey": "dataset-lounge-accent-chair-001",
       "name": "Lounge Accent Chair",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/lounge-accent-chair.glb",
       "primaryImagePath": "Images/Chairs/lounge-accent-chair.png",
@@ -319,6 +354,7 @@
     {
       "importKey": "dataset-modern-upholstered-armchair-01-001",
       "name": "Modern Upholstered Armchair 01",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/modern-upholstered-armchair-01.glb",
       "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-01.png",
@@ -328,6 +364,7 @@
     {
       "importKey": "dataset-modern-upholstered-armchair-02-001",
       "name": "Modern Upholstered Armchair 02",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/modern-upholstered-armchair-02.glb",
       "primaryImagePath": "Images/Chairs/modern-upholstered-armchair-02.png",
@@ -337,6 +374,7 @@
     {
       "importKey": "dataset-modern-upholstered-lounge-chair-001",
       "name": "Modern Upholstered Lounge Chair",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/modern-upholstered-lounge-chair.glb",
       "primaryImagePath": "Images/Chairs/modern-upholstered-lounge-chair.png",
@@ -346,6 +384,7 @@
     {
       "importKey": "dataset-office-chair-001",
       "name": "Office Chair",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/office-chair.glb",
       "primaryImagePath": "Images/Chairs/office-chair.png",
@@ -355,6 +394,7 @@
     {
       "importKey": "dataset-rocking-chair-001",
       "name": "Rocking Chair",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/rocking-chair.glb",
       "primaryImagePath": "Images/Chairs/rocking-chair.png",
@@ -364,6 +404,7 @@
     {
       "importKey": "dataset-vintage-arm-chair-001",
       "name": "Vintage Arm Chair",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/vintage-arm-chair.glb",
       "primaryImagePath": "Images/Chairs/vintage-arm-chair.png",
@@ -373,6 +414,7 @@
     {
       "importKey": "dataset-vintage-bar-stool-001",
       "name": "Vintage Bar Stool",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/vintage-bar-stool.glb",
       "primaryImagePath": "Images/Chairs/vintage-bar-stool.png",
@@ -382,6 +424,7 @@
     {
       "importKey": "dataset-wooden-arm-chair-001",
       "name": "Wooden Arm Chair",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/wooden-arm-chair.glb",
       "primaryImagePath": "Images/Chairs/wooden-arm-chair.png",
@@ -391,6 +434,7 @@
     {
       "importKey": "dataset-wooden-chair-02-001",
       "name": "Wooden Chair 02",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/wooden-chair-02.glb",
       "primaryImagePath": "Images/Chairs/wooden-chair-02.png",
@@ -400,6 +444,7 @@
     {
       "importKey": "dataset-wooden-chair-001",
       "name": "Wooden Chair",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Chairs",
       "modelPath": "3D models/Chairs/wooden-chair.glb",
       "primaryImagePath": "Images/Chairs/wooden-chair.png",
@@ -409,6 +454,7 @@
     {
       "importKey": "dataset-l-shaped-sofa-001",
       "name": "L Shaped Sofa",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/L-shaped-sofa.glb",
       "primaryImagePath": "Images/Sofas/L-shaped-sofa.png",
@@ -418,6 +464,7 @@
     {
       "importKey": "dataset-leather-armchair-001",
       "name": "Leather Armchair",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/leather-armchair.glb",
       "primaryImagePath": "Images/Sofas/leather-armchair.png",
@@ -427,6 +474,7 @@
     {
       "importKey": "dataset-leather-chesterfield-sofa-001",
       "name": "Leather Chesterfield Sofa",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/leather-chesterfield-sofa.glb",
       "primaryImagePath": "Images/Sofas/leather-chesterfield-sofa.png",
@@ -436,6 +484,7 @@
     {
       "importKey": "dataset-modern-accent-armchair-001",
       "name": "Modern Accent Armchair",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/modern-accent-armchair.glb",
       "primaryImagePath": "Images/Sofas/modern-accent-armchair.png",
@@ -445,6 +494,7 @@
     {
       "importKey": "dataset-sofa-with-pillows-001",
       "name": "Sofa With Pillows",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/sofa-with-pillows.glb",
       "primaryImagePath": "Images/Sofas/sofa-with-pillows.png",
@@ -454,6 +504,7 @@
     {
       "importKey": "dataset-three-sitter-sofa-001",
       "name": "Three Sitter Sofa",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/three-sitter-sofa.glb",
       "primaryImagePath": "Images/Sofas/three-sitter-sofa.png",
@@ -463,6 +514,7 @@
     {
       "importKey": "dataset-tufted-living-sofa-001",
       "name": "Tufted Living Sofa",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Sofas",
       "modelPath": "3D models/Sofas/tufted-living-sofa.glb",
       "primaryImagePath": "Images/Sofas/tufted-living-sofa.png",
@@ -472,6 +524,7 @@
     {
       "importKey": "dataset-antique-wooden-table-001",
       "name": "Antique Wooden Table",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/antique-wooden-table.glb",
       "primaryImagePath": "Images/Tables/antique-wooden-table.png",
@@ -481,6 +534,7 @@
     {
       "importKey": "dataset-center-table-01-001",
       "name": "Center Table 01",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/center-table-01.glb",
       "primaryImagePath": "Images/Tables/center-table-01.png",
@@ -490,6 +544,7 @@
     {
       "importKey": "dataset-center-table-02-001",
       "name": "Center Table 02",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/center-table-02.glb",
       "primaryImagePath": "Images/Tables/center-table-02.png",
@@ -499,6 +554,7 @@
     {
       "importKey": "dataset-coffee-table-01-001",
       "name": "Coffee Table 01",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/coffee-table-01.glb",
       "primaryImagePath": "Images/Tables/coffee-table-01.png",
@@ -508,6 +564,7 @@
     {
       "importKey": "dataset-coffee-table-02-001",
       "name": "Coffee Table 02",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/coffee-table-02.glb",
       "primaryImagePath": "Images/Tables/coffee-table-02.png",
@@ -517,6 +574,7 @@
     {
       "importKey": "dataset-coffee-table-03-001",
       "name": "Coffee Table 03",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/coffee-table-03.glb",
       "primaryImagePath": "Images/Tables/coffee-table-03.png",
@@ -526,6 +584,7 @@
     {
       "importKey": "dataset-farmhouse-wooden-table-001",
       "name": "Farmhouse Wooden Table",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/farmhouse-wooden-table.glb",
       "primaryImagePath": "Images/Tables/farmhouse-wooden-table.png",
@@ -535,6 +594,7 @@
     {
       "importKey": "dataset-glass-table-001",
       "name": "Glass Table",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/glass-table.glb",
       "primaryImagePath": "Images/Tables/glass-table.png",
@@ -544,6 +604,7 @@
     {
       "importKey": "dataset-mid-century-modern-coffee-table-001",
       "name": "Mid Century Modern Coffee Table",
+      "brandName": "Urban Living Studio",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/mid-century-modern-coffee-table.glb",
       "primaryImagePath": "Images/Tables/mid-century-modern-coffee-table.png",
@@ -553,6 +614,7 @@
     {
       "importKey": "dataset-round-side-table-001",
       "name": "Round Side Table",
+      "brandName": "Heritage Home Co",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/round-side-table.glb",
       "primaryImagePath": "Images/Tables/round-side-table.png",
@@ -562,6 +624,7 @@
     {
       "importKey": "dataset-semi-round-wooden-table-001",
       "name": "Semi Round Wooden Table",
+      "brandName": "Minimal Nest",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/semi-round-wooden-table.glb",
       "primaryImagePath": "Images/Tables/semi-round-wooden-table.png",
@@ -571,6 +634,7 @@
     {
       "importKey": "dataset-wooden-dining-table-001",
       "name": "Wooden Dining Table",
+      "brandName": "Wallcraft Surfaces",
       "sourceCategory": "Tables",
       "modelPath": "3D models/Tables/wooden-dining-table.glb",
       "primaryImagePath": "Images/Tables/wooden-dining-table.png",

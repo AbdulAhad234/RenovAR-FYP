@@ -12,15 +12,34 @@ const CEILING_PLACEMENT = Object.freeze({
 
 const WALL_PLACEMENT = Object.freeze({
   anchorType: 'vertical',
-  allowedPlaneClassifications: ['Wall'],
-  fallbackPlaneClassification: 'Wall'
+  allowedPlaneClassifications: ['WallFace'],
+  fallbackPlaneClassification: 'WallFace'
+});
+
+const FLOOR_AND_WALL_PLACEMENT = Object.freeze({
+  anchorType: 'Plane',
+  allowedPlaneClassifications: ['Floor', 'WallFace'],
+  fallbackPlaneClassification: 'Floor'
 });
 
 const normalize = (value) => String(value || '').trim().toLowerCase();
 
 const getPlacementClassification = (product) => {
+  const textureTarget = normalize(product.textureTarget);
   const name = normalize(product.name);
   const categorySlug = normalize(product.categorySlug);
+
+  if (textureTarget === 'wall') {
+    return WALL_PLACEMENT;
+  }
+
+  if (textureTarget === 'both') {
+    return FLOOR_AND_WALL_PLACEMENT;
+  }
+
+  if (textureTarget === 'floor') {
+    return DEFAULT_PLACEMENT;
+  }
 
   if (name.includes('pendant') || name.includes('ceiling') || name.includes('light')) {
     return CEILING_PLACEMENT;

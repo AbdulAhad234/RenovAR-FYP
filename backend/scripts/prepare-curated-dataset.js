@@ -2,6 +2,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const {
+  getProductDescription,
+  getWallTextureDescription,
+} = require('./product-copy');
+const { buildMaterialMaps } = require('./material-map-utils');
 
 const DATASET_ROOT = path.resolve(__dirname, '../../3D_Models_Dataset');
 const IMAGES_ROOT = path.join(DATASET_ROOT, 'Images');
@@ -186,7 +191,7 @@ const buildProductPairs = () => {
 
     usedImages.add(chosenImage);
     const vendor = DATASET_VENDORS[products.length % DATASET_VENDORS.length];
-    products.push({
+    const productEntry = {
       importKey: `dataset-${slug}-001`,
       name: slugToTitle(slug),
       vendorEmail: vendor.email,
@@ -202,10 +207,12 @@ const buildProductPairs = () => {
       confidence: 'high',
       price: getProductPrice(slug, category),
       currency: 'PKR',
-      description: `${slugToTitle(slug)} prepared for RenovAR AR placement.`,
       dimensions: { unit: 'cm' },
       tags: ['dataset-import', normalizeSlug(category), slug]
-    });
+    };
+
+    productEntry.description = getProductDescription(productEntry);
+    products.push(productEntry);
   }
 
   const unmatchedImages = imageFiles
@@ -223,30 +230,8 @@ const buildProductPairs = () => {
 };
 
 const pickWallTextureMap = (textureFiles) => {
-  const scored = textureFiles
-    .filter((filePath) => WALL_TEXTURE_EXTENSIONS.has(path.extname(filePath).toLowerCase()))
-    .map((filePath) => {
-      const name = path.basename(filePath).toLowerCase();
-      let score = 0;
-
-      if (name.includes('basecolor')) score = 100;
-      else if (/_col[_\-.]/i.test(name) || name.includes('_col_')) score = 95;
-      else if (name.includes('albedo')) score = 90;
-      else if (name.includes('diffuse')) score = 85;
-      else if (name.includes('color')) score = 80;
-      else if (name.includes('normal') || name.includes('_nrm_')) score = 10;
-      else if (name.includes('roughness') || name.includes('metallic') || name.includes('ao')) score = 5;
-
-      return { filePath, score };
-    })
-    .sort((a, b) => b.score - a.score || relativeDatasetPath(a.filePath).localeCompare(relativeDatasetPath(b.filePath)));
-
-  const best = scored[0];
-  if (!best || best.score < 80) {
-    return null;
-  }
-
-  return best.filePath;
+  const materialMaps = buildMaterialMaps(textureFiles);
+  return materialMaps.baseColor || null;
 };
 
 const buildWallTexturePairs = () => {
@@ -260,28 +245,36 @@ const buildWallTexturePairs = () => {
       const slug = normalizeSlug(entry.name);
       const vendor = DATASET_VENDORS[index % DATASET_VENDORS.length];
       const textureFolder = path.join(WALL_TEXTURE_MODELS_ROOT, entry.name);
+      const textureFiles = listFiles(textureFolder)
+        .filter((filePath) => WALL_TEXTURE_EXTENSIONS.has(path.extname(filePath).toLowerCase()));
       const thumbnailCandidates = listFiles(WALL_TEXTURE_IMAGES_ROOT)
         .filter((filePath) => IMAGE_EXTENSIONS.has(path.extname(filePath).toLowerCase()))
         .filter((filePath) => getBaseSlug(filePath) === slug);
-      const textureMap = pickWallTextureMap(listFiles(textureFolder));
+      const materialMaps = buildMaterialMaps(textureFiles, relativeDatasetPath);
+      const textureMap = materialMaps.baseColor;
 
       if (!textureMap || thumbnailCandidates.length === 0) {
         return null;
       }
 
-      return {
+      const wallTextureEntry = {
         importKey: `wall-texture-${slug}-001`,
         name: slugToTitle(slug),
         vendorEmail: vendor.email,
         brandName: vendor.brandName,
         textureFolderPath: relativeDatasetPath(textureFolder),
-        textureMapPath: relativeDatasetPath(textureMap),
+        textureMapPath: textureMap,
+        materialMaps,
         thumbnailPath: relativeDatasetPath(thumbnailCandidates[0]),
         mapRole: 'baseColor',
-        fileUse: 'Apply this textureMapPath to AR wall surfaces; the thumbnailPath is only for selection UI.',
+        fileUse: 'Use textureMapPath as the AR material base color map. Use thumbnailPath only for product browsing and selection UI.',
+        textureTarget: 'wall',
         currency: 'PKR',
         tags: ['wall-texture', slug]
       };
+
+      wallTextureEntry.description = getWallTextureDescription(wallTextureEntry);
+      return wallTextureEntry;
     })
     .filter(Boolean)
     .sort((a, b) => a.name.localeCompare(b.name));

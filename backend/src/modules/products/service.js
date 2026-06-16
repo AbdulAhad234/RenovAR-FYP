@@ -46,6 +46,7 @@ const createProduct = async (firebaseUid, payload) => {
     name: payload.name,
     brandName: payload.brandName || vendorProfile.companyName,
     description: payload.description,
+    textureTarget: payload.textureTarget,
     price: payload.price,
     dimensions: payload.dimensions
   });
@@ -59,6 +60,7 @@ const updateProduct = async (productId, firebaseUid, payload) => {
     name: payload.name,
     brandName: payload.brandName,
     description: payload.description,
+    textureTarget: payload.textureTarget,
     price: payload.price,
     dimensions: payload.dimensions,
     status: payload.status,
@@ -90,6 +92,7 @@ const submitProductForApproval = async (productId, firebaseUid) => {
     name: product.name,
     brandName: product.brandName,
     description: product.description,
+    textureTarget: product.textureTarget,
     price: product.price,
     dimensions: product.dimensions,
     status: 'pending',

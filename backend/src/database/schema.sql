@@ -53,6 +53,7 @@ CREATE TABLE IF NOT EXISTS products (
     name VARCHAR(255) NOT NULL,
     brand_name VARCHAR(255),
     description TEXT,
+    texture_target VARCHAR(20) CHECK (texture_target IN ('floor', 'wall', 'both')),
     price DECIMAL(10,2) NOT NULL CHECK (price >= 0),
     dimensions_json JSONB, -- {height, width, depth, unit}
     status VARCHAR(20) NOT NULL DEFAULT 'draft' CHECK (status IN ('draft', 'pending', 'approved', 'rejected')),

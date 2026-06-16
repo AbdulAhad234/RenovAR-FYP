@@ -10,6 +10,7 @@ const {
   buildS3Url,
 } = require("../src/utils/s3Helper");
 const { DEFAULT_CURRENCY } = require("../src/constants/currency");
+const { getProductDescription } = require("./product-copy");
 
 const DEFAULT_MANIFEST_PATH = path.resolve(
   __dirname,
@@ -246,8 +247,8 @@ const findExistingProduct = async (vendorId, productName, categoryId) => {
 const createProductRecord = async (payload) => {
   const result = await query(
     `
-      INSERT INTO products (vendor_id, category_id, name, brand_name, description, price, dimensions_json, status)
-      VALUES ($1, $2, $3, $4, $5, $6, $7, 'draft')
+      INSERT INTO products (vendor_id, category_id, name, brand_name, description, texture_target, price, dimensions_json, status)
+      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, 'draft')
       RETURNING id, name
     `,
     [
@@ -256,6 +257,7 @@ const createProductRecord = async (payload) => {
       payload.name,
       payload.brandName || null,
       payload.description || null,
+      payload.textureTarget || null,
       payload.price,
       payload.dimensions || null,
     ],
@@ -409,7 +411,8 @@ const importEntry = async ({
       categoryId: category.id,
       name: entry.name,
       brandName,
-      description: entry.description,
+      description: getProductDescription(entry),
+      textureTarget: entry.textureTarget || null,
       price: Number(entry.price),
       dimensions: entry.dimensions || null,
     }));

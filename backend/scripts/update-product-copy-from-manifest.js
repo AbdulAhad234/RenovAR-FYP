@@ -46,6 +46,7 @@ const updateProductByManifestKey = async ({
   importKey,
   description,
   textureTarget,
+  price,
   dryRun,
 }) => {
   const result = await query(
@@ -75,9 +76,15 @@ const updateProductByManifestKey = async ({
       SET
         description = $2,
         texture_target = COALESCE($3, texture_target)
+        ,price = COALESCE($4, price)
       WHERE id = ANY($1::int[])
     `,
-    [result.rows.map((row) => row.id), description, textureTarget || null],
+    [
+      result.rows.map((row) => row.id),
+      description,
+      textureTarget || null,
+      price || null,
+    ],
   );
 
   return { matched: result.rows.length, updated: result.rows.length };
@@ -91,16 +98,19 @@ const main = async () => {
       importKey: entry.importKey,
       description: getProductDescription(entry),
       textureTarget: entry.textureTarget || null,
+      price: entry.price || null,
     })),
     ...(manifest.wallTextures || []).map((entry) => ({
       importKey: entry.importKey,
       description: getWallTextureDescription(entry),
       textureTarget: "wall",
+      price: entry.price || null,
     })),
     ...(manifest.floorTextures || []).map((entry) => ({
       importKey: entry.importKey,
       description: getFloorTextureDescription(entry),
       textureTarget: "floor",
+      price: entry.price || null,
     })),
   ];
 

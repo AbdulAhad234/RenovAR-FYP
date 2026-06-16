@@ -1740,7 +1740,8 @@
         "wall-texture",
         "bare-rough-concrete-wall"
       ],
-      "description": "Bare Rough Concrete Wall is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
+      "price": 4500,
+      "description": "Industrial raw concrete with subtle aggregate and a matte finish — ideal for modern or minimal interiors and exterior masonry previews. Use at room scale to evaluate color, surface character, and light response."
     },
     {
       "importKey": "wall-texture-beige-brick-stretcher-001",
@@ -1760,7 +1761,8 @@
         "wall-texture",
         "beige-brick-stretcher"
       ],
-      "description": "Beige Brick Stretcher is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
+      "price": 4500,
+      "description": "Warm beige brick stretcher bond with low-profile mortar for an authentic masonry appearance. Great for feature walls and rustic or transitional interiors; helps preview grout contrast and texture scale."
     },
     {
       "importKey": "wall-texture-concrete-wall-texture-001",
@@ -1780,7 +1782,8 @@
         "wall-texture",
         "concrete-wall-texture"
       ],
-      "description": "Concrete Wall Texture is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
+      "price": 4500,
+      "description": "Neutral mid-tone concrete with fine surface variation — a versatile backdrop that works with many interior styles. Use it to assess tone, diffuse reflection, and how fixtures contrast against the wall."
     },
     {
       "importKey": "wall-texture-dark-blue-stone-wall-001",
@@ -1800,7 +1803,8 @@
         "wall-texture",
         "dark-blue-stone-wall"
       ],
-      "description": "Dark Blue Stone Wall is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
+      "price": 4500,
+      "description": "Deep blue-grey natural stone with subtle veining and tactile relief — suited for dramatic accent walls and mood-driven interiors. Use to preview contrast and veining scale at room-level."
     },
     {
       "importKey": "wall-texture-red-brick-wall-texture-001",
@@ -1820,7 +1824,8 @@
         "wall-texture",
         "red-brick-wall-texture"
       ],
-      "description": "Red Brick Wall Texture is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
+      "price": 4500,
+      "description": "Classic red stretcher-bond brick with visible mortar lines — ideal for authentic interior or exterior brickwork previews. Use it to evaluate rustic character, color saturation, and mortar contrast."
     },
     {
       "importKey": "wall-texture-stone-wall-texture-001",
@@ -1840,7 +1845,8 @@
         "wall-texture",
         "stone-wall-texture"
       ],
-      "description": "Stone Wall Texture is a wall texture for AR surface previews, designed to help users compare wall finish, color, and material character."
+      "price": 4500,
+      "description": "Natural stone cladding with varied tone and gentle relief — great for organic, natural-material feature walls and facades. Useful for judging texture depth and color variation in AR."
     }
   ],
   "floorTextures": [
@@ -1862,7 +1868,8 @@
         "floor-texture",
         "dark-smoked-herringbone-floor"
       ],
-      "description": "Dark Smoked Herringbone Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+      "price": 12000,
+      "description": "Rich smoked wood laid in a herringbone pattern — premium flooring with strong visual character. Use to preview plank scale, joint detail, and how floor tone anchors the room."
     },
     {
       "importKey": "floor-texture-light-oak-wood-floor-001",
@@ -1882,7 +1889,8 @@
         "floor-texture",
         "light-oak-wood-floor"
       ],
-      "description": "Light Oak Wood Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+      "price": 12000,
+      "description": "Pale oak planks with soft, natural grain — ideal for bright Scandinavian and contemporary interiors. Helps evaluate how floor reflectance affects overall room brightness."
     },
     {
       "importKey": "floor-texture-oak-wood-pattern-floor-001",
@@ -1902,7 +1910,8 @@
         "floor-texture",
         "oak-wood-pattern-floor"
       ],
-      "description": "Oak Wood Pattern Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+      "price": 12000,
+      "description": "Mid-tone oak with pronounced grain and consistent plank pattern — a warm, versatile residential flooring option. Useful for previewing grain direction and color temperature in-situ."
     },
     {
       "importKey": "floor-texture-parquet-pattern-wood-floor-001",
@@ -1922,7 +1931,8 @@
         "floor-texture",
         "parquet-pattern-wood-floor"
       ],
-      "description": "Parquet Pattern Wood Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+      "price": 12000,
+      "description": "Classic geometric parquet with mixed-tone inlays — an elegant, traditional flooring choice for formal interiors. Use it to preview pattern scale and visual rhythm across room areas."
     },
     {
       "importKey": "floor-texture-textured-marble-floor-001",
@@ -1942,7 +1952,8 @@
         "floor-texture",
         "textured-marble-floor"
       ],
-      "description": "Textured Marble Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+      "price": 12000,
+      "description": "Polished marble with distinct veining and subtle surface texture — premium stone flooring suited to bathrooms, lobbies, and refined living spaces. Use to assess veining scale and reflection."
     },
     {
       "importKey": "floor-texture-white-grey-marble-floor-001",
@@ -1962,7 +1973,8 @@
         "floor-texture",
         "white-grey-marble-floor"
       ],
-      "description": "White Grey Marble Floor is a floor texture for AR surface previews, designed to help users compare floor finish, color, and material character."
+      "price": 12000,
+      "description": "Light marble with soft grey veining — a refined, airy flooring option for modern and minimalist interiors. Use to preview how natural stone brightens and elevates the space."
     }
   ]
 }

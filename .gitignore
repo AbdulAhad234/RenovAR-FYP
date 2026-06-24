@@ -62,6 +62,22 @@ frontend/.next/
 frontend/dist/
 frontend/build/
 
+# Unity generated files
+frontend/Augmented reality/[Ll]ibrary/
+frontend/Augmented reality/[Tt]emp/
+frontend/Augmented reality/[Oo]bj/
+frontend/Augmented reality/[Bb]uild/
+frontend/Augmented reality/[Bb]uilds/
+frontend/Augmented reality/[Ll]ogs/
+frontend/Augmented reality/[Uu]ser[Ss]ettings/
+frontend/Augmented reality/.vs/
+frontend/Augmented reality/.gradle/
+frontend/Augmented reality/*.csproj
+frontend/Augmented reality/*.sln
+frontend/Augmented reality/*.user
+frontend/Augmented reality/*.apk
+frontend/Augmented reality/*.aab
+
 # Test output
 junit.xml
 test-results/

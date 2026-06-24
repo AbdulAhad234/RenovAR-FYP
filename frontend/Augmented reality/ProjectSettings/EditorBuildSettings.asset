@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ProductCatalogue.unity
+    guid: 0b806f06f11724da4a79146ab7177b19
+  - enabled: 1
+    path: Assets/Scenes/SplashScene.unity
+    guid: fb09ad0c803bb4122a52ada9eb43ba8f
+  - enabled: 1
+    path: Assets/Scenes/LoginScene.unity
+    guid: c3de800b9c89a4cfeb3ac7469c1460e8
+  - enabled: 1
+    path: Assets/Scenes/SignUpScene.unity
+    guid: f4fc6859f4f5240a3ad663c8197a70ec
+  - enabled: 1
+    path: Assets/Scenes/HomepageScene.unity
+    guid: 3d1f7439168f546378ac6452e1d9924e
+  - enabled: 1
+    path: Assets/Scenes/ProductModelScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/ProductDetailsScene.unity
+    guid: d034542ecc9d14e5fba270df4a73f6d2
+  - enabled: 1
+    path: Assets/Scenes/AddToCartScene.unity
+    guid: 56d42d2d8558846c9aac3ccdca66f52d
+  - enabled: 1
+    path: Assets/Scenes/ProductTextureScene.unity
+    guid: 9a2f9248b119f4d76a202a3e4989a653
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 81f6292b4a985448ba8af8667b89c20f, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: e0a8f44ad72c6442e881a97d7f1c1298, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5fbcf66e26f624748aa9ddbc245e543c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7196e2b01af1c4b99970ac4b16143649, type: 2}
+  m_UseUCBPForAssetBundles: 0

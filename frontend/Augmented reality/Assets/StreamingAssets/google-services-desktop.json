@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "279772061868",
+    "project_id": "renovar-da739",
+    "storage_bucket": "renovar-da739.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279772061868:android:b313999f2a87b7d6cd3f09",
+        "android_client_info": {
+          "package_name": "com.WahabkhAwaja.RenovAR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279772061868-onhhod3os70t0far8gdjdpimc8gdebme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiEAhJ1vr8yHxcR80MFhetw8tQFY6j9ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279772061868-onhhod3os70t0far8gdjdpimc8gdebme.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "279772061868-0hilps3ir8hfnbbbdf5rt89ttf1bsovb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.WahabkhAwaja.RenovAR"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

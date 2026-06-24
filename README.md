@@ -14,8 +14,6 @@ RenovAR/
 +-- README.md                # Single project guide for frontend and backend
 ```
 
-The frontend repository `Wahabkh01/RenovAR-Unity-Frontend.git` has been copied into `frontend/` and its nested `.git` folder was removed, so the root RenovAR repository can track backend and frontend work together.
-
 ## What The App Does
 
 RenovAR lets users browse furniture and surface products, view marketplace details, keep a local cart, and preview selected items in augmented reality. The backend manages authentication sync, vendors, products, assets, marketplace browsing, AR-ready product payloads, templates, reviews, reports, and admin approval workflows.
